@@ -1,3 +1,6 @@
 # Görsel referans / tasarım kaynağı — sitede kullanılmıyor, repo'ya taşınmıyor
 Nakar Türkiye Prototipi-handoff/
 Ekran görüntüsü*.png
+
+# Veri kürasyonundan kalan taslak dosyalar — oyun bunları hiç okumuyor (bkz. categories.json)
+data/*.draft.json

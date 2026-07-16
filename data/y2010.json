@@ -3,12 +3,6 @@
   "ad": "2010'lar",
   "sarkilar": [
     {
-      "deezerId": 97298370,
-      "baslik": "Yerden Yüksek Jenerik",
-      "sanatci": "Cem Özkan",
-      "yil": 2010
-    },
-    {
       "deezerId": 1212895812,
       "baslik": "Üzüm",
       "sanatci": "Ferhat Göçer",
@@ -153,21 +147,9 @@
       "yil": 2011
     },
     {
-      "deezerId": 80528842,
-      "baslik": "Ezel Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2011
-    },
-    {
       "deezerId": 66127891,
       "baslik": "Yaralı",
       "sanatci": "Bengü",
-      "yil": 2012
-    },
-    {
-      "deezerId": 80964240,
-      "baslik": "Adını Feriha Koydum Jenerik",
-      "sanatci": "Cem Tuncer",
       "yil": 2012
     },
     {
@@ -195,12 +177,6 @@
       "yil": 2012
     },
     {
-      "deezerId": 64956804,
-      "baslik": "Aşk-ı Memnu Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2012
-    },
-    {
       "deezerId": 66134412,
       "baslik": "Sezenler Olmuş",
       "sanatci": "Yeni Türkü",
@@ -210,12 +186,6 @@
       "deezerId": 68589572,
       "baslik": "Haykıracak Nefesim Kalmasa Bile",
       "sanatci": "Ajda Pekkan",
-      "yil": 2013
-    },
-    {
-      "deezerId": 67254586,
-      "baslik": "Muhteşem Yüzyıl Jenerik",
-      "sanatci": "Aytekin Ataş",
       "yil": 2013
     },
     {
@@ -273,12 +243,6 @@
       "yil": 2013
     },
     {
-      "deezerId": 70438764,
-      "baslik": "Kuzey Güney Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2013
-    },
-    {
       "deezerId": 85005057,
       "baslik": "Çabuk Olalım Aşkım",
       "sanatci": "Yıldız Tilbe",
@@ -288,12 +252,6 @@
       "deezerId": 84539301,
       "baslik": "Kim Ne Derse Desin",
       "sanatci": "Ajda Pekkan",
-      "yil": 2014
-    },
-    {
-      "deezerId": 78378202,
-      "baslik": "Çalıkuşu Jenerik",
-      "sanatci": "Aytekin Ataş",
       "yil": 2014
     },
     {
@@ -429,24 +387,6 @@
       "yil": 2014
     },
     {
-      "deezerId": 91774296,
-      "baslik": "Fatmagül'ün Suçu Ne? Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2014
-    },
-    {
-      "deezerId": 92682486,
-      "baslik": "Kurt Seyit & Şura Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2014
-    },
-    {
-      "deezerId": 91471774,
-      "baslik": "Menekşe ile Halil Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2014
-    },
-    {
       "deezerId": 2552577542,
       "baslik": "Meçhul",
       "sanatci": "Ados",
@@ -498,12 +438,6 @@
       "deezerId": 102128096,
       "baslik": "Ben Olsaydım",
       "sanatci": "Mustafa Sandal",
-      "yil": 2015
-    },
-    {
-      "deezerId": 97099620,
-      "baslik": "Karadayı Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
       "yil": 2015
     },
     {
@@ -576,12 +510,6 @@
       "deezerId": 118116196,
       "baslik": "Yankı",
       "sanatci": "Simge",
-      "yil": 2016
-    },
-    {
-      "deezerId": 133962316,
-      "baslik": "Kara Sevda Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
       "yil": 2016
     },
     {
@@ -717,18 +645,6 @@
       "yil": 2017
     },
     {
-      "deezerId": 370905561,
-      "baslik": "Cesur ve Güzel Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2017
-    },
-    {
-      "deezerId": 362124071,
-      "baslik": "Bu Şehir Arkandan Gelecek Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2017
-    },
-    {
       "deezerId": 3289971751,
       "baslik": "Gönül Dağı",
       "sanatci": "Zara",
@@ -828,12 +744,6 @@
       "deezerId": 1543925602,
       "baslik": "Leyla",
       "sanatci": "Tahribad-ı İsyan",
-      "yil": 2018
-    },
-    {
-      "deezerId": 498812472,
-      "baslik": "İçerde Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
       "yil": 2018
     },
     {
@@ -990,24 +900,6 @@
       "deezerId": 2627880632,
       "baslik": "Günleri Geride Bırak",
       "sanatci": "Şanışer",
-      "yil": 2019
-    },
-    {
-      "deezerId": 648187382,
-      "baslik": "Yaprak Dökümü Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2019
-    },
-    {
-      "deezerId": 668499092,
-      "baslik": "Kuzgun Jenerik Müziği / Benim Adım Kuzgun",
-      "sanatci": "Toygar Işıklı",
-      "yil": 2019
-    },
-    {
-      "deezerId": 639661312,
-      "baslik": "Şahin Tepesi Jenerik Müziği",
-      "sanatci": "Toygar Işıklı",
       "yil": 2019
     },
     {

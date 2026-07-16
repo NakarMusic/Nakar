@@ -323,6 +323,24 @@
     return memo[period];
   }
 
+  /* ═══════════ sınırsız / yarış — rastgele seçimde yakın tekrar koruması ═══════════ */
+  var recentRandom = {}; // catId → [idx, idx, ...] (en eski → en yeni)
+  function pickRandomAvoidingRecent(catId, n) {
+    var recent = recentRandom[catId] || [];
+    var avoid = {};
+    for (var i = 0; i < recent.length; i++) avoid[recent[i]] = true;
+    var idx, guard = 0;
+    do { idx = Math.floor(Math.random() * n); guard++; }
+    while (avoid[idx] && guard < n * 4);
+    return idx;
+  }
+  function rememberRandomIdx(catId, idx, n) {
+    var W = Math.min(20, Math.max(0, n - 1));
+    var arr = recentRandom[catId] || (recentRandom[catId] = []);
+    arr.push(idx);
+    if (arr.length > W) arr.shift();
+  }
+
   /* ═══════════ Deezer JSONP ═══════════ */
   function fetchTrack(deezerId) {
     return new Promise(function (resolve, reject) {
@@ -416,7 +434,9 @@
     var n = pool().length;
     if (state.roundType === 'daily') return pickForPeriod(state.catId, curPeriod());
     if (state.roundType === 'archive') return pickForPeriod(state.catId, state.archivePeriod);
-    return Math.floor(Math.random() * n);
+    var idx = pickRandomAvoidingRecent(state.catId, n);
+    rememberRandomIdx(state.catId, idx, n);
+    return idx;
   }
 
   function loadPreview(attempt) {
@@ -435,7 +455,8 @@
         if (state.roundType === 'daily' || state.roundType === 'archive' || state.roundType === 'meydan') {
           state.targetIdx = (state.targetIdx + 1) % pool().length;
         } else {
-          state.targetIdx = Math.floor(Math.random() * pool().length);
+          state.targetIdx = pickRandomAvoidingRecent(state.catId, pool().length);
+          rememberRandomIdx(state.catId, state.targetIdx, pool().length);
         }
         loadPreview((attempt || 0) + 1);
         return;
@@ -562,7 +583,8 @@
     state.guesses = [];
     state.selected = null;
     stopPlayback();
-    state.targetIdx = Math.floor(Math.random() * pool().length);
+    state.targetIdx = pickRandomAvoidingRecent(state.catId, pool().length);
+    rememberRandomIdx(state.catId, state.targetIdx, pool().length);
     loadPreview(0);
   }
 
@@ -707,7 +729,7 @@
     if (q.length < 2) { closeSuggestions(); renderSubmit(); return; }
     var p = pool();
     var items = [];
-    for (var i = 0; i < p.length && items.length < 7; i++) {
+    for (var i = 0; i < p.length && items.length < 30; i++) {
       if (norm(songLabel(p[i])).indexOf(q) >= 0) items.push(i);
     }
     state.sugItems = items;
