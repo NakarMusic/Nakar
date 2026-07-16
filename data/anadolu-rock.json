@@ -1,0 +1,586 @@
+{
+  "id": "anadolu-rock",
+  "ad": "Anadolu Rock",
+  "sarkilar": [
+    {
+      "deezerId": 66156223,
+      "baslik": "Alla Beni Pulla Beni",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 118678850,
+      "baslik": "Bu Son Olsun",
+      "sanatci": "Cem Karaca",
+      "yil": 1977
+    },
+    {
+      "deezerId": 811153862,
+      "baslik": "Fesuphanallah",
+      "sanatci": "Erkin Koray",
+      "yil": 2020
+    },
+    {
+      "deezerId": 64366736,
+      "baslik": "Güllerin İçinden",
+      "sanatci": "MFÖ",
+      "yil": 2006
+    },
+    {
+      "deezerId": 434198132,
+      "baslik": "Dinleyiverin Gari",
+      "sanatci": "Moğollar",
+      "yil": 2000
+    },
+    {
+      "deezerId": 6141622,
+      "baslik": "Öyle Bir Yerdeyim ki",
+      "sanatci": "Selda Bağcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 63837962,
+      "baslik": "Gönül",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 76812275,
+      "baslik": "Aldırma Gönül",
+      "sanatci": "Edip Akbayram",
+      "yil": 2014
+    },
+    {
+      "deezerId": 742779052,
+      "baslik": "Döner Dünya",
+      "sanatci": "Üç Hürel",
+      "yil": 1972
+    },
+    {
+      "deezerId": 1221232162,
+      "baslik": "Pekiştirme",
+      "sanatci": "Ersen",
+      "yil": 1971
+    },
+    {
+      "deezerId": 1678350347,
+      "baslik": "Karanfil",
+      "sanatci": "Yeni Türkü",
+      "yil": 1992
+    },
+    {
+      "deezerId": 80964834,
+      "baslik": "Sözlerimi Geri Alamam",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 1994
+    },
+    {
+      "deezerId": 66156236,
+      "baslik": "Arkadaşım Eşşek",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66134861,
+      "baslik": "Islak Islak",
+      "sanatci": "Cem Karaca",
+      "yil": 1992
+    },
+    {
+      "deezerId": 2339943875,
+      "baslik": "Şaşkın",
+      "sanatci": "Erkin Koray",
+      "yil": 1974
+    },
+    {
+      "deezerId": 64366726,
+      "baslik": "Ele Güne Karşı",
+      "sanatci": "MFÖ",
+      "yil": 2006
+    },
+    {
+      "deezerId": 437437842,
+      "baslik": "Birşey Yapmalı",
+      "sanatci": "Moğollar",
+      "yil": 1996
+    },
+    {
+      "deezerId": 1369569842,
+      "baslik": "Adaletin Bu mu Dünya",
+      "sanatci": "Selda Bağcan",
+      "yil": 1995
+    },
+    {
+      "deezerId": 63837959,
+      "baslik": "Bu Kalp Seni Unutur mu",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 66172089,
+      "baslik": "Türküler Yanmaz",
+      "sanatci": "Edip Akbayram",
+      "yil": 1994
+    },
+    {
+      "deezerId": 1678100047,
+      "baslik": "Telli Telli",
+      "sanatci": "Yeni Türkü",
+      "yil": 1983
+    },
+    {
+      "deezerId": 80964318,
+      "baslik": "Rüzgar",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66156222,
+      "baslik": "Dönence",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156215,
+      "baslik": "Ceviz Ağacı",
+      "sanatci": "Cem Karaca",
+      "yil": 1994
+    },
+    {
+      "deezerId": 2339943905,
+      "baslik": "Sevince",
+      "sanatci": "Erkin Koray",
+      "yil": 1974
+    },
+    {
+      "deezerId": 68069169,
+      "baslik": "Tam Ortasındayım",
+      "sanatci": "MFÖ",
+      "yil": 2013
+    },
+    {
+      "deezerId": 1369572232,
+      "baslik": "Sürgün",
+      "sanatci": "Selda Bağcan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 63837958,
+      "baslik": "Bir Harmanım Bu Akşam",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 94779854,
+      "baslik": "Gittin Gideli",
+      "sanatci": "Edip Akbayram",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66134412,
+      "baslik": "Sezenler Olmuş",
+      "sanatci": "Yeni Türkü",
+      "yil": 2012
+    },
+    {
+      "deezerId": 80964364,
+      "baslik": "Güneye Giderken",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 1995
+    },
+    {
+      "deezerId": 66156235,
+      "baslik": "Çıt Çıt Çedene",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 368451801,
+      "baslik": "Tamirci Çırağı",
+      "sanatci": "Cem Karaca"
+    },
+    {
+      "deezerId": 144109722,
+      "baslik": "Öyle Bir Geçer Zaman ki",
+      "sanatci": "Erkin Koray",
+      "yil": 1990
+    },
+    {
+      "deezerId": 66156876,
+      "baslik": "Sarı Laleler",
+      "sanatci": "MFÖ",
+      "yil": 2006
+    },
+    {
+      "deezerId": 68574996,
+      "baslik": "Ağrı Dağı Efsanesi",
+      "sanatci": "Moğollar",
+      "yil": 1995
+    },
+    {
+      "deezerId": 1369569992,
+      "baslik": "O Günler",
+      "sanatci": "Selda Bağcan",
+      "yil": 1995
+    },
+    {
+      "deezerId": 63837955,
+      "baslik": "İnişlerim Çıkışlarım",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 3279067231,
+      "baslik": "Seni Seven Öldü (Haberin Var Mı)",
+      "sanatci": "Edip Akbayram",
+      "yil": 2012
+    },
+    {
+      "deezerId": 1678576397,
+      "baslik": "Yağmurun Elleri",
+      "sanatci": "Yeni Türkü",
+      "yil": 1988
+    },
+    {
+      "deezerId": 80964786,
+      "baslik": "Yine Düştük Yollara",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 1998
+    },
+    {
+      "deezerId": 66133750,
+      "baslik": "Gül Pembe",
+      "sanatci": "Barış Manço",
+      "yil": 1999
+    },
+    {
+      "deezerId": 133226170,
+      "baslik": "Resimdeki Gözyaşları",
+      "sanatci": "Cem Karaca",
+      "yil": 1994
+    },
+    {
+      "deezerId": 117626176,
+      "baslik": "Seni Her Gördüğümde",
+      "sanatci": "Erkin Koray",
+      "yil": 2016
+    },
+    {
+      "deezerId": 66134990,
+      "baslik": "Mazeretim Var Asabiyim Ben",
+      "sanatci": "MFÖ",
+      "yil": 1995
+    },
+    {
+      "deezerId": 64367134,
+      "baslik": "7 / 8 - 9 / 8",
+      "sanatci": "Moğollar",
+      "yil": 1978
+    },
+    {
+      "deezerId": 1369387422,
+      "baslik": "Sivas'ın Yolları",
+      "sanatci": "Selda Bağcan",
+      "yil": 2002
+    },
+    {
+      "deezerId": 63837961,
+      "baslik": "Gecenin Üçünde",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 66172085,
+      "baslik": "Kuşlar",
+      "sanatci": "Edip Akbayram",
+      "yil": 1994
+    },
+    {
+      "deezerId": 1678576427,
+      "baslik": "Fırtına",
+      "sanatci": "Yeni Türkü",
+      "yil": 1988
+    },
+    {
+      "deezerId": 80964326,
+      "baslik": "Doğduğun Gibi",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66171876,
+      "baslik": "Yolla Yarim",
+      "sanatci": "Barış Manço",
+      "yil": 1995
+    },
+    {
+      "deezerId": 94988906,
+      "baslik": "Çökertme",
+      "sanatci": "Cem Karaca"
+    },
+    {
+      "deezerId": 1043540812,
+      "baslik": "Ali Desidero",
+      "sanatci": "MFÖ",
+      "yil": 1990
+    },
+    {
+      "deezerId": 68575004,
+      "baslik": "Çığrık",
+      "sanatci": "Moğollar",
+      "yil": 1995
+    },
+    {
+      "deezerId": 1369393222,
+      "baslik": "Ayrılık",
+      "sanatci": "Selda Bağcan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 63837956,
+      "baslik": "Yalan",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 66369243,
+      "baslik": "Güzel Günler Göreceğiz",
+      "sanatci": "Edip Akbayram",
+      "yil": 1996
+    },
+    {
+      "deezerId": 1678350287,
+      "baslik": "Yedikule",
+      "sanatci": "Yeni Türkü",
+      "yil": 1992
+    },
+    {
+      "deezerId": 80964358,
+      "baslik": "Yaşamaya Mecbursun",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 1995
+    },
+    {
+      "deezerId": 132882536,
+      "baslik": "Aynalı Kemer",
+      "sanatci": "Barış Manço",
+      "yil": 1999
+    },
+    {
+      "deezerId": 73959747,
+      "baslik": "Deniz Üstü Köpürür",
+      "sanatci": "Cem Karaca",
+      "yil": 1998
+    },
+    {
+      "deezerId": 2403754645,
+      "baslik": "Cemalim",
+      "sanatci": "Erkin Koray",
+      "yil": 1974
+    },
+    {
+      "deezerId": 66134331,
+      "baslik": "Hep Yaşın 19",
+      "sanatci": "MFÖ",
+      "yil": 2011
+    },
+    {
+      "deezerId": 68574995,
+      "baslik": "Haliç'te Gün Batışı",
+      "sanatci": "Moğollar",
+      "yil": 1995
+    },
+    {
+      "deezerId": 1369569922,
+      "baslik": "Gesi Bağları",
+      "sanatci": "Selda Bağcan",
+      "yil": 1995
+    },
+    {
+      "deezerId": 63837957,
+      "baslik": "Yana Yana",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 77369414,
+      "baslik": "Hasretinle Yandı Gönlüm",
+      "sanatci": "Edip Akbayram",
+      "yil": 1998
+    },
+    {
+      "deezerId": 1678364467,
+      "baslik": "Vira Vira",
+      "sanatci": "Yeni Türkü",
+      "yil": 1990
+    },
+    {
+      "deezerId": 80964320,
+      "baslik": "İstanblues",
+      "sanatci": "Bulutsuzluk Özlemi",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66133752,
+      "baslik": "Sarı Çizmeli Mehmet Ağa",
+      "sanatci": "Barış Manço",
+      "yil": 1999
+    },
+    {
+      "deezerId": 66156210,
+      "baslik": "İşte Geldik Gidiyoruz",
+      "sanatci": "Cem Karaca",
+      "yil": 1994
+    },
+    {
+      "deezerId": 63973737,
+      "baslik": "Çöpçüler",
+      "sanatci": "Erkin Koray",
+      "yil": 1993
+    },
+    {
+      "deezerId": 1043540862,
+      "baslik": "Sude",
+      "sanatci": "MFÖ",
+      "yil": 1990
+    },
+    {
+      "deezerId": 67122703,
+      "baslik": "Yolum Seninle",
+      "sanatci": "Moğollar",
+      "yil": 2004
+    },
+    {
+      "deezerId": 1369393252,
+      "baslik": "Yürüyorum Dikenlerin Üstünde",
+      "sanatci": "Selda Bağcan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 63837963,
+      "baslik": "Ben Gidersem",
+      "sanatci": "Fikret Kızılok",
+      "yil": 1993
+    },
+    {
+      "deezerId": 76812277,
+      "baslik": "Eşkiya Dünyaya",
+      "sanatci": "Edip Akbayram",
+      "yil": 2014
+    },
+    {
+      "deezerId": 66156221,
+      "baslik": "Hal Hal",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156164,
+      "baslik": "Ahmet Beyin Ceketi",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156227,
+      "baslik": "Gülpembe",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156225,
+      "baslik": "Ali Yazar Veli Bozar",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156166,
+      "baslik": "Gönül Ferman Dinlemiyor",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156233,
+      "baslik": "Kol Düğmeleri",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156232,
+      "baslik": "Aman Yavaş Aheste",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156163,
+      "baslik": "Nane Limon Kabuğu",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 6141625,
+      "baslik": "Sarhoş",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 66156228,
+      "baslik": "Halil İbrahim Sofrası",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156226,
+      "baslik": "Bahçede Hanımeli",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156229,
+      "baslik": "Geçti Dost Kervanı",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156172,
+      "baslik": "Sahilde",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 6141629,
+      "baslik": "Kara Yazı",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141619,
+      "baslik": "Dost Merhaba",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141627,
+      "baslik": "Karanlıkta",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 69201826,
+      "baslik": "Yok Yok",
+      "sanatci": "Erkin Koray",
+      "yil": 1989
+    },
+    {
+      "deezerId": 69201829,
+      "baslik": "Yolcu Yolunda Gerek",
+      "sanatci": "Erkin Koray",
+      "yil": 1989
+    },
+    {
+      "deezerId": 6141624,
+      "baslik": "Haydar Haydar",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "gunun",
+    "ad": "Günün Şarkısı"
+  },
+  {
+    "id": "turk-pop",
+    "ad": "Türk Pop",
+    "grup": "tur"
+  },
+  {
+    "id": "anadolu-rock",
+    "ad": "Anadolu Rock",
+    "grup": "tur"
+  },
+  {
+    "id": "arabesk",
+    "ad": "Arabesk",
+    "grup": "tur"
+  },
+  {
+    "id": "turkuler",
+    "ad": "Türküler",
+    "grup": "tur"
+  },
+  {
+    "id": "turkce-rap",
+    "ad": "Türkçe Rap",
+    "grup": "tur"
+  },
+  {
+    "id": "slow-damar",
+    "ad": "Slow & Damar",
+    "grup": "tur"
+  },
+  {
+    "id": "dizi-muzikleri",
+    "ad": "Dizi Müzikleri",
+    "grup": "dizi"
+  },
+  {
+    "id": "turkiye-top-100",
+    "ad": "Türkiye Top 100",
+    "grup": "diger"
+  },
+  {
+    "id": "yeni-cikanlar",
+    "ad": "Yeni Çıkanlar",
+    "grup": "diger"
+  },
+  {
+    "id": "y1980",
+    "ad": "1980'ler",
+    "grup": "yil"
+  },
+  {
+    "id": "y1990",
+    "ad": "1990'lar",
+    "grup": "yil"
+  },
+  {
+    "id": "y2000",
+    "ad": "2000'ler",
+    "grup": "yil"
+  },
+  {
+    "id": "y2010",
+    "ad": "2010'lar",
+    "grup": "yil"
+  },
+  {
+    "id": "y2020",
+    "ad": "2020'ler",
+    "grup": "yil"
+  }
+]

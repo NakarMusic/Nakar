@@ -1,0 +1,510 @@
+{
+  "id": "turkce-rap",
+  "ad": "Türkçe Rap",
+  "sarkilar": [
+    {
+      "deezerId": 723055682,
+      "baslik": "En Derine",
+      "sanatci": "Ados",
+      "yil": 2019
+    },
+    {
+      "deezerId": 2732090961,
+      "baslik": "Galaktik",
+      "sanatci": "Allame",
+      "yil": 2024
+    },
+    {
+      "deezerId": 3011823541,
+      "baslik": "Bırakman Doğru Mu",
+      "sanatci": "Anıl Piyancı",
+      "yil": 2019
+    },
+    {
+      "deezerId": 1459038692,
+      "baslik": "Eskimiş Senelere",
+      "sanatci": "Aspova",
+      "yil": 2019
+    },
+    {
+      "deezerId": 626596292,
+      "baslik": "Demet Akalın",
+      "sanatci": "Ben Fero",
+      "yil": 2019
+    },
+    {
+      "deezerId": 4046076601,
+      "baslik": "Sebebi Yar",
+      "sanatci": "BLOK3",
+      "yil": 2026
+    },
+    {
+      "deezerId": 144314816,
+      "baslik": "Suspus",
+      "sanatci": "Ceza",
+      "yil": 2017
+    },
+    {
+      "deezerId": 4135144431,
+      "baslik": "SEZAR",
+      "sanatci": "Contra",
+      "yil": 2026
+    },
+    {
+      "deezerId": 66353014,
+      "baslik": "Kördüğüm",
+      "sanatci": "Da Poet",
+      "yil": 2014
+    },
+    {
+      "deezerId": 4043404921,
+      "baslik": "Başa Bela",
+      "sanatci": "Ezhel",
+      "yil": 2026
+    },
+    {
+      "deezerId": 871055282,
+      "baslik": "Unutulacak Dünler",
+      "sanatci": "Gazapizm",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3314437471,
+      "baslik": "JENGA",
+      "sanatci": "Khontkar",
+      "yil": 2019
+    },
+    {
+      "deezerId": 1106505462,
+      "baslik": "Fight Kulüp 2",
+      "sanatci": "Killa Hakan",
+      "yil": 2020
+    },
+    {
+      "deezerId": 532054721,
+      "baslik": "Sen Nasıl Bir İnsansın",
+      "sanatci": "Kolera",
+      "yil": 2018
+    },
+    {
+      "deezerId": 970447702,
+      "baslik": "Cehennemin Dibi",
+      "sanatci": "Massaka",
+      "yil": 2019
+    },
+    {
+      "deezerId": 3418995091,
+      "baslik": "Bir Çift Göz",
+      "sanatci": "Norm Ender",
+      "yil": 2025
+    },
+    {
+      "deezerId": 98798416,
+      "baslik": "Tanrı Çekti Tüm Resimleri",
+      "sanatci": "Sagopa Kajmer",
+      "yil": 2003
+    },
+    {
+      "deezerId": 406061702,
+      "baslik": "Mafya Şarkısı",
+      "sanatci": "Saian",
+      "yil": 2017
+    },
+    {
+      "deezerId": 2627910672,
+      "baslik": "Susamam",
+      "sanatci": "Şanışer",
+      "yil": 2019
+    },
+    {
+      "deezerId": 3728059982,
+      "baslik": "Bombalar Hedef Bulur",
+      "sanatci": "Sansar Salvo",
+      "yil": 2009
+    },
+    {
+      "deezerId": 4093970001,
+      "baslik": "çivi",
+      "sanatci": "Şehinşah",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3024075251,
+      "baslik": "Bile Bile",
+      "sanatci": "Server Uraz",
+      "yil": 2024
+    },
+    {
+      "deezerId": 1543925602,
+      "baslik": "Leyla",
+      "sanatci": "Tahribad-ı İsyan",
+      "yil": 2018
+    },
+    {
+      "deezerId": 2897894971,
+      "baslik": "Hüznü Hecem",
+      "sanatci": "Yener Çevik",
+      "yil": 2018
+    },
+    {
+      "deezerId": 2138669857,
+      "baslik": "Bir Daha",
+      "sanatci": "Ados",
+      "yil": 2023
+    },
+    {
+      "deezerId": 1844635507,
+      "baslik": "Tanınmayanlar",
+      "sanatci": "Allame",
+      "yil": 2009
+    },
+    {
+      "deezerId": 1272793712,
+      "baslik": "Söndülerse",
+      "sanatci": "Anıl Piyancı",
+      "yil": 2021
+    },
+    {
+      "deezerId": 3668547812,
+      "baslik": "KUMBARA",
+      "sanatci": "Aspova",
+      "yil": 2025
+    },
+    {
+      "deezerId": 2327190895,
+      "baslik": "BİTMİYOR",
+      "sanatci": "Ben Fero",
+      "yil": 2023
+    },
+    {
+      "deezerId": 4046076591,
+      "baslik": "Kayıp Kalp",
+      "sanatci": "BLOK3",
+      "yil": 2026
+    },
+    {
+      "deezerId": 98910200,
+      "baslik": "Neyim Var Ki",
+      "sanatci": "Ceza",
+      "yil": 2004
+    },
+    {
+      "deezerId": 3689345982,
+      "baslik": "TIRMANDIM",
+      "sanatci": "Contra",
+      "yil": 2025
+    },
+    {
+      "deezerId": 606497342,
+      "baslik": "Sonbahar",
+      "sanatci": "Da Poet",
+      "yil": 2011
+    },
+    {
+      "deezerId": 1815218487,
+      "baslik": "Nerdesin",
+      "sanatci": "Ezhel",
+      "yil": 2022
+    },
+    {
+      "deezerId": 893826822,
+      "baslik": "Heyecanı Yok",
+      "sanatci": "Gazapizm",
+      "yil": 2017
+    },
+    {
+      "deezerId": 4036831821,
+      "baslik": "SİNEMATOGRAF",
+      "sanatci": "Khontkar",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4136873001,
+      "baslik": "Kalan Hatıra",
+      "sanatci": "Killa Hakan",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4083280811,
+      "baslik": "Böylesi Daha İyi",
+      "sanatci": "Kolera",
+      "yil": 2026
+    },
+    {
+      "deezerId": 970744262,
+      "baslik": "Katliam 3",
+      "sanatci": "Massaka",
+      "yil": 2019
+    },
+    {
+      "deezerId": 714236882,
+      "baslik": "Mekanın Sahibi",
+      "sanatci": "Norm Ender",
+      "yil": 2019
+    },
+    {
+      "deezerId": 96576696,
+      "baslik": "Ateşten Gömlek",
+      "sanatci": "Sagopa Kajmer",
+      "yil": 2009
+    },
+    {
+      "deezerId": 1056247872,
+      "baslik": "Ay Şarkısı",
+      "sanatci": "Saian",
+      "yil": 2020
+    },
+    {
+      "deezerId": 2627880632,
+      "baslik": "Günleri Geride Bırak",
+      "sanatci": "Şanışer",
+      "yil": 2019
+    },
+    {
+      "deezerId": 72927796,
+      "baslik": "Dum Taka Dum",
+      "sanatci": "Sansar Salvo",
+      "yil": 2013
+    },
+    {
+      "deezerId": 4093970021,
+      "baslik": "yAllah",
+      "sanatci": "Şehinşah",
+      "yil": 2026
+    },
+    {
+      "deezerId": 2592510362,
+      "baslik": "Hayal Bile Kuramam",
+      "sanatci": "Server Uraz",
+      "yil": 2024
+    },
+    {
+      "deezerId": 1544414792,
+      "baslik": "Pisliğiz",
+      "sanatci": "Tahribad-ı İsyan",
+      "yil": 2017
+    },
+    {
+      "deezerId": 2897894931,
+      "baslik": "Dikkat İnat",
+      "sanatci": "Yener Çevik",
+      "yil": 2018
+    },
+    {
+      "deezerId": 121684956,
+      "baslik": "Efkarın Delisi",
+      "sanatci": "Ados",
+      "yil": 2016
+    },
+    {
+      "deezerId": 1263395572,
+      "baslik": "Kısır Döngü",
+      "sanatci": "Allame",
+      "yil": 2017
+    },
+    {
+      "deezerId": 3011823271,
+      "baslik": "KAFA10",
+      "sanatci": "Anıl Piyancı",
+      "yil": 2018
+    },
+    {
+      "deezerId": 1459044982,
+      "baslik": "Sağanak",
+      "sanatci": "Aspova",
+      "yil": 2020
+    },
+    {
+      "deezerId": 626596302,
+      "baslik": "Motivasyon",
+      "sanatci": "Ben Fero",
+      "yil": 2019
+    },
+    {
+      "deezerId": 4046076631,
+      "baslik": "Kırgınım",
+      "sanatci": "BLOK3",
+      "yil": 2026
+    },
+    {
+      "deezerId": 110613451,
+      "baslik": "Yerli Plaka",
+      "sanatci": "Ceza",
+      "yil": 2007
+    },
+    {
+      "deezerId": 4135144421,
+      "baslik": "FERİŞTAH",
+      "sanatci": "Contra",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3048326111,
+      "baslik": "Önemi Yok",
+      "sanatci": "Da Poet",
+      "yil": 2024
+    },
+    {
+      "deezerId": 1409596662,
+      "baslik": "Bul Beni",
+      "sanatci": "Ezhel",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1960984437,
+      "baslik": "Olur Mu",
+      "sanatci": "Gazapizm",
+      "yil": 2022
+    },
+    {
+      "deezerId": 861819732,
+      "baslik": "Sürtüğe Bak",
+      "sanatci": "Khontkar",
+      "yil": 2020
+    },
+    {
+      "deezerId": 992515982,
+      "baslik": "Ne Fark Eder?",
+      "sanatci": "Killa Hakan",
+      "yil": 2020
+    },
+    {
+      "deezerId": 532054821,
+      "baslik": "Aşık İle Maşuk",
+      "sanatci": "Kolera",
+      "yil": 2018
+    },
+    {
+      "deezerId": 833886582,
+      "baslik": "Toxic",
+      "sanatci": "Massaka",
+      "yil": 2019
+    },
+    {
+      "deezerId": 601517342,
+      "baslik": "Sözler Şerefsiz Oldu",
+      "sanatci": "Norm Ender",
+      "yil": 2018
+    },
+    {
+      "deezerId": 3048127821,
+      "baslik": "Keskin",
+      "sanatci": "Sagopa Kajmer",
+      "yil": 2024
+    },
+    {
+      "deezerId": 684435122,
+      "baslik": "Göğe bakmak için",
+      "sanatci": "Saian",
+      "yil": 2019
+    },
+    {
+      "deezerId": 3167833381,
+      "baslik": "Hüsran Hepsi",
+      "sanatci": "Şanışer",
+      "yil": 2025
+    },
+    {
+      "deezerId": 122795068,
+      "baslik": "Ağır Roman",
+      "sanatci": "Sansar Salvo",
+      "yil": 2008
+    },
+    {
+      "deezerId": 4093969981,
+      "baslik": "entropi",
+      "sanatci": "Şehinşah",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3024075331,
+      "baslik": "Görünmez",
+      "sanatci": "Server Uraz",
+      "yil": 2024
+    },
+    {
+      "deezerId": 1544414782,
+      "baslik": "Suç Mu?",
+      "sanatci": "Tahribad-ı İsyan",
+      "yil": 2017
+    },
+    {
+      "deezerId": 2897893751,
+      "baslik": "Yıkıla Yıkıla",
+      "sanatci": "Yener Çevik",
+      "yil": 2021
+    },
+    {
+      "deezerId": 2552577542,
+      "baslik": "Meçhul",
+      "sanatci": "Ados",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1844635387,
+      "baslik": "Allame Sendromu",
+      "sanatci": "Allame",
+      "yil": 2009
+    },
+    {
+      "deezerId": 3011823841,
+      "baslik": "Yağmurlar",
+      "sanatci": "Anıl Piyancı",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1459045002,
+      "baslik": "Nefes Alamam",
+      "sanatci": "Aspova",
+      "yil": 2020
+    },
+    {
+      "deezerId": 711486542,
+      "baslik": "Fight Kulüp",
+      "sanatci": "Ben Fero",
+      "yil": 2019
+    },
+    {
+      "deezerId": 4046076681,
+      "baslik": "Çok Güzel Gülüyorsun",
+      "sanatci": "BLOK3",
+      "yil": 2026
+    },
+    {
+      "deezerId": 98910182,
+      "baslik": "Holocaust",
+      "sanatci": "Ceza",
+      "yil": 2004
+    },
+    {
+      "deezerId": 4135144441,
+      "baslik": "ESKİ EV",
+      "sanatci": "Contra",
+      "yil": 2026
+    },
+    {
+      "deezerId": 2696980342,
+      "baslik": "TEKMEYE KAFA",
+      "sanatci": "Da Poet",
+      "yil": 2024
+    },
+    {
+      "deezerId": 620712492,
+      "baslik": "Felaket",
+      "sanatci": "Ezhel",
+      "yil": 2019
+    },
+    {
+      "deezerId": 3319497041,
+      "baslik": "YALAN DÜNYA",
+      "sanatci": "UZI",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3855803971,
+      "baslik": "Yaşıyoken Anla",
+      "sanatci": "UZI",
+      "yil": 2026
+    }
+  ]
+}

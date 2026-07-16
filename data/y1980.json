@@ -1,0 +1,582 @@
+{
+  "id": "y1980",
+  "ad": "1980'ler",
+  "sarkilar": [
+    {
+      "deezerId": 112845258,
+      "baslik": "Loving on Petrol",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1980
+    },
+    {
+      "deezerId": 64957808,
+      "baslik": "Vazgeç Gönül",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1980
+    },
+    {
+      "deezerId": 1174495632,
+      "baslik": "Alışmak Sevmekten Zor",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1982
+    },
+    {
+      "deezerId": 1174495622,
+      "baslik": "Sevdim Seni",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1982
+    },
+    {
+      "deezerId": 26131791,
+      "baslik": "Aşk Kitabı",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 26131801,
+      "baslik": "Bana Neler Vadettin",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 26131761,
+      "baslik": "Şikayetim Var",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 26131821,
+      "baslik": "Bulamazsın",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 1036883752,
+      "baslik": "Düşünme Hiç",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883732,
+      "baslik": "Uykusuz Her Gece",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883782,
+      "baslik": "Son Yolcu",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883802,
+      "baslik": "Sen Ve Ben",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883762,
+      "baslik": "Güneş Yorgun",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883812,
+      "baslik": "Kader Rüzgarı",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883742,
+      "baslik": "Sihirli Aşk",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883792,
+      "baslik": "Sana Doğru",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1036883772,
+      "baslik": "Bir Günah Gibi",
+      "sanatci": "Ajda Pekkan",
+      "yil": 1983
+    },
+    {
+      "deezerId": 64957115,
+      "baslik": "Al Senin Olsun",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1678100047,
+      "baslik": "Telli Telli",
+      "sanatci": "Yeni Türkü",
+      "yil": 1983
+    },
+    {
+      "deezerId": 6141531,
+      "baslik": "Ben de Özledim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141532,
+      "baslik": "Sevda Yelleri",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141536,
+      "baslik": "Hasret Sancısı",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141540,
+      "baslik": "Olsan İçmez miydin Benim Yerimde",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141534,
+      "baslik": "Yaralıyım Dertliyim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141538,
+      "baslik": "Tanrım Nasıl Sevdim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 78559910,
+      "baslik": "Ne Bilirdimki",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141537,
+      "baslik": "Kara Gurbet",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141625,
+      "baslik": "Sarhoş",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141629,
+      "baslik": "Kara Yazı",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141619,
+      "baslik": "Dost Merhaba",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141627,
+      "baslik": "Karanlıkta",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141624,
+      "baslik": "Haydar Haydar",
+      "sanatci": "Selda Bagcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 6141622,
+      "baslik": "Öyle Bir Yerdeyim ki",
+      "sanatci": "Selda Bağcan",
+      "yil": 1986
+    },
+    {
+      "deezerId": 2401502095,
+      "baslik": "Ağlamazsam Uyuyamam",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1987
+    },
+    {
+      "deezerId": 2401502345,
+      "baslik": "Sevdalılar Beni Anlar",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1987
+    },
+    {
+      "deezerId": 68862468,
+      "baslik": "Sen Evlisin",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 68862467,
+      "baslik": "Ağlıyorsam Yaşıyorum",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 68862472,
+      "baslik": "Gözüm Seni Görmese De",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 67938700,
+      "baslik": "Sevsen Ne Olurdu",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 2338742415,
+      "baslik": "Mahşer Gününde",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 472795732,
+      "baslik": "Kader Kurbanıyım",
+      "sanatci": "Kibariye",
+      "yil": 1987
+    },
+    {
+      "deezerId": 1909815447,
+      "baslik": "Yeşil Yeşil",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1988
+    },
+    {
+      "deezerId": 1909815437,
+      "baslik": "Fosforlu Cevriyem",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1988
+    },
+    {
+      "deezerId": 1678576397,
+      "baslik": "Yağmurun Elleri",
+      "sanatci": "Yeni Türkü",
+      "yil": 1988
+    },
+    {
+      "deezerId": 1678576427,
+      "baslik": "Fırtına",
+      "sanatci": "Yeni Türkü",
+      "yil": 1988
+    },
+    {
+      "deezerId": 66156223,
+      "baslik": "Alla Beni Pulla Beni",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156236,
+      "baslik": "Arkadaşım Eşşek",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156222,
+      "baslik": "Dönence",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156235,
+      "baslik": "Çıt Çıt Çedene",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156221,
+      "baslik": "Hal Hal",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156164,
+      "baslik": "Ahmet Beyin Ceketi",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156227,
+      "baslik": "Gülpembe",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156225,
+      "baslik": "Ali Yazar Veli Bozar",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156166,
+      "baslik": "Gönül Ferman Dinlemiyor",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156233,
+      "baslik": "Kol Düğmeleri",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156232,
+      "baslik": "Aman Yavaş Aheste",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156163,
+      "baslik": "Nane Limon Kabuğu",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156228,
+      "baslik": "Halil İbrahim Sofrası",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156226,
+      "baslik": "Bahçede Hanımeli",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156229,
+      "baslik": "Geçti Dost Kervanı",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156172,
+      "baslik": "Sahilde",
+      "sanatci": "Barış Manço",
+      "yil": 1989
+    },
+    {
+      "deezerId": 69201826,
+      "baslik": "Yok Yok",
+      "sanatci": "Erkin Koray",
+      "yil": 1989
+    },
+    {
+      "deezerId": 69201829,
+      "baslik": "Yolcu Yolunda Gerek",
+      "sanatci": "Erkin Koray",
+      "yil": 1989
+    },
+    {
+      "deezerId": 3654445742,
+      "baslik": "Bizim Sokaklar",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156176,
+      "baslik": "Uzun Hava",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558162,
+      "baslik": "Bir Kulunu Çok Sevdim",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191640,
+      "baslik": "Allah Allah",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156186,
+      "baslik": "Kara Zindan",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156187,
+      "baslik": "Dönmem Asla",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191641,
+      "baslik": "Hülya",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156183,
+      "baslik": "Beyaz Gül Kırmızı Gül",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558092,
+      "baslik": "Gülmemiz Gerek",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156193,
+      "baslik": "Duydunuz Mu",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558052,
+      "baslik": "Bu Da Geçer",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156189,
+      "baslik": "Bir Kulum İşte",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156195,
+      "baslik": "Nuranım Nuran",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191642,
+      "baslik": "Allah Yalanı Sevmez",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558082,
+      "baslik": "Seni Yakacaklar",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156174,
+      "baslik": "Sizi Nasıl Özledim",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156196,
+      "baslik": "Tren Gelir Hoş Gelir",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191644,
+      "baslik": "Sarışınım",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 79076590,
+      "baslik": "Avare",
+      "sanatci": "İzzet Altınmeşe",
+      "yil": 1989
+    },
+    {
+      "deezerId": 93309604,
+      "baslik": "Ecel Olsun",
+      "sanatci": "Kibariye",
+      "yil": 1989
+    },
+    {
+      "deezerId": 2338592785,
+      "baslik": "Kısmetim Kapanmış",
+      "sanatci": "Müslüm Gürses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 2338592775,
+      "baslik": "O Sen Değilsin",
+      "sanatci": "Müslüm Gürses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836414,
+      "baslik": "Yolcu Yolunda Gerek",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836410,
+      "baslik": "Esmer Günler",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836412,
+      "baslik": "Seni Seviyorum",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836422,
+      "baslik": "Mor Menekşe",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836418,
+      "baslik": "Ağlarım Gizlice",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836432,
+      "baslik": "Bu Gece Beni Düşüneceksin",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836430,
+      "baslik": "Ne Olur",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836424,
+      "baslik": "Sokak Kedisi",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836416,
+      "baslik": "Seni Şimdiden Özledim",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 112836426,
+      "baslik": "Bir Şey Varki",
+      "sanatci": "Nilüfer",
+      "yil": 1989
+    },
+    {
+      "deezerId": 73891661,
+      "baslik": "Ah Bu Şarkıların Gözü Kör Olsun",
+      "sanatci": "Zeki Müren",
+      "yil": 1989
+    }
+  ]
+}

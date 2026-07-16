@@ -1,0 +1,661 @@
+{
+  "id": "arabesk",
+  "ad": "Arabesk",
+  "sarkilar": [
+    {
+      "deezerId": 64208408,
+      "baslik": "Kaderimin Oyunu",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4038422911,
+      "baslik": "Karadır Kaşların",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432357271,
+      "baslik": "Bana Sor",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1990
+    },
+    {
+      "deezerId": 1518147212,
+      "baslik": "Eyvanına Vardı",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1990
+    },
+    {
+      "deezerId": 84429049,
+      "baslik": "Lafı mı Olur",
+      "sanatci": "Kibariye",
+      "yil": 1993
+    },
+    {
+      "deezerId": 779297362,
+      "baslik": "Kul Hatasız Olmaz",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2013
+    },
+    {
+      "deezerId": 68862468,
+      "baslik": "Sen Evlisin",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 3674819092,
+      "baslik": "Değirmenim Terse Döndü Bu Sene",
+      "sanatci": "Azer Bülbül"
+    },
+    {
+      "deezerId": 64208399,
+      "baslik": "Batsın Bu Dünya",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4043512591,
+      "baslik": "Ah Neyleyim Gönül",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432357281,
+      "baslik": "Hatıran Yeter",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1990
+    },
+    {
+      "deezerId": 1518147242,
+      "baslik": "Oy Emine",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1990
+    },
+    {
+      "deezerId": 66173414,
+      "baslik": "Gülümse Kaderine",
+      "sanatci": "Kibariye",
+      "yil": 2006
+    },
+    {
+      "deezerId": 1797084407,
+      "baslik": "Sevmek Bu mu",
+      "sanatci": "Hakkı Bulut",
+      "yil": 1999
+    },
+    {
+      "deezerId": 2338744865,
+      "baslik": "Nem Kaldı",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 2013
+    },
+    {
+      "deezerId": 3677458292,
+      "baslik": "Yaralandın mı Can",
+      "sanatci": "Azer Bülbül"
+    },
+    {
+      "deezerId": 64208409,
+      "baslik": "Dertler Benim Olsun",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4038422921,
+      "baslik": "Bunca Gamı Bunca Derdi",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 2338744405,
+      "baslik": "Huzurum Kalmadı",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 2002
+    },
+    {
+      "deezerId": 1518147222,
+      "baslik": "Söylerem Ozan Kimin",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1990
+    },
+    {
+      "deezerId": 66173451,
+      "baslik": "Gidemem",
+      "sanatci": "Kibariye",
+      "yil": 2008
+    },
+    {
+      "deezerId": 75027192,
+      "baslik": "Son Mektup",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2005
+    },
+    {
+      "deezerId": 68862467,
+      "baslik": "Ağlıyorsam Yaşıyorum",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 3674819192,
+      "baslik": "Canım Yanıyor",
+      "sanatci": "Azer Bülbül",
+      "yil": 1998
+    },
+    {
+      "deezerId": 64957064,
+      "baslik": "Seni Buldum Ya",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1977
+    },
+    {
+      "deezerId": 4038423011,
+      "baslik": "Fincanın Etrafı",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 6141531,
+      "baslik": "Ben de Özledim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 1909815447,
+      "baslik": "Yeşil Yeşil",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1988
+    },
+    {
+      "deezerId": 66134885,
+      "baslik": "Yanayım",
+      "sanatci": "Kibariye",
+      "yil": 2010
+    },
+    {
+      "deezerId": 75027196,
+      "baslik": "İkimizi Bir Fidanın",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2005
+    },
+    {
+      "deezerId": 2338594605,
+      "baslik": "Ela Gözlüm",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 2013
+    },
+    {
+      "deezerId": 3674855002,
+      "baslik": "Duygularım",
+      "sanatci": "Azer Bülbül"
+    },
+    {
+      "deezerId": 64208413,
+      "baslik": "Hor Görme Garibi",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4043512621,
+      "baslik": "Pencereden El Eder",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3437612921,
+      "baslik": "Sigarayı Bıraktım",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1999
+    },
+    {
+      "deezerId": 1909815437,
+      "baslik": "Fosforlu Cevriyem",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1988
+    },
+    {
+      "deezerId": 75090524,
+      "baslik": "Hap Koydum",
+      "sanatci": "Kibariye",
+      "yil": 2014
+    },
+    {
+      "deezerId": 75027198,
+      "baslik": "Ben Tövbemi Geri Aldım",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2005
+    },
+    {
+      "deezerId": 68862472,
+      "baslik": "Gözüm Seni Görmese De",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 3677458402,
+      "baslik": "Felek",
+      "sanatci": "Azer Bülbül",
+      "yil": 2001
+    },
+    {
+      "deezerId": 64957841,
+      "baslik": "Dokunma",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1990
+    },
+    {
+      "deezerId": 4038422991,
+      "baslik": "Dost Çukuru",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432545071,
+      "baslik": "Geçen Yıl",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 2006
+    },
+    {
+      "deezerId": 93309604,
+      "baslik": "Ecel Olsun",
+      "sanatci": "Kibariye",
+      "yil": 1989
+    },
+    {
+      "deezerId": 67938672,
+      "baslik": "Sevmez Olaydım",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 2001
+    },
+    {
+      "deezerId": 3674819142,
+      "baslik": "Zordayım",
+      "sanatci": "Azer Bülbül",
+      "yil": 1998
+    },
+    {
+      "deezerId": 64208414,
+      "baslik": "Vazgeç Gönlüm",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4038422931,
+      "baslik": "İp Attım Ucu Kaldı",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432926491,
+      "baslik": "Of Dağlar",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1997
+    },
+    {
+      "deezerId": 75090522,
+      "baslik": "Koparılan Çiçekler",
+      "sanatci": "Kibariye",
+      "yil": 2014
+    },
+    {
+      "deezerId": 450596032,
+      "baslik": "Düşmezdim Yerlere Eğilmezdi Başım",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2018
+    },
+    {
+      "deezerId": 67938700,
+      "baslik": "Sevsen Ne Olurdu",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 3675379272,
+      "baslik": "Zoruna Mı Gitti",
+      "sanatci": "Azer Bülbül",
+      "yil": 2007
+    },
+    {
+      "deezerId": 1749284647,
+      "baslik": "Hatasız Kul Olmaz",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1998
+    },
+    {
+      "deezerId": 4039649721,
+      "baslik": "Yalnızlar Rıhtımı",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432545061,
+      "baslik": "Emmioğlu",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 2006
+    },
+    {
+      "deezerId": 75090520,
+      "baslik": "Gülü Soldurmam",
+      "sanatci": "Kibariye",
+      "yil": 2014
+    },
+    {
+      "deezerId": 75027191,
+      "baslik": "Ben Buyum",
+      "sanatci": "Hakkı Bulut",
+      "yil": 2005
+    },
+    {
+      "deezerId": 2643433442,
+      "baslik": "Daha Nasıl Sevebilirim ?",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1999
+    },
+    {
+      "deezerId": 3675092702,
+      "baslik": "İyi Değilim",
+      "sanatci": "Azer Bülbül"
+    },
+    {
+      "deezerId": 66448773,
+      "baslik": "Aklım Takıldı",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1994
+    },
+    {
+      "deezerId": 4039649731,
+      "baslik": "Kıyak Bitti",
+      "sanatci": "Müslüm Gürses"
+    },
+    {
+      "deezerId": 3432545541,
+      "baslik": "Bana Da Söyle",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1991
+    },
+    {
+      "deezerId": 472795732,
+      "baslik": "Kader Kurbanıyım",
+      "sanatci": "Kibariye",
+      "yil": 1987
+    },
+    {
+      "deezerId": 2338742415,
+      "baslik": "Mahşer Gününde",
+      "sanatci": "Gülden Karaböcek",
+      "yil": 1987
+    },
+    {
+      "deezerId": 3677458322,
+      "baslik": "Ben Seninle Mutluyum",
+      "sanatci": "Azer Bülbül"
+    },
+    {
+      "deezerId": 77599348,
+      "baslik": "Sen Affetsen",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 77599340,
+      "baslik": "Benim İçin Üzülme",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 105547206,
+      "baslik": "Elimde Fotoğrafın",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 1652610562,
+      "baslik": "Garibin Çilesi Mezarda Biter",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 105545994,
+      "baslik": "Seni Kalbimden Kovdum",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 105545984,
+      "baslik": "İnsan Dertli Olunca",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 105545980,
+      "baslik": "Kullar Affetmez",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 77599196,
+      "baslik": "Mavi Mavi",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 105547190,
+      "baslik": "Sevgimin Bedeli",
+      "sanatci": "Bergen"
+    },
+    {
+      "deezerId": 3283943241,
+      "baslik": "Götür Beni Gittiğin Yere",
+      "sanatci": "Emrah",
+      "yil": 1996
+    },
+    {
+      "deezerId": 3275221311,
+      "baslik": "Dura Dura",
+      "sanatci": "Emrah",
+      "yil": 1998
+    },
+    {
+      "deezerId": 3283943231,
+      "baslik": "Narin Yarim",
+      "sanatci": "Emrah",
+      "yil": 1996
+    },
+    {
+      "deezerId": 6141532,
+      "baslik": "Sevda Yelleri",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 66156176,
+      "baslik": "Uzun Hava",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 2338592785,
+      "baslik": "Kısmetim Kapanmış",
+      "sanatci": "Müslüm Gürses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558162,
+      "baslik": "Bir Kulunu Çok Sevdim",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191640,
+      "baslik": "Allah Allah",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 6141536,
+      "baslik": "Hasret Sancısı",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 2401502095,
+      "baslik": "Ağlamazsam Uyuyamam",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1987
+    },
+    {
+      "deezerId": 64957115,
+      "baslik": "Al Senin Olsun",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1983
+    },
+    {
+      "deezerId": 26131791,
+      "baslik": "Aşk Kitabı",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 26131801,
+      "baslik": "Bana Neler Vadettin",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 6141540,
+      "baslik": "Olsan İçmez miydin Benim Yerimde",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 66156186,
+      "baslik": "Kara Zindan",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156187,
+      "baslik": "Dönmem Asla",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191641,
+      "baslik": "Hülya",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156183,
+      "baslik": "Beyaz Gül Kırmızı Gül",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558092,
+      "baslik": "Gülmemiz Gerek",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 2401502345,
+      "baslik": "Sevdalılar Beni Anlar",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1987
+    },
+    {
+      "deezerId": 66156193,
+      "baslik": "Duydunuz Mu",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558052,
+      "baslik": "Bu Da Geçer",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156189,
+      "baslik": "Bir Kulum İşte",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66156195,
+      "baslik": "Nuranım Nuran",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191642,
+      "baslik": "Allah Yalanı Sevmez",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 1302558082,
+      "baslik": "Seni Yakacaklar",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 6141534,
+      "baslik": "Yaralıyım Dertliyim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 66156174,
+      "baslik": "Sizi Nasıl Özledim",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 64957808,
+      "baslik": "Vazgeç Gönül",
+      "sanatci": "Orhan Gencebay",
+      "yil": 1980
+    },
+    {
+      "deezerId": 6141538,
+      "baslik": "Tanrım Nasıl Sevdim",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 26131761,
+      "baslik": "Şikayetim Var",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 66156196,
+      "baslik": "Tren Gelir Hoş Gelir",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 78559910,
+      "baslik": "Ne Bilirdimki",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 26131821,
+      "baslik": "Bulamazsın",
+      "sanatci": "Bergen",
+      "yil": 1982
+    },
+    {
+      "deezerId": 6141537,
+      "baslik": "Kara Gurbet",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1986
+    },
+    {
+      "deezerId": 3654445742,
+      "baslik": "Bizim Sokaklar",
+      "sanatci": "Ferdi Tayfur",
+      "yil": 1989
+    },
+    {
+      "deezerId": 2338592775,
+      "baslik": "O Sen Değilsin",
+      "sanatci": "Müslüm Gürses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 66191644,
+      "baslik": "Sarışınım",
+      "sanatci": "İbrahim Tatlıses",
+      "yil": 1989
+    }
+  ]
+}
