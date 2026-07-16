@@ -389,6 +389,7 @@
 
   function startPlayback(fromStart) {
     if (!state.preview) return;
+    if (state.roundType === 'rush' && state.rushEnd === 0) state.rushEnd = Date.now() + RUSH_MS;
     if (audio.src !== state.preview) { audio.src = state.preview; audio.currentTime = 0; }
     if (fromStart || audio.currentTime >= unlockedSec() || audio.ended) {
       try { audio.currentTime = 0; } catch (e) { }
@@ -421,6 +422,12 @@
     $('bar-progress').style.width = Math.min(100, Math.min(t, cap) / total * 100) + '%';
     $('time-label').textContent = fmt(Math.min(t, cap)) + ' / ' + fmt(state.done ? FULL_SEC : UNLOCKS[UNLOCKS.length - 1]);
     show($('play-eq'), state.playing);
+    UNLOCKS.forEach(function (sec, i) {
+      var dot = $('seg-dot-' + i);
+      if (dot) dot.classList.toggle('unlocked', cap >= sec);
+    });
+    var maxSec = UNLOCKS[UNLOCKS.length - 1];
+    $('play-marker').style.left = Math.min(100, Math.min(t, cap) / maxSec * 100) + '%';
   }
 
   function renderPlayButton() {
@@ -492,7 +499,7 @@
     state.selected = null;
     state.badge = '';
     state.rushScore = 0;
-    state.rushEnd = mode === 'rush' ? Date.now() + RUSH_MS : 0;
+    state.rushEnd = 0; // yarış sayacı ilk play basılana kadar başlamaz
     $('guess-input').value = '';
     closeSuggestions();
     loadSongs(catId).then(function () {
@@ -953,7 +960,9 @@
       n.appendChild(sec);
     });
     if (state.roundType === 'rush') {
-      $('rush-time').textContent = String(Math.max(0, Math.ceil((state.rushEnd - Date.now()) / 1000)));
+      $('rush-time').textContent = state.rushEnd > 0
+        ? String(Math.max(0, Math.ceil((state.rushEnd - Date.now()) / 1000)))
+        : String(RUSH_MS / 1000);
       $('rush-score').textContent = String(state.rushScore);
     }
   }
@@ -1280,8 +1289,8 @@
     { icon: 'gear-six', label: 'Ayarlar', modal: 'modal-settings' },
     { icon: 'chart-bar', label: 'İstatistikler', modal: 'modal-stats' },
     { icon: 'question', label: 'Nasıl oynanır?', modal: 'modal-help' },
-    { icon: 'instagram-logo', label: 'Instagram', modal: null },
-    { icon: 'x-logo', label: 'X', modal: null }
+    { icon: 'instagram-logo', label: 'Instagram', modal: null, url: 'https://www.instagram.com/nakartr/' },
+    { icon: 'x-logo', label: 'X', modal: null, url: 'https://x.com/nakartr' }
   ];
 
   function buildMenu() {
@@ -1295,6 +1304,7 @@
       b.addEventListener('click', function () {
         toggleMenu(false);
         if (mi.modal) openModal($(mi.modal));
+        if (mi.url) window.open(mi.url, '_blank', 'noopener');
       });
       menu.appendChild(b);
     });

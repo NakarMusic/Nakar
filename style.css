@@ -299,16 +299,31 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 
 /* — çalar — */
 .player { padding: 16px 18px; gap: 14px; }
-.progress-wrap { position: relative; height: 26px; display: flex; align-items: center; }
-.progress-track { position: absolute; left: 0; right: 0; height: 8px; border-radius: 999px; background: var(--color-neutral-800); overflow: hidden; }
+.progress-wrap { position: relative; display: flex; flex-direction: column; gap: 5px; padding: 2px 0; }
+.seg-labels { position: relative; height: 13px; }
+.seg-label { position: absolute; top: 0; transform: translateX(-50%); font-size: 10px; line-height: 1; color: var(--color-neutral-500); white-space: nowrap; }
+.progress-track { position: relative; height: 8px; border-radius: 999px; background: var(--color-neutral-800); }
 #bar-unlocked { position: absolute; inset: 0; width: 0; background: var(--color-accent-900); border-radius: 999px; transition: width 0.45s ease; }
 #bar-progress { position: absolute; inset: 0; width: 0; background: linear-gradient(90deg, var(--color-accent-600), var(--color-accent)); border-radius: 999px; transition: width 0.1s linear; }
-.tick { position: absolute; width: 1px; height: 14px; background: var(--color-neutral-600); }
-.tick-1 { left: 6.25%; }
-.tick-2 { left: 12.5%; }
-.tick-3 { left: 25%; }
-.tick-4 { left: 43.75%; }
-.tick-5 { left: 68.75%; }
+.seg-dot {
+  position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%;
+  background: var(--color-surface); border: 2px solid var(--color-neutral-600);
+  transform: translate(-50%, -50%); z-index: 2;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.seg-dot.unlocked { background: var(--color-accent); border-color: var(--color-accent); }
+.seg-pos-0 { left: 6.25%; }
+.seg-pos-1 { left: 12.5%; }
+.seg-pos-2 { left: 25%; }
+.seg-pos-3 { left: 43.75%; }
+.seg-pos-4 { left: 68.75%; }
+.seg-pos-5 { left: 100%; }
+.seg-marker-row { position: relative; height: 11px; }
+#play-marker {
+  position: absolute; top: 0; left: 6.25%; transform: translateX(-50%);
+  display: flex; color: var(--color-accent); transition: left 0.1s linear;
+}
+#play-marker .ic { width: 10px; height: 10px; }
 .player-controls { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
 .player-left { position: relative; display: flex; align-items: center; justify-self: start; }
 #vol-pop {

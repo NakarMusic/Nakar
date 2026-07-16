@@ -6,7 +6,10 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://api.deezer.com; style-src 'self'; font-src 'self'; connect-src 'self'; img-src 'self' data: https://*.dzcdn.net; media-src https://*.dzcdn.net; base-uri 'none'; form-action 'none'">
   <title>Nakar — Türkçe Şarkı Tahmin Oyunu</title>
   <meta name="description" content="Nakar: kısa bir bölümünü dinlediğin Türkçe şarkıyı en az denemede bil. Günlük ve sınırsız mod, yıllara ve türlere göre kategoriler.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23161826'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%239184d9'%3E%E2%99%AA%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#161826">
+  <link rel="icon" type="image/svg+xml" href="assets/nakar-favicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -133,8 +136,8 @@
         <button type="button" id="btn-settings" class="icon-btn" title="Ayarlar"><svg class="ic"><use href="#i-gear-six"/></svg></button>
         <button type="button" id="btn-stats" class="icon-btn" title="İstatistikler"><svg class="ic"><use href="#i-chart-bar"/></svg></button>
         <button type="button" id="btn-help" class="icon-btn" title="Nasıl oynanır?"><svg class="ic"><use href="#i-question"/></svg></button>
-        <a href="#" class="icon-btn" title="Instagram" rel="noopener"><svg class="ic"><use href="#i-instagram-logo"/></svg></a>
-        <a href="#" class="icon-btn" title="X" rel="noopener"><svg class="ic"><use href="#i-x-logo"/></svg></a>
+        <a href="https://www.instagram.com/nakartr/" target="_blank" class="icon-btn" title="Instagram" rel="noopener"><svg class="ic"><use href="#i-instagram-logo"/></svg></a>
+        <a href="https://x.com/nakartr" target="_blank" class="icon-btn" title="X" rel="noopener"><svg class="ic"><use href="#i-x-logo"/></svg></a>
       </div>
       <div id="hamburger-wrap" class="hidden">
         <button type="button" id="btn-menu" title="Menü"><svg class="ic"><use id="menu-icon" href="#i-list"/></svg></button>
@@ -172,15 +175,27 @@
       <!-- Çalar -->
       <div class="card elev-sm player">
         <div class="progress-wrap">
+          <div class="seg-labels">
+            <span class="seg-label seg-pos-0">1 sn</span>
+            <span class="seg-label seg-pos-1">2 sn</span>
+            <span class="seg-label seg-pos-2">4 sn</span>
+            <span class="seg-label seg-pos-3">7 sn</span>
+            <span class="seg-label seg-pos-4">11 sn</span>
+            <span class="seg-label seg-pos-5">16 sn</span>
+          </div>
           <div class="progress-track">
             <div id="bar-unlocked"></div>
             <div id="bar-progress"></div>
+            <span id="seg-dot-0" class="seg-dot seg-pos-0"></span>
+            <span id="seg-dot-1" class="seg-dot seg-pos-1"></span>
+            <span id="seg-dot-2" class="seg-dot seg-pos-2"></span>
+            <span id="seg-dot-3" class="seg-dot seg-pos-3"></span>
+            <span id="seg-dot-4" class="seg-dot seg-pos-4"></span>
+            <span id="seg-dot-5" class="seg-dot seg-pos-5"></span>
           </div>
-          <div class="tick tick-1"></div>
-          <div class="tick tick-2"></div>
-          <div class="tick tick-3"></div>
-          <div class="tick tick-4"></div>
-          <div class="tick tick-5"></div>
+          <div class="seg-marker-row">
+            <span id="play-marker" aria-hidden="true"><svg class="ic"><use href="#i-play-f"/></svg></span>
+          </div>
         </div>
         <div class="player-controls">
           <div class="player-left">
@@ -396,9 +411,9 @@
       <svg class="ic ic-sm ic-accent2"><use href="#i-music-notes-simple-f"/></svg> Nakar © 2026 — Tüm hakları saklıdır
     </div>
     <div class="footer-links">
-      <a href="mailto:destek@nakar.app"><svg class="ic ic-sm"><use href="#i-envelope-simple"/></svg> İletişim &amp; Geri Bildirim</a>
-      <a href="#" rel="noopener"><svg class="ic ic-sm"><use href="#i-instagram-logo"/></svg> Instagram</a>
-      <a href="#" rel="noopener"><svg class="ic ic-sm"><use href="#i-x-logo"/></svg> X</a>
+      <a href="mailto:contact@nakarmusic.com.tr"><svg class="ic ic-sm"><use href="#i-envelope-simple"/></svg> İletişim &amp; Geri Bildirim</a>
+      <a href="https://www.instagram.com/nakartr/" target="_blank" rel="noopener"><svg class="ic ic-sm"><use href="#i-instagram-logo"/></svg> Instagram</a>
+      <a href="https://x.com/nakartr" target="_blank" rel="noopener"><svg class="ic ic-sm"><use href="#i-x-logo"/></svg> X</a>
     </div>
   </footer>
 </div>
