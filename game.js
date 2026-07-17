@@ -12,6 +12,7 @@
   var ANCHOR_PERIOD = 41000;              // tekrar koruması hesabının sabit başlangıcı (2026 öncesi)
   var LAUNCH_PERIOD = 41301;              // lansman günü periyodu (2026-07-16) → paylaşımdaki #N, launch günü #1 verir
   var RUSH_MS = 60000;
+  var COUNTER_API = 'https://nakar-counter.bekirerenkeskin.workers.dev';
   // Sabit bir domain yerine gerçek barındırma adresinden türetilir — GitHub Pages
   // (kullanici.github.io/nakar/) veya ileride bağlanacak özel bir domain, kod
   // değişikliği gerekmeden doğru şekilde yansır.
@@ -595,6 +596,36 @@
     loadPreview(0);
   }
 
+  /* ═══════════ günlük çözüm sayacı (Cloudflare Worker) ═══════════ */
+  function postSolveCount(catId) {
+    fetch(COUNTER_API + '/count/' + encodeURIComponent(catId), { method: 'POST' })
+      .catch(function (err) { console.warn('Nakar: çözüm sayacı gönderilemedi — ' + err.message); });
+  }
+
+  function fetchSolveCount(catId) {
+    var box = $('solve-counter');
+    if (!box) return;
+    var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    var timer = controller ? setTimeout(function () { controller.abort(); }, 5000) : null;
+    fetch(COUNTER_API + '/count/' + encodeURIComponent(catId), controller ? { signal: controller.signal } : {})
+      .then(function (res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        if (timer) clearTimeout(timer);
+        if (catId !== state.catId) return; // kullanıcı bu arada başka kategoriye geçti
+        if (typeof data.count !== 'number') throw new Error('geçersiz yanıt');
+        $('solve-counter-text').textContent = data.count + ' kişi bugün bildi';
+        show(box, true);
+      })
+      .catch(function (err) {
+        if (timer) clearTimeout(timer);
+        console.warn('Nakar: çözüm sayacı alınamadı — ' + err.message);
+        show(box, false);
+      });
+  }
+
   function finishRound(win) {
     stopPlayback();
     var nGuess = state.guesses.length + 1;
@@ -635,6 +666,11 @@
     saveDaily();
     renderAll();
     if (win) launchConfetti();
+
+    if (state.roundType === 'daily') {
+      if (win) postSolveCount(state.catId);
+      fetchSolveCount(state.catId);
+    }
   }
 
   function finishRush() {
@@ -1476,6 +1512,7 @@
       return tryMeydanParam();
     }).then(function (meydanStarted) {
       if (!meydanStarted) startRound('gunun', 'daily');
+      fetchSolveCount(state.catId);
       // kart sayaçları + autocomplete havuzları için kalan kategorileri arka planda yükle
       state.cats.forEach(function (c) {
         if (CAT_ICONS[c.id]) loadSongs(c.id).then(renderCats).catch(function () { });

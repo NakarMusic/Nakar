@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://api.deezer.com; style-src 'self'; font-src 'self'; connect-src 'self'; img-src 'self' data: https://*.dzcdn.net; media-src https://*.dzcdn.net; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://api.deezer.com; style-src 'self'; font-src 'self'; connect-src 'self' https://nakar-counter.bekirerenkeskin.workers.dev; img-src 'self' data: https://*.dzcdn.net; media-src https://*.dzcdn.net; base-uri 'none'; form-action 'none'">
   <title>Nakar — Türkçe Şarkı Tahmin Oyunu</title>
   <meta name="description" content="Nakar: kısa bir bölümünü dinlediğin Türkçe şarkıyı en az denemede bil. Günlük ve sınırsız mod, yıllara ve türlere göre kategoriler.">
   <meta name="keywords" content="nakar, şarkı bil, şarkı tahmin oyunu, türkçe şarkı oyunu, müzik oyunu, günlük şarkı, wordle şarkı, heardle türkçe">
@@ -326,6 +326,10 @@
         <div class="summary-mid">
           <div id="summary-text">Bugünkü günlükler: 0/15 oynandı · 0 doğru</div>
           <div class="summary-track"><div id="summary-bar"></div></div>
+        </div>
+        <div id="solve-counter" class="rush-chip hidden">
+          <svg class="ic ic-sm"><use href="#i-headphones"/></svg>
+          <span id="solve-counter-text"></span>
         </div>
         <button type="button" id="btn-archive2" class="btn btn-ghost btn-sm"><svg class="ic ic-sm"><use href="#i-clock-counter-clockwise"/></svg> Arşiv</button>
       </div>
