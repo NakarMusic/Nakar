@@ -57,7 +57,7 @@ rebuilt from scratch.
 `data/categories.json` — index of all categories, each entry has an `id`,
 `ad`, and a `grup` field used to sort categories into page sections:
 - `grup: "tur"` — 6 core genres: turk-pop, anadolu-rock, arabesk, turkuler,
-  turkce-rap, slow-damar.
+  turkce-rap, alternatif-indie.
 - `grup: "yil"` — 5 decade categories: y1980, y1990, y2000, y2010, y2020.
   These are **auto-derived** from the `yil` field across the "tur"
   categories via `tools/build-decades.js` — never hand-curated.

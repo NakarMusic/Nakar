@@ -10,7 +10,7 @@ uzatır (1 → 2 → 4 → 7 → 11 → 16 saniye), toplam 6 hakkın var.
   - **Günlük** — herkesin aynı şarkıyı çözdüğü, 12 saatte bir yenilenen mod. Seri (streak) burada işler.
   - **Sınırsız** — bekleme yok, seçtiğin kategoride istediğin kadar oyna.
   - **Yarış** — 60 saniyede kaç şarkı bilebileceğini test et.
-- **15 kategori** — yıllara göre (1980'ler–2020'ler), türlere göre (Türk Pop, Anadolu Rock, Arabesk, Türküler, Türkçe Rap, Slow & Damar), Dizi Müzikleri (jenerikten diziyi bil), Türkiye Top 100, Yeni Çıkanlar ve Günün Şarkısı.
+- **15 kategori** — yıllara göre (1980'ler–2020'ler), türlere göre (Türk Pop, Anadolu Rock, Arabesk, Türküler, Türkçe Rap, Türk Alternatif Rock & Indie), Dizi Müzikleri (jenerikten diziyi bil), Türkiye Top 100, Yeni Çıkanlar ve Günün Şarkısı.
 - **İpucu sistemi** — her harcanan hak sırayla bir ipucu açar: kelime sayısı, ilk harf, dönem, sanatçı adı, baş harfler.
 - Günlük seri, istatistik paneli, başarımlar, arşiv (kaçırılan günlük şarkıları oynama) ve sonucu tek dokunuşla paylaşma / arkadaşa meydan okuma linki.
 

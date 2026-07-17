@@ -104,53 +104,53 @@
     {
       "deezerId": 1984158,
       "baslik": "Sarhoş",
-      "sanatci": "Aşık Mahzuni Şerif"
+      "sanatci": "Mahzuni Şerif"
     },
     {
       "deezerId": 84875379,
       "baslik": "Merdo",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 2001
     },
     {
       "deezerId": 925031332,
       "baslik": "Zevzek",
-      "sanatci": "Aşık Mahzuni Şerif"
+      "sanatci": "Mahzuni Şerif"
     },
     {
       "deezerId": 779297792,
       "baslik": "Ciğer Parem",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 2002
     },
     {
       "deezerId": 65421952,
       "baslik": "Dumanlı Dumanlı",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 1998
     },
     {
       "deezerId": 64048572,
       "baslik": "Dostum Dostum",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 2002
     },
     {
       "deezerId": 114163932,
       "baslik": "Zalımın Zülmü Varsa",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 1997
     },
     {
       "deezerId": 84875375,
       "baslik": "Halim Yaman Böyle",
-      "sanatci": "Aşık Mahzuni Şerif",
+      "sanatci": "Mahzuni Şerif",
       "yil": 2001
     },
     {
       "deezerId": 1296252,
       "baslik": "Mamudo Kurban",
-      "sanatci": "Aşık Mahzuni Şerif"
+      "sanatci": "Mahzuni Şerif"
     },
     {
       "deezerId": 66158137,
@@ -315,60 +315,6 @@
       "yil": 2003
     },
     {
-      "deezerId": 79076590,
-      "baslik": "Avare",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 1989
-    },
-    {
-      "deezerId": 100765322,
-      "baslik": "He Güley",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 1976
-    },
-    {
-      "deezerId": 1790388897,
-      "baslik": "Leyla",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 2022
-    },
-    {
-      "deezerId": 10248825,
-      "baslik": "Odasına Vardım Kahve Pişirir",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 2010
-    },
-    {
-      "deezerId": 75059231,
-      "baslik": "Erzurum'da Çevirdiler",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 1994
-    },
-    {
-      "deezerId": 100765328,
-      "baslik": "Hele Yar Zalim Yar",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 1976
-    },
-    {
-      "deezerId": 86149337,
-      "baslik": "Maden Dağı Dumandı",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 2014
-    },
-    {
-      "deezerId": 1790388937,
-      "baslik": "Köyüm",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 2022
-    },
-    {
-      "deezerId": 2009214237,
-      "baslik": "Açıl Ey Ömrümün Varı",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 2022
-    },
-    {
       "deezerId": 445354042,
       "baslik": "Ağlasam Mı",
       "sanatci": "Erdal Erzincan",
@@ -468,42 +414,6 @@
       "baslik": "Cumbullu",
       "sanatci": "Belkıs Akkale",
       "yil": 2014
-    },
-    {
-      "deezerId": 3275220091,
-      "baslik": "Saçlarını Taramışsın",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 2012
-    },
-    {
-      "deezerId": 3244342701,
-      "baslik": "Sensiz Yapamam",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 2007
-    },
-    {
-      "deezerId": 3278832611,
-      "baslik": "Turnalara Tutun Da Gel",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 2006
-    },
-    {
-      "deezerId": 3282022401,
-      "baslik": "Kara Tren",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 1999
-    },
-    {
-      "deezerId": 3263690661,
-      "baslik": "Ela Gözlüm",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 2014
-    },
-    {
-      "deezerId": 3244511501,
-      "baslik": "Tanrıdan Diledim",
-      "sanatci": "Yavuz Bingöl",
-      "yil": 2000
     },
     {
       "deezerId": 97211344,
@@ -650,40 +560,460 @@
       "yil": 2014
     },
     {
-      "deezerId": 7613209,
-      "baslik": "Kara Yazı",
-      "sanatci": "Ahmet Kaya",
-      "yil": 1993
-    },
-    {
-      "deezerId": 7613236,
-      "baslik": "Nereden Bileceksiniz",
-      "sanatci": "Ahmet Kaya",
+      "deezerId": 1953525,
+      "baslik": "Gönül Ne Gezersin",
+      "sanatci": "Muharrem Ertaş",
       "yil": 1998
     },
     {
-      "deezerId": 3679203822,
-      "baslik": "Gaş Sabah",
-      "sanatci": "Ahmet Kaya",
-      "yil": 2025
-    },
-    {
-      "deezerId": 3679203872,
-      "baslik": "Şiire Gazele",
-      "sanatci": "Ahmet Kaya",
-      "yil": 2025
-    },
-    {
-      "deezerId": 3679203812,
-      "baslik": "Kendine İyi Bak",
-      "sanatci": "Ahmet Kaya",
-      "yil": 2025
-    },
-    {
-      "deezerId": 7613242,
-      "baslik": "Söyle",
-      "sanatci": "Ahmet Kaya",
+      "deezerId": 1953547,
+      "baslik": "Giderim Giderim",
+      "sanatci": "Muharrem Ertaş",
       "yil": 1998
+    },
+    {
+      "deezerId": 71246657,
+      "baslik": "Doğar Yaz Ayları",
+      "sanatci": "Çekiç Ali",
+      "yil": 1999
+    },
+    {
+      "deezerId": 66260978,
+      "baslik": "Sarı Yazma Yakışmazmı Güzele",
+      "sanatci": "Çekiç Ali",
+      "yil": 1991
+    },
+    {
+      "deezerId": 66192557,
+      "baslik": "Sürüler İçinde - Aşağıdan Gelir Gelinin Göçü",
+      "sanatci": "Hacı Taşan",
+      "yil": 2010
+    },
+    {
+      "deezerId": 98310774,
+      "baslik": "Kırşehir'e Deyiş",
+      "sanatci": "Hacı Taşan",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1369569842,
+      "baslik": "Adaletin Bu mu Dünya",
+      "sanatci": "Selda Bağcan",
+      "yil": 1995
+    },
+    {
+      "deezerId": 1369393252,
+      "baslik": "Yürüyorum Dikenlerin Üstünde",
+      "sanatci": "Selda Bağcan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 89700287,
+      "baslik": "Ben Seni Sevduğumi",
+      "sanatci": "Kazım Koyuncu",
+      "yil": 2004
+    },
+    {
+      "deezerId": 89700297,
+      "baslik": "Gelevera Deresi",
+      "sanatci": "Kazım Koyuncu",
+      "yil": 2004
+    },
+    {
+      "deezerId": 83978889,
+      "baslik": "Derdim Çoktur Hangisine Yanayım",
+      "sanatci": "Erkan Oğur",
+      "yil": 1998
+    },
+    {
+      "deezerId": 1950005,
+      "baslik": "Karşıda Görünen Ne Güzel Yayla",
+      "sanatci": "Erkan Oğur",
+      "yil": 2000
+    },
+    {
+      "deezerId": 617344042,
+      "baslik": "Halimem (Çukur Dizi Müziği)",
+      "sanatci": "Zara",
+      "yil": 2019
+    },
+    {
+      "deezerId": 481500652,
+      "baslik": "Dostum Dostum",
+      "sanatci": "Zara",
+      "yil": 2018
+    },
+    {
+      "deezerId": 1281648,
+      "baslik": "Bir Ay Doğar",
+      "sanatci": "Cengiz Özkan",
+      "yil": 2000
+    },
+    {
+      "deezerId": 111348048,
+      "baslik": "Değme Felek",
+      "sanatci": "Cengiz Özkan",
+      "yil": 2015
+    },
+    {
+      "deezerId": 92840524,
+      "baslik": "Gönlüm Hoş Değil",
+      "sanatci": "Muhlis Akarsu",
+      "yil": 2006
+    },
+    {
+      "deezerId": 74018950,
+      "baslik": "Dokunsalar Ağlar Oldum",
+      "sanatci": "Muhlis Akarsu",
+      "yil": 2013
+    },
+    {
+      "deezerId": 3334863001,
+      "baslik": "Avrupa'nın Medeniyeti",
+      "sanatci": "Aşık Reyhani",
+      "yil": 2006
+    },
+    {
+      "deezerId": 1467450942,
+      "baslik": "Adına Türk Diyorlar",
+      "sanatci": "Aşık Reyhani",
+      "yil": 1976
+    },
+    {
+      "deezerId": 2420920865,
+      "baslik": "Vardım Kırklar Kapısına",
+      "sanatci": "Davut Sulari",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2420920845,
+      "baslik": "Bugün Dostun Pazarında",
+      "sanatci": "Davut Sulari",
+      "yil": 2023
+    },
+    {
+      "deezerId": 68109932,
+      "baslik": "Sevda Vadisi",
+      "sanatci": "Ali Akbar Çiçek",
+      "yil": 2005
+    },
+    {
+      "deezerId": 67726845,
+      "baslik": "Haydar Haydar",
+      "sanatci": "Ali Akbar Çiçek",
+      "yil": 1999
+    },
+    {
+      "deezerId": 81855588,
+      "baslik": "Güzel Aşık Cevremizi",
+      "sanatci": "Ruhi Su",
+      "yil": 1994
+    },
+    {
+      "deezerId": 81855572,
+      "baslik": "Seherde Bir Bağa Girdim",
+      "sanatci": "Ruhi Su",
+      "yil": 1994
+    },
+    {
+      "deezerId": 445354882,
+      "baslik": "Garip Başa Karlar Yağar",
+      "sanatci": "Tolga Sağ",
+      "yil": 2017
+    },
+    {
+      "deezerId": 445354862,
+      "baslik": "Sözünden Belli",
+      "sanatci": "Tolga Sağ",
+      "yil": 2017
+    },
+    {
+      "deezerId": 144369690,
+      "baslik": "Şu Yalan Dünyaya",
+      "sanatci": "Yılmaz Çelik",
+      "yil": 2017
+    },
+    {
+      "deezerId": 66445104,
+      "baslik": "Biya Duri",
+      "sanatci": "Yılmaz Çelik",
+      "yil": 2008
+    },
+    {
+      "deezerId": 6812206,
+      "baslik": "Gücüm Yetene Kadar",
+      "sanatci": "Şükriye Tutkun",
+      "yil": 2010
+    },
+    {
+      "deezerId": 7323642,
+      "baslik": "Bahçede Erik Dalı",
+      "sanatci": "Şükriye Tutkun",
+      "yil": 2010
+    },
+    {
+      "deezerId": 144372708,
+      "baslik": "Hastane Önünde İncir Ağacı",
+      "sanatci": "Hüseyin Turan",
+      "yil": 2017
+    },
+    {
+      "deezerId": 1284544712,
+      "baslik": "Ah Le Yar",
+      "sanatci": "Hüseyin Turan",
+      "yil": 2016
+    },
+    {
+      "deezerId": 76812275,
+      "baslik": "Aldırma Gönül",
+      "sanatci": "Edip Akbayram",
+      "yil": 2014
+    },
+    {
+      "deezerId": 3279067231,
+      "baslik": "Seni Seven Öldü (Haberin Var Mı)",
+      "sanatci": "Edip Akbayram",
+      "yil": 2012
+    },
+    {
+      "deezerId": 17999488,
+      "baslik": "Deniz Üstünde Fener",
+      "sanatci": "Selçuk Balcı",
+      "yil": 2011
+    },
+    {
+      "deezerId": 123857066,
+      "baslik": "Kız Sallana Sallana",
+      "sanatci": "Selçuk Balcı",
+      "yil": 2016
+    },
+    {
+      "deezerId": 144372652,
+      "baslik": "Gümüşhane Kızlari",
+      "sanatci": "Resul Dindar",
+      "yil": 2017
+    },
+    {
+      "deezerId": 4096902511,
+      "baslik": "Benim Sevdam",
+      "sanatci": "Resul Dindar",
+      "yil": 2026
+    },
+    {
+      "deezerId": 2529665321,
+      "baslik": "Rapatma 4",
+      "sanatci": "Fuat Saka",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1954033,
+      "baslik": "Meryem Ana Deresi",
+      "sanatci": "Fuat Saka",
+      "yil": 2000
+    },
+    {
+      "deezerId": 3350849031,
+      "baslik": "Emri Olur",
+      "sanatci": "İmera",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3374043341,
+      "baslik": "Vazgeçtim",
+      "sanatci": "İmera",
+      "yil": 2017
+    },
+    {
+      "deezerId": 63831231,
+      "baslik": "Sevduğum",
+      "sanatci": "Marsis",
+      "yil": 2014
+    },
+    {
+      "deezerId": 63886936,
+      "baslik": "Nana",
+      "sanatci": "Marsis",
+      "yil": 2012
+    },
+    {
+      "deezerId": 63837573,
+      "baslik": "Nayino",
+      "sanatci": "Karmate",
+      "yil": 2010
+    },
+    {
+      "deezerId": 63837572,
+      "baslik": "Yağmur",
+      "sanatci": "Karmate",
+      "yil": 2010
+    },
+    {
+      "deezerId": 87519043,
+      "baslik": "Şu Tonya'nın Başına",
+      "sanatci": "Canan Çal",
+      "yil": 2014
+    },
+    {
+      "deezerId": 95009684,
+      "baslik": "Al Basmadan Donu Var",
+      "sanatci": "Canan Çal",
+      "yil": 2015
+    },
+    {
+      "deezerId": 620777542,
+      "baslik": "Ruhumda Sızı",
+      "sanatci": "Ender Balkır",
+      "yil": 2019
+    },
+    {
+      "deezerId": 67698644,
+      "baslik": "Yollar Seni Gide Gide Usandım",
+      "sanatci": "Ender Balkır",
+      "yil": 2013
+    },
+    {
+      "deezerId": 80739544,
+      "baslik": "Saklımdasın",
+      "sanatci": "Erdal Güney",
+      "yil": 2005
+    },
+    {
+      "deezerId": 81990474,
+      "baslik": "Bozdoğan",
+      "sanatci": "Erdal Güney",
+      "yil": 2011
+    },
+    {
+      "deezerId": 111681442,
+      "baslik": "Kaynayan Kazan",
+      "sanatci": "İlkay Akkaya",
+      "yil": 2015
+    },
+    {
+      "deezerId": 138184725,
+      "baslik": "Kaynayan Kazan Taşmaz Mı?",
+      "sanatci": "İlkay Akkaya",
+      "yil": 2016
+    },
+    {
+      "deezerId": 17999286,
+      "baslik": "Sıyrılıp Gelen",
+      "sanatci": "Grup Yorum",
+      "yil": 1996
+    },
+    {
+      "deezerId": 17999284,
+      "baslik": "Hüz'nün Hicran Olur",
+      "sanatci": "Grup Yorum",
+      "yil": 1996
+    },
+    {
+      "deezerId": 1678100047,
+      "baslik": "Telli Telli",
+      "sanatci": "Yeni Türkü",
+      "yil": 1983
+    },
+    {
+      "deezerId": 1678088737,
+      "baslik": "Başka Türlü Bir Şey",
+      "sanatci": "Yeni Türkü",
+      "yil": 1986
+    },
+    {
+      "deezerId": 863779392,
+      "baslik": "Sen Benden Gittin Gideli",
+      "sanatci": "Mazlum Çimen",
+      "yil": 2020
+    },
+    {
+      "deezerId": 82062900,
+      "baslik": "Feryadı İsyanım",
+      "sanatci": "Mazlum Çimen",
+      "yil": 2002
+    },
+    {
+      "deezerId": 133720814,
+      "baslik": "Niye Çattın Kaşlarını",
+      "sanatci": "Bedia Akartürk",
+      "yil": 2016
+    },
+    {
+      "deezerId": 3138393351,
+      "baslik": "Tokat Yaylası",
+      "sanatci": "Bedia Akartürk",
+      "yil": 2016
+    },
+    {
+      "deezerId": 64343612,
+      "baslik": "On Beşli",
+      "sanatci": "Nida Tüfekçi",
+      "yil": 2015
+    },
+    {
+      "deezerId": 86152657,
+      "baslik": "Ben Derdimi Döksem Gülşen Bağı'na",
+      "sanatci": "Nida Tüfekçi",
+      "yil": 2014
+    },
+    {
+      "deezerId": 3290697701,
+      "baslik": "Merzifon Oyun Havası",
+      "sanatci": "Neriman Altındağ",
+      "yil": 2021
+    },
+    {
+      "deezerId": 3290697711,
+      "baslik": "Yörük Kızı",
+      "sanatci": "Neriman Altındağ",
+      "yil": 2021
+    },
+    {
+      "deezerId": 73793840,
+      "baslik": "Sobalarında Kuru da Meşe Yanıyor",
+      "sanatci": "Özay Gönlüm",
+      "yil": 2014
+    },
+    {
+      "deezerId": 581278402,
+      "baslik": "Tepsi Tepsi Fındık",
+      "sanatci": "Özay Gönlüm",
+      "yil": 2018
+    },
+    {
+      "deezerId": 463094072,
+      "baslik": "Gel Hele",
+      "sanatci": "Necla Akben",
+      "yil": 1989
+    },
+    {
+      "deezerId": 3353973721,
+      "baslik": "Giderim Kırağınan",
+      "sanatci": "Necla Akben",
+      "yil": 2023
+    },
+    {
+      "deezerId": 674861692,
+      "baslik": "Değmen Benim Gamlı Yaslı",
+      "sanatci": "Gülay",
+      "yil": 2019
+    },
+    {
+      "deezerId": 465395322,
+      "baslik": "Hey Onbeşli",
+      "sanatci": "Gülay",
+      "yil": 2018
+    },
+    {
+      "deezerId": 82062360,
+      "baslik": "İki Keklik",
+      "sanatci": "Orhan Hakalmaz",
+      "yil": 1999
+    },
+    {
+      "deezerId": 1268552642,
+      "baslik": "Kara Tren",
+      "sanatci": "Orhan Hakalmaz",
+      "yil": 2021
     }
   ]
 }

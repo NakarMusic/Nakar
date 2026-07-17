@@ -7,7 +7,9 @@
 // Excluded from scanning: gunun.json (already a cross-genre sample of the
 // others — including it would just double-count), dizi-muzikleri.json
 // (Dizi Müzikleri is a standalone category — its jenerikler must not also
-// surface in a random decade round), any *.draft.json, and any existing
+// surface in a random decade round), turkiye-top-100.json and
+// yeni-cikanlar.json (both "diger" categories, not part of the 6 "tur"
+// genres that decades are derived from), any *.draft.json, and any existing
 // y19xx/y20xx decade file (so re-running this script doesn't fold decade
 // output back into itself).
 //
@@ -23,7 +25,13 @@ const path = require("path");
 const DATA_DIR = path.resolve(__dirname, "..", "data");
 const DECADES = [1980, 1990, 2000, 2010, 2020];
 const DECADE_NAMES = { 1980: "1980'ler", 1990: "1990'lar", 2000: "2000'ler", 2010: "2010'lar", 2020: "2020'ler" };
-const EXCLUDED_SOURCE_FILES = new Set(["gunun.json", "categories.json", "dizi-muzikleri.json"]);
+const EXCLUDED_SOURCE_FILES = new Set([
+  "gunun.json",
+  "categories.json",
+  "dizi-muzikleri.json",
+  "turkiye-top-100.json",
+  "yeni-cikanlar.json",
+]);
 
 function isDecadeFile(filename) {
   return DECADES.some((d) => filename === `y${d}.json`);

@@ -9,12 +9,6 @@
       "yil": 1980
     },
     {
-      "deezerId": 69016726,
-      "baslik": "Büklüm Büklüm",
-      "sanatci": "Ferdi Özbeğen",
-      "yil": 1980
-    },
-    {
       "deezerId": 64957808,
       "baslik": "Vazgeç Gönül",
       "sanatci": "Orhan Gencebay",
@@ -99,18 +93,6 @@
       "yil": 1983
     },
     {
-      "deezerId": 1036883792,
-      "baslik": "Sana Doğru",
-      "sanatci": "Ajda Pekkan",
-      "yil": 1983
-    },
-    {
-      "deezerId": 1036883772,
-      "baslik": "Bir Günah Gibi",
-      "sanatci": "Ajda Pekkan",
-      "yil": 1983
-    },
-    {
       "deezerId": 64957115,
       "baslik": "Al Senin Olsun",
       "sanatci": "Orhan Gencebay",
@@ -123,16 +105,22 @@
       "yil": 1983
     },
     {
-      "deezerId": 106800176,
-      "baslik": "Bir Gülü Sevdim",
-      "sanatci": "Ferdi Özbeğen",
-      "yil": 1986
+      "deezerId": 3857183251,
+      "baslik": "Sildim Seni Kalbimden",
+      "sanatci": "Neşe Karaböcek",
+      "yil": 1985
     },
     {
-      "deezerId": 106057326,
-      "baslik": "Gündüzüm Seninle",
-      "sanatci": "Ferdi Özbeğen",
-      "yil": 1986
+      "deezerId": 1320541,
+      "baslik": "The Ghoul",
+      "sanatci": "Pentagram",
+      "yil": 1985
+    },
+    {
+      "deezerId": 67821764,
+      "baslik": "Tanımam Senden Başka",
+      "sanatci": "Selami Şahin",
+      "yil": 1985
     },
     {
       "deezerId": 6141531,
@@ -231,6 +219,12 @@
       "yil": 1986
     },
     {
+      "deezerId": 1678088737,
+      "baslik": "Başka Türlü Bir Şey",
+      "sanatci": "Yeni Türkü",
+      "yil": 1986
+    },
+    {
       "deezerId": 2401502095,
       "baslik": "Ağlamazsam Uyuyamam",
       "sanatci": "Ferdi Tayfur",
@@ -279,6 +273,12 @@
       "yil": 1987
     },
     {
+      "deezerId": 1348241762,
+      "baslik": "Haberimiz Yok",
+      "sanatci": "Kurtuluş",
+      "yil": 1987
+    },
+    {
       "deezerId": 76250786,
       "baslik": "Canımdan Can İste",
       "sanatci": "Tüdanya",
@@ -300,18 +300,6 @@
       "deezerId": 1909815437,
       "baslik": "Fosforlu Cevriyem",
       "sanatci": "İbrahim Tatlıses",
-      "yil": 1988
-    },
-    {
-      "deezerId": 1678576397,
-      "baslik": "Yağmurun Elleri",
-      "sanatci": "Yeni Türkü",
-      "yil": 1988
-    },
-    {
-      "deezerId": 1678576427,
-      "baslik": "Fırtına",
-      "sanatci": "Yeni Türkü",
       "yil": 1988
     },
     {
@@ -531,12 +519,6 @@
       "yil": 1989
     },
     {
-      "deezerId": 79076590,
-      "baslik": "Avare",
-      "sanatci": "İzzet Altınmeşe",
-      "yil": 1989
-    },
-    {
       "deezerId": 93309604,
       "baslik": "Ecel Olsun",
       "sanatci": "Kibariye",
@@ -552,6 +534,12 @@
       "deezerId": 2338592775,
       "baslik": "O Sen Değilsin",
       "sanatci": "Müslüm Gürses",
+      "yil": 1989
+    },
+    {
+      "deezerId": 463094072,
+      "baslik": "Gel Hele",
+      "sanatci": "Necla Akben",
       "yil": 1989
     },
     {
@@ -612,12 +600,6 @@
       "deezerId": 112836426,
       "baslik": "Bir Şey Varki",
       "sanatci": "Nilüfer",
-      "yil": 1989
-    },
-    {
-      "deezerId": 73891661,
-      "baslik": "Ah Bu Şarkıların Gözü Kör Olsun",
-      "sanatci": "Zeki Müren",
       "yil": 1989
     }
   ]
