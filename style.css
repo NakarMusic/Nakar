@@ -139,6 +139,11 @@ svg.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
   70% { box-shadow: 0 0 0 16px transparent, 0 0 22px color-mix(in oklab, var(--color-accent) 30%, transparent); }
   100% { box-shadow: 0 0 0 0 transparent, 0 0 22px color-mix(in oklab, var(--color-accent) 30%, transparent); }
 }
+@keyframes nakarSpotlightPulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-accent) 55%, transparent); }
+  70% { box-shadow: 0 0 0 10px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
 @keyframes nakarConfetti { 0% { transform: translateY(-6vh) rotate(0deg); } 100% { transform: translateY(108vh) rotate(720deg); } }
 @keyframes nakarFadeUp { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
 @keyframes nakarTick { from { opacity: 0.15; transform: translateY(-7px); } to { opacity: 1; transform: none; } }
@@ -367,6 +372,12 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 #play-spotlight-bubble::after {
   content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
   border: 6px solid transparent; border-top-color: var(--color-accent-700);
+}
+#guess-input.spotlight-pulse, #btn-skip.spotlight-pulse { animation: nakarSpotlightPulse 1.6s ease-out infinite; }
+#spotlight2-bubble {
+  align-self: center; background: var(--color-accent-900); border: 1px solid var(--color-accent-700);
+  color: var(--color-accent-100); font-size: 12.5px; font-weight: 500; text-align: center;
+  padding: 6px 12px; border-radius: 999px; box-shadow: var(--shadow-md);
 }
 .ic-play { width: 24px; height: 24px; fill: var(--color-accent-100); }
 #time-label { font-size: 12.5px; color: var(--color-neutral-400); justify-self: end; }

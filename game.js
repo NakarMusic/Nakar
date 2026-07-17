@@ -27,7 +27,8 @@
     favs: 'nakar-favs-v1',
     ach: 'nakar-ach-v1',
     seen: 'nakar-seen',
-    spotlightSeen: 'nakar-spotlight-seen'
+    spotlightSeen: 'nakar-spotlight-seen',
+    spotlight2Seen: 'nakar-spotlight2-seen'
   };
 
   var CAT_ICONS = {
@@ -239,6 +240,8 @@
   var rafId = 0;
   var toastTimer = 0;
   var spotlightTimer = 0;
+  var spotlight2Timer = 0;
+  var spotlight1Active = false;
 
   function pool() { return state.songs[state.catId] || []; }
   function target() { var p = pool(); return p[state.targetIdx % p.length]; }
@@ -436,6 +439,7 @@
     try { seen = localStorage.getItem(LS.spotlightSeen); } catch (e) { }
     if (seen) return;
     try { localStorage.setItem(LS.spotlightSeen, '1'); } catch (e) { }
+    spotlight1Active = true;
     $('btn-play').classList.add('spotlight');
     show($('play-spotlight-bubble'), true);
     spotlightTimer = setTimeout(dismissSpotlight, 9000);
@@ -445,6 +449,37 @@
     clearTimeout(spotlightTimer);
     $('btn-play').classList.remove('spotlight');
     show($('play-spotlight-bubble'), false);
+    if (spotlight1Active) {
+      spotlight1Active = false;
+      maybeShowSpotlight2(400);
+    }
+  }
+
+  /* ═══════════ ilk ziyaret: tahmin/atla spotlight'ı (2. adım) ═══════════ */
+  function maybeShowSpotlight2(delay) {
+    var seen = null;
+    try { seen = localStorage.getItem(LS.spotlight2Seen); } catch (e) { }
+    if (seen) return;
+    if (state.guesses.length > 0) return; // kullanıcı zaten tahmin etti ya da atladı
+    setTimeout(showSpotlight2, delay || 0);
+  }
+
+  function showSpotlight2() {
+    var seen = null;
+    try { seen = localStorage.getItem(LS.spotlight2Seen); } catch (e) { }
+    if (seen || state.guesses.length > 0) return;
+    try { localStorage.setItem(LS.spotlight2Seen, '1'); } catch (e) { }
+    $('guess-input').classList.add('spotlight-pulse');
+    $('btn-skip').classList.add('spotlight-pulse');
+    show($('spotlight2-bubble'), true);
+    spotlight2Timer = setTimeout(dismissSpotlight2, 10000);
+  }
+
+  function dismissSpotlight2() {
+    clearTimeout(spotlight2Timer);
+    $('guess-input').classList.remove('spotlight-pulse');
+    $('btn-skip').classList.remove('spotlight-pulse');
+    show($('spotlight2-bubble'), false);
   }
 
   function updateProgress(t) {
@@ -569,6 +604,7 @@
 
   /* ═══════════ tahmin mekaniği ═══════════ */
   function submitGuess() {
+    dismissSpotlight2();
     if (state.done || state.selected === null) return;
     var guess = pool()[state.selected];
     if (!guess) return;
@@ -614,6 +650,7 @@
   }
 
   function skip() {
+    dismissSpotlight2();
     if (state.done) return;
     if (state.roundType === 'rush') { nextRushSong(); renderAll(); return; }
     var delta = UNLOCKS[Math.min(state.guesses.length + 1, 5)] - unlockedSec();
