@@ -134,6 +134,11 @@ svg.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 @keyframes nakarFlashWrong { 0% { background: oklch(32% 0.09 20); } 100% { background: var(--color-neutral-900); } }
 @keyframes nakarPop { 0% { opacity: 0; transform: scale(0.92) translateY(10px); } 60% { transform: scale(1.015); } 100% { opacity: 1; transform: none; } }
 @keyframes nakarRing { 0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-accent) 45%, transparent); } 70% { box-shadow: 0 0 0 18px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+@keyframes nakarSpotlightRing {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-accent) 55%, transparent), 0 0 22px color-mix(in oklab, var(--color-accent) 30%, transparent); }
+  70% { box-shadow: 0 0 0 16px transparent, 0 0 22px color-mix(in oklab, var(--color-accent) 30%, transparent); }
+  100% { box-shadow: 0 0 0 0 transparent, 0 0 22px color-mix(in oklab, var(--color-accent) 30%, transparent); }
+}
 @keyframes nakarConfetti { 0% { transform: translateY(-6vh) rotate(0deg); } 100% { transform: translateY(108vh) rotate(720deg); } }
 @keyframes nakarFadeUp { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
 @keyframes nakarTick { from { opacity: 0.15; transform: translateY(-7px); } to { opacity: 1; transform: none; } }
@@ -260,6 +265,7 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 #mode-kicker { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent-300); font-weight: 500; }
 #cat-title { margin: 4px 0 0; font-size: 30px; font-weight: 500; letter-spacing: -0.01em; }
 #cat-title-text { display: inline-block; animation: nakarTitle 0.35s ease; }
+#cat-subtitle { margin-top: 3px; font-size: 12.5px; color: var(--color-neutral-400); }
 #daily-countdown { margin-top: 5px; font-size: 12.5px; color: var(--color-neutral-400); display: flex; align-items: center; gap: 5px; justify-content: center; }
 #countdown { color: var(--color-neutral-200); }
 #countdown .tick-digit { display: inline-block; animation: nakarTick 0.3s ease; }
@@ -351,6 +357,17 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 }
 #btn-play:hover { background: var(--color-accent-800); }
 #btn-play.playing { animation: nakarRing 1.4s ease-out infinite; }
+#btn-play.spotlight { animation: nakarSpotlightRing 1.6s ease-out infinite; }
+#play-spotlight-bubble {
+  position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translateX(-50%);
+  background: var(--color-accent-900); border: 1px solid var(--color-accent-700); color: var(--color-accent-100);
+  font-size: 12.5px; font-weight: 500; white-space: nowrap; padding: 6px 12px; border-radius: 999px;
+  box-shadow: var(--shadow-md); z-index: 6; pointer-events: none;
+}
+#play-spotlight-bubble::after {
+  content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  border: 6px solid transparent; border-top-color: var(--color-accent-700);
+}
 .ic-play { width: 24px; height: 24px; fill: var(--color-accent-100); }
 #time-label { font-size: 12.5px; color: var(--color-neutral-400); justify-self: end; }
 #net-error { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; padding: 4px 0; font-size: 13px; color: var(--ok-red); }

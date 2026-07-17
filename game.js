@@ -26,7 +26,8 @@
     prefs: 'nakar-prefs-v1',
     favs: 'nakar-favs-v1',
     ach: 'nakar-ach-v1',
-    seen: 'nakar-seen'
+    seen: 'nakar-seen',
+    spotlightSeen: 'nakar-spotlight-seen'
   };
 
   var CAT_ICONS = {
@@ -237,6 +238,7 @@
   var audio = $('audio');
   var rafId = 0;
   var toastTimer = 0;
+  var spotlightTimer = 0;
 
   function pool() { return state.songs[state.catId] || []; }
   function target() { var p = pool(); return p[state.targetIdx % p.length]; }
@@ -419,6 +421,30 @@
   function togglePlay() {
     if (state.loadingTrack || !state.preview) return;
     if (state.playing) stopPlayback(); else startPlayback(false);
+  }
+
+  /* ═══════════ ilk ziyaret: oynat düğmesi spotlight'ı ═══════════ */
+  function maybeShowSpotlight(delay) {
+    var seen = null;
+    try { seen = localStorage.getItem(LS.spotlightSeen); } catch (e) { }
+    if (seen) return;
+    setTimeout(showSpotlight, delay || 0);
+  }
+
+  function showSpotlight() {
+    var seen = null;
+    try { seen = localStorage.getItem(LS.spotlightSeen); } catch (e) { }
+    if (seen) return;
+    try { localStorage.setItem(LS.spotlightSeen, '1'); } catch (e) { }
+    $('btn-play').classList.add('spotlight');
+    show($('play-spotlight-bubble'), true);
+    spotlightTimer = setTimeout(dismissSpotlight, 9000);
+  }
+
+  function dismissSpotlight() {
+    clearTimeout(spotlightTimer);
+    $('btn-play').classList.remove('spotlight');
+    show($('play-spotlight-bubble'), false);
   }
 
   function updateProgress(t) {
@@ -1267,7 +1293,10 @@
     if (m === $('modal-archive')) renderArchive();
     show(m, true);
   }
-  function closeModal(m) { show(m, false); }
+  function closeModal(m) {
+    show(m, false);
+    if (m === $('modal-help')) maybeShowSpotlight(300);
+  }
 
   function flashToast(msg, ms) {
     $('toast-text').textContent = msg;
@@ -1338,7 +1367,7 @@
     $('seg-unlimited').addEventListener('click', function () { startRound(state.catId, 'unlimited'); });
     $('seg-rush').addEventListener('click', function () { startRound(state.catId, 'rush'); });
 
-    $('btn-play').addEventListener('click', togglePlay);
+    $('btn-play').addEventListener('click', function () { dismissSpotlight(); togglePlay(); });
     $('btn-skip').addEventListener('click', skip);
     $('btn-submit').addEventListener('click', submitGuess);
     $('btn-retry').addEventListener('click', function () {
@@ -1496,6 +1525,9 @@
     if (!seen) {
       try { localStorage.setItem(LS.seen, '1'); } catch (e) { }
       setTimeout(function () { openModal($('modal-help')); }, state.prefs.reduceMotion ? 400 : 1500);
+    } else {
+      // yardım modalı gösterilmeyecek (daha önce görülmüş) — spotlight'ı modalı beklemeden göster
+      maybeShowSpotlight(state.prefs.reduceMotion ? 400 : 1500);
     }
 
     loadInitialData();
