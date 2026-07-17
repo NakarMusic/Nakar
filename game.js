@@ -221,6 +221,7 @@
     cover: null,
     loadingTrack: false,
     playing: false,
+    reachedCap: false,   // önizleme, kilidi açık süreye doğal olarak ulaşıp kendi kendine durdu mu (kullanıcı elle duraklatmadı)
     rushScore: 0,
     rushEnd: 0,
     badge: '',
@@ -382,6 +383,7 @@
     if (audio.currentTime >= cap || audio.ended) {
       audio.pause();
       state.playing = false;
+      state.reachedCap = true; // elle değil, kendi kendine durdu — bir sonraki skip anında 0'a sıfırlanmalı
       renderPlayButton();
       updateProgress(Math.min(audio.currentTime, cap));
       return;
@@ -391,6 +393,7 @@
 
   function startPlayback(fromStart) {
     if (!state.preview) return;
+    state.reachedCap = false;
     if (state.roundType === 'rush' && state.rushEnd === 0) state.rushEnd = Date.now() + RUSH_MS;
     if (audio.src !== state.preview) { audio.src = state.preview; audio.currentTime = 0; }
     if (fromStart || audio.currentTime >= unlockedSec() || audio.ended) {
@@ -408,6 +411,7 @@
   function stopPlayback() {
     audio.pause();
     state.playing = false;
+    state.reachedCap = false; // elle duraklatma — doğal bitiş değil, kaldığı yerden devam etmeli
     cancelAnimationFrame(rafId);
     renderPlayButton();
   }
@@ -574,7 +578,13 @@
     if (state.roundType === 'rush' && state.guesses.length > UNLOCKS.length - 1) {
       state.guesses = state.guesses.slice(-(UNLOCKS.length - 1));
     }
-    // atlama/yanlış çalmayı KESMEZ — sadece sınır uzar, rAF döngüsü yeni sınıra doğru sürer
+    // atlama/yanlış çalmayı KESMEZ — sadece sınır uzar, rAF döngüsü yeni sınıra doğru sürer.
+    // Ama önizleme kullanıcı durdurmadan, kendi kendine eski sınırda durduysa imleç orada
+    // takılı kalmasın — yeni açılan süre için baştan başlasın.
+    if (!state.playing && state.reachedCap) {
+      try { audio.currentTime = 0; } catch (e) { }
+      state.reachedCap = false;
+    }
   }
 
   function skip() {
@@ -1389,6 +1399,7 @@
     $('btn-stats2').addEventListener('click', function () { openModal($('modal-stats')); });
     $('btn-next').addEventListener('click', function () {
       startRound(state.catId, state.roundType === 'rush' ? 'rush' : 'unlimited');
+      window.scrollTo({ top: 0, behavior: state.prefs.reduceMotion ? 'auto' : 'smooth' });
     });
     $('btn-challenge').addEventListener('click', challengeLink);
 
