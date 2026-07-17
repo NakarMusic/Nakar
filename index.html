@@ -173,10 +173,10 @@
 
   <!-- ===================== ÜST BAR ===================== -->
   <header id="topbar">
-    <div class="brand-wrap">
+    <button type="button" id="btn-brand" class="brand-wrap" title="Ana sayfaya dön">
       <span class="brand">Nakar</span>
       <span class="tagline">Türkçe şarkı tahmin oyunu</span>
-    </div>
+    </button>
     <div class="topbar-actions">
       <div id="streak-chip" title="Günlük seri">
         <svg class="ic ic-flame"><use href="#i-flame-f"/></svg><span id="streak-text">0 seri</span>
@@ -211,6 +211,10 @@
           <h1 id="cat-title"><span id="cat-title-text">Günün Şarkısı</span></h1>
           <div id="daily-countdown">
             <svg class="ic ic-sm"><use href="#i-clock"/></svg> Yeni şarkı:&nbsp;<span id="countdown" class="tnum"></span>
+          </div>
+          <div id="solve-counter" class="rush-chip hidden">
+            <svg class="ic ic-sm"><use href="#i-headphones"/></svg>
+            <span id="solve-counter-text"></span>
           </div>
           <div id="rush-chips" class="hidden">
             <span class="rush-chip rush-chip--time"><svg class="ic ic-sm ic-accent"><use href="#i-timer-f"/></svg><span id="rush-time" class="tnum">60</span>&nbsp;sn</span>
@@ -330,10 +334,6 @@
           <div id="summary-text">Bugünkü günlükler: 0/15 oynandı · 0 doğru</div>
           <div class="summary-track"><div id="summary-bar"></div></div>
         </div>
-        <div id="solve-counter" class="rush-chip hidden">
-          <svg class="ic ic-sm"><use href="#i-headphones"/></svg>
-          <span id="solve-counter-text"></span>
-        </div>
         <button type="button" id="btn-archive2" class="btn btn-ghost btn-sm"><svg class="ic ic-sm"><use href="#i-clock-counter-clockwise"/></svg> Arşiv</button>
       </div>
 
@@ -423,35 +423,39 @@
     <section id="faq" class="reveal">
       <h2>Sıkça sorulan sorular</h2>
       <div class="faq-grid">
-        <details class="card faq-item">
-          <summary>Nakar nedir? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Nakar, kısa bir bölümünü dinlediğin Türkçe şarkıyı en az denemede tahmin etmeye çalıştığın ücretsiz bir müzik oyunudur. Ne kadar erken bilirsen skorun o kadar iyidir.</div>
-        </details>
-        <details class="card faq-item">
-          <summary>Günlük ve Sınırsız mod arasındaki fark ne? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Günlük modda şarkı 12 saatte bir yenilenir ve bütün oyuncular aynı şarkıyı tahmin eder; serin (streak) buradan işler. Sınırsız modda ise seçtiğin kategoride bekleme olmadan istediğin kadar oynarsın.
-            <div class="faq-duo">
-              <div class="faq-mini"><svg class="ic ic-sm ic-accent2"><use href="#i-clock"/></svg><span>Günlük · 12 saatte 1 şarkı, herkese aynı</span></div>
-              <div class="faq-mini"><svg class="ic ic-sm ic-accent2"><use href="#i-infinity"/></svg><span>Sınırsız · bekleme yok, rastgele şarkı</span></div>
+        <div class="faq-col">
+          <details class="card faq-item">
+            <summary>Nakar nedir? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Nakar, kısa bir bölümünü dinlediğin Türkçe şarkıyı en az denemede tahmin etmeye çalıştığın ücretsiz bir müzik oyunudur. Ne kadar erken bilirsen skorun o kadar iyidir.</div>
+          </details>
+          <details class="card faq-item">
+            <summary>Günlük ve Sınırsız mod arasındaki fark ne? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Günlük modda şarkı 12 saatte bir yenilenir ve bütün oyuncular aynı şarkıyı tahmin eder; serin (streak) buradan işler. Sınırsız modda ise seçtiğin kategoride bekleme olmadan istediğin kadar oynarsın.
+              <div class="faq-duo">
+                <div class="faq-mini"><svg class="ic ic-sm ic-accent2"><use href="#i-clock"/></svg><span>Günlük · 12 saatte 1 şarkı, herkese aynı</span></div>
+                <div class="faq-mini"><svg class="ic ic-sm ic-accent2"><use href="#i-infinity"/></svg><span>Sınırsız · bekleme yok, rastgele şarkı</span></div>
+              </div>
             </div>
-          </div>
-        </details>
-        <details class="card faq-item">
-          <summary>Şarkı ne zaman değişiyor? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Günlük şarkılar her gün 00.00 ve 12.00'de (Türkiye saati) yenilenir. Yani günde iki kez yeni şarkı gelir — serini korumak için ikisini de oynayabilirsin.</div>
-        </details>
-        <details class="card faq-item">
-          <summary>Nakar ücretsiz mi? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Evet, Nakar tamamen ücretsizdir ve tarayıcı üzerinden mobil ya da masaüstünde oynanabilir.</div>
-        </details>
-        <details class="card faq-item">
-          <summary>Telif hakları konusunda durum ne? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Nakar telifli ses dosyası barındırmaz; klipler lisanslı ve yasal kaynaklar üzerinden, kısa önizleme olarak çalınır. Hak sahiplerinin talepleri için iletişim adresimizden bize ulaşabilirsiniz.</div>
-        </details>
-        <details class="card faq-item">
-          <summary>Şarkı önerebilir miyim? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
-          <div class="faq-body">Tabii! Eklenmesini istediğin şarkıları ve kategorileri iletişim adresimize gönder — listeler düzenli olarak güncellenir.</div>
-        </details>
+          </details>
+          <details class="card faq-item">
+            <summary>Şarkı ne zaman değişiyor? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Günlük şarkılar her gün 00.00 ve 12.00'de (Türkiye saati) yenilenir. Yani günde iki kez yeni şarkı gelir — serini korumak için ikisini de oynayabilirsin.</div>
+          </details>
+        </div>
+        <div class="faq-col">
+          <details class="card faq-item">
+            <summary>Nakar ücretsiz mi? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Evet, Nakar tamamen ücretsizdir ve tarayıcı üzerinden mobil ya da masaüstünde oynanabilir.</div>
+          </details>
+          <details class="card faq-item">
+            <summary>Telif hakları konusunda durum ne? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Nakar telifli ses dosyası barındırmaz; klipler lisanslı ve yasal kaynaklar üzerinden, kısa önizleme olarak çalınır. Hak sahiplerinin talepleri için iletişim adresimizden bize ulaşabilirsiniz.</div>
+          </details>
+          <details class="card faq-item">
+            <summary>Şarkı önerebilir miyim? <svg class="ic ic-sm ic-caret"><use href="#i-caret-down"/></svg></summary>
+            <div class="faq-body">Tabii! Eklenmesini istediğin şarkıları ve kategorileri iletişim adresimize gönder — listeler düzenli olarak güncellenir.</div>
+          </details>
+        </div>
       </div>
     </section>
 
@@ -468,7 +472,7 @@
       <svg class="ic ic-sm ic-accent2"><use href="#i-music-notes-simple-f"/></svg> Nakar © 2026 — Tüm hakları saklıdır
     </div>
     <div class="footer-links">
-      <a href="mailto:contact@nakarmusic.com.tr"><svg class="ic ic-sm"><use href="#i-envelope-simple"/></svg> İletişim &amp; Geri Bildirim</a>
+      <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=contact@nakarmusic.com.tr" target="_blank" rel="noopener"><svg class="ic ic-sm"><use href="#i-envelope-simple"/></svg> İletişim &amp; Geri Bildirim</a>
       <a href="https://www.instagram.com/nakartr/" target="_blank" rel="noopener"><svg class="ic ic-sm"><use href="#i-instagram-logo"/></svg> Instagram</a>
       <a href="https://x.com/nakartr" target="_blank" rel="noopener"><svg class="ic ic-sm"><use href="#i-x-logo"/></svg> X</a>
     </div>
@@ -505,10 +509,34 @@
       <button type="button" class="icon-btn modal-close" title="Kapat"><svg class="ic"><use href="#i-x"/></svg></button>
     </div>
     <div class="help-rows stagger-list">
-      <div class="help-row"><svg class="ic ic-help"><use href="#i-play-circle"/></svg><span><strong>Dinle.</strong> Şarkının ilk 1 saniyesi açık. Oynat'a bas ve dinle.</span></div>
-      <div class="help-row"><svg class="ic ic-help"><use href="#i-skip-forward-circle"/></svg><span><strong>Aç.</strong> Atladıkça veya yanlış tahmin ettikçe süre uzar: 1 → 2 → 4 → 7 → 11 → 16 sn.</span></div>
-      <div class="help-row"><svg class="ic ic-help"><use href="#i-list-magnifying-glass"/></svg><span><strong>Tahmin et.</strong> Yazmaya başla, listeden şarkıyı seç. Toplam 6 hakkın var.</span></div>
-      <div class="help-row"><svg class="ic ic-help"><use href="#i-share-network"/></svg><span><strong>Paylaş.</strong> Skorunu tek dokunuşla kopyala, arkadaşlarına meydan oku.</span></div>
+      <div class="help-row">
+        <span class="help-badge"><svg class="ic ic-help"><use href="#i-play-circle"/></svg></span>
+        <span class="help-text"><strong>Dinle</strong> — ilk 1 saniye açık, Oynat'a bas.</span>
+      </div>
+      <div class="help-row help-row--demo">
+        <span class="help-badge"><svg class="ic ic-help"><use href="#i-skip-forward-circle"/></svg></span>
+        <span class="help-text"><strong>Aç</strong> — atladıkça ya da yanlış bildikçe süre uzar.</span>
+        <div class="help-demo" aria-hidden="true">
+          <div class="help-demo-track">
+            <span class="help-demo-fill"></span>
+            <span class="help-demo-dot seg-pos-0"></span>
+            <span class="help-demo-dot seg-pos-1"></span>
+            <span class="help-demo-dot seg-pos-2"></span>
+            <span class="help-demo-dot seg-pos-3"></span>
+            <span class="help-demo-dot seg-pos-4"></span>
+            <span class="help-demo-dot seg-pos-5"></span>
+          </div>
+          <div class="help-demo-labels"><span>1</span><span>2</span><span>4</span><span>7</span><span>11</span><span>16 sn</span></div>
+        </div>
+      </div>
+      <div class="help-row">
+        <span class="help-badge"><svg class="ic ic-help"><use href="#i-list-magnifying-glass"/></svg></span>
+        <span class="help-text"><strong>Tahmin et</strong> — yaz, listeden seç. 6 hakkın var.</span>
+      </div>
+      <div class="help-row">
+        <span class="help-badge"><svg class="ic ic-help"><use href="#i-share-network"/></svg></span>
+        <span class="help-text"><strong>Paylaş</strong> — skorunu kopyala, arkadaşına meydan oku.</span>
+      </div>
     </div>
     <button type="button" class="btn btn-primary btn-block modal-close">Anladım, oynayalım</button>
   </div>
@@ -560,6 +588,7 @@
 
 <div id="toast" class="hidden"><svg class="ic ic-sm ic-accent"><use href="#i-check-circle"/></svg><span id="toast-text"></span></div>
 <div id="confetti" class="hidden" aria-hidden="true"></div>
+<button type="button" id="btn-scroll-top" title="Yukarı çık" aria-label="Sayfanın başına dön"><svg class="ic"><use href="#i-arrow-right"/></svg></button>
 
 <audio id="audio" preload="none"></audio>
 <script src="game.js"></script>

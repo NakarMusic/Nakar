@@ -13,6 +13,7 @@
   var LAUNCH_PERIOD = 41301;              // lansman günü periyodu (2026-07-16) → paylaşımdaki #N, launch günü #1 verir
   var RUSH_MS = 60000;
   var COUNTER_API = 'https://nakar-counter.bekirerenkeskin.workers.dev';
+  var SOLVE_COUNT_POLL_MS = 25000;
   // Sabit bir domain yerine gerçek barındırma adresinden türetilir — GitHub Pages
   // (kullanici.github.io/nakar/) veya ileride bağlanacak özel bir domain, kod
   // değişikliği gerekmeden doğru şekilde yansır.
@@ -596,14 +597,26 @@
   }
 
   /* ═══════════ günlük çözüm sayacı (Cloudflare Worker) ═══════════ */
+  var solveCountCache = null; // { catId, count } — en son başarılı GET sonucu
+  var lastSolveCountFetch = 0;
+  var solveCountReqId = 0; // periyodik/visibilitychange/manuel istekler çakışırsa yalnızca en yenisi geçerli sayılır
+
   function postSolveCount(catId) {
     fetch(COUNTER_API + '/count/' + encodeURIComponent(catId), { method: 'POST' })
       .catch(function (err) { console.warn('Nakar: çözüm sayacı gönderilemedi — ' + err.message); });
   }
 
-  function fetchSolveCount(catId) {
+  function renderSolveCounter() {
     var box = $('solve-counter');
     if (!box) return;
+    var visible = state.roundType === 'daily' && solveCountCache && solveCountCache.catId === state.catId;
+    if (visible) $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi';
+    show(box, !!visible);
+  }
+
+  function fetchSolveCount(catId) {
+    lastSolveCountFetch = Date.now();
+    var reqId = ++solveCountReqId;
     var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
     var timer = controller ? setTimeout(function () { controller.abort(); }, 5000) : null;
     fetch(COUNTER_API + '/count/' + encodeURIComponent(catId), controller ? { signal: controller.signal } : {})
@@ -613,15 +626,17 @@
       })
       .then(function (data) {
         if (timer) clearTimeout(timer);
-        if (catId !== state.catId) return; // kullanıcı bu arada başka kategoriye geçti
+        if (reqId !== solveCountReqId) return; // bu arada daha yeni bir istek başlatıldı, bu yanıt eskidi
         if (typeof data.count !== 'number') throw new Error('geçersiz yanıt');
-        $('solve-counter-text').textContent = data.count + ' kişi bugün bildi';
-        show(box, true);
+        solveCountCache = { catId: catId, count: data.count };
+        renderSolveCounter();
       })
       .catch(function (err) {
         if (timer) clearTimeout(timer);
         console.warn('Nakar: çözüm sayacı alınamadı — ' + err.message);
-        show(box, false);
+        if (reqId !== solveCountReqId) return;
+        if (solveCountCache && solveCountCache.catId === catId) solveCountCache = null;
+        renderSolveCounter();
       });
   }
 
@@ -923,6 +938,7 @@
     show($('daily-countdown'), state.roundType === 'daily');
     show($('rush-chips'), state.roundType === 'rush' && !state.done);
     renderCountdown();
+    renderSolveCounter();
   }
 
   function renderCountdown() {
@@ -1380,6 +1396,20 @@
     $('btn-help').addEventListener('click', function () { openModal($('modal-help')); });
     $('btn-menu').addEventListener('click', function (e) { e.stopPropagation(); toggleMenu(); });
 
+    $('btn-brand').addEventListener('click', function () {
+      document.querySelectorAll('.dialog-backdrop').forEach(function (m) { closeModal(m); });
+      toggleMenu(false);
+      startRound('gunun', 'daily');
+      window.scrollTo({ top: 0, behavior: state.prefs.reduceMotion ? 'auto' : 'smooth' });
+    });
+
+    $('btn-scroll-top').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: state.prefs.reduceMotion ? 'auto' : 'smooth' });
+    });
+    window.addEventListener('scroll', function () {
+      $('btn-scroll-top').classList.toggle('visible', window.scrollY > 480);
+    }, { passive: true });
+
     // dizi banner
     $('dizi-banner').addEventListener('click', function () {
       startRound('dizi-muzikleri', state.mode);
@@ -1406,6 +1436,10 @@
     });
 
     window.addEventListener('resize', onResize);
+
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden && state.roundType === 'daily') fetchSolveCount(state.catId);
+    });
   }
 
   /* ═══════════ saat döngüsü ═══════════ */
@@ -1414,6 +1448,9 @@
     renderCountdown();
     if (state.roundType === 'rush' && !state.done && state.rushEnd > 0 && Date.now() >= state.rushEnd) {
       finishRush();
+    }
+    if (state.roundType === 'daily' && !state.done && Date.now() - lastSolveCountFetch >= SOLVE_COUNT_POLL_MS) {
+      fetchSolveCount(state.catId);
     }
     var p = curPeriod();
     if (p !== lastPeriodSeen) {
