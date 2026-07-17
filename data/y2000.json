@@ -15,9 +15,33 @@
       "yil": 2000
     },
     {
+      "deezerId": 3463715851,
+      "baslik": "Annem",
+      "sanatci": "Candan Erçetin",
+      "yil": 2000
+    },
+    {
+      "deezerId": 3463715741,
+      "baslik": "Elbette",
+      "sanatci": "Candan Erçetin",
+      "yil": 2000
+    },
+    {
       "deezerId": 3275321761,
       "baslik": "İhtiyacı Var (Hayatı Seninle Sevmek)",
       "sanatci": "Emrah",
+      "yil": 2000
+    },
+    {
+      "deezerId": 66192631,
+      "baslik": "Gülüm",
+      "sanatci": "Kıvırcık Ali",
+      "yil": 2000
+    },
+    {
+      "deezerId": 66192629,
+      "baslik": "Isırgan Otu",
+      "sanatci": "Kıvırcık Ali",
       "yil": 2000
     },
     {
@@ -54,6 +78,18 @@
       "deezerId": 361363301,
       "baslik": "Ey Hayat",
       "sanatci": "Onur Akın",
+      "yil": 2000
+    },
+    {
+      "deezerId": 105545596,
+      "baslik": "Gidesim Gelmiyor",
+      "sanatci": "Reyhan Karaca",
+      "yil": 2000
+    },
+    {
+      "deezerId": 105545600,
+      "baslik": "İki Gözüm",
+      "sanatci": "Reyhan Karaca",
       "yil": 2000
     },
     {
@@ -168,6 +204,12 @@
       "deezerId": 128750147,
       "baslik": "Aman Aman",
       "sanatci": "Berdan Mardini",
+      "yil": 2002
+    },
+    {
+      "deezerId": 3463846141,
+      "baslik": "Gamsız Hayat",
+      "sanatci": "Candan Erçetin",
       "yil": 2002
     },
     {
@@ -309,6 +351,12 @@
       "yil": 2004
     },
     {
+      "deezerId": 68055022,
+      "baslik": "Şehir",
+      "sanatci": "Candan Erçetin",
+      "yil": 2004
+    },
+    {
       "deezerId": 98910200,
       "baslik": "Neyim Var Ki",
       "sanatci": "Ceza",
@@ -363,6 +411,12 @@
       "yil": 2004
     },
     {
+      "deezerId": 66369426,
+      "baslik": "Diyardan Diyara",
+      "sanatci": "Kıvırcık Ali",
+      "yil": 2004
+    },
+    {
       "deezerId": 74585229,
       "baslik": "Dursun Zaman",
       "sanatci": "maNga",
@@ -399,6 +453,12 @@
       "yil": 2004
     },
     {
+      "deezerId": 1354829772,
+      "baslik": "Diğer Yarım",
+      "sanatci": "Murat Göğebakan",
+      "yil": 2004
+    },
+    {
       "deezerId": 71571572,
       "baslik": "Ben Aptal mıyım",
       "sanatci": "Nil Karaibrahimgil",
@@ -420,6 +480,12 @@
       "deezerId": 63833975,
       "baslik": "Efendiler Bağı",
       "sanatci": "Arif Sağ",
+      "yil": 2005
+    },
+    {
+      "deezerId": 655035432,
+      "baslik": "Hayata Küstüm",
+      "sanatci": "Cash Flow",
       "yil": 2005
     },
     {
@@ -567,6 +633,12 @@
       "yil": 2006
     },
     {
+      "deezerId": 66133980,
+      "baslik": "Ah Gardaş",
+      "sanatci": "Kıvırcık Ali",
+      "yil": 2006
+    },
+    {
       "deezerId": 66173414,
       "baslik": "Gülümse Kaderine",
       "sanatci": "Kibariye",
@@ -612,6 +684,12 @@
       "deezerId": 549640,
       "baslik": "Pırlanta",
       "sanatci": "Nil Karaibrahimgil",
+      "yil": 2006
+    },
+    {
+      "deezerId": 7168128,
+      "baslik": "Hele Bi Gel",
+      "sanatci": "Pinhani",
       "yil": 2006
     },
     {
@@ -729,6 +807,24 @@
       "yil": 2007
     },
     {
+      "deezerId": 80734162,
+      "baslik": "Bak",
+      "sanatci": "Pilli Bebek",
+      "yil": 2007
+    },
+    {
+      "deezerId": 80734172,
+      "baslik": "Olsun",
+      "sanatci": "Pilli Bebek",
+      "yil": 2007
+    },
+    {
+      "deezerId": 80734166,
+      "baslik": "Uzun Geceler",
+      "sanatci": "Pilli Bebek",
+      "yil": 2007
+    },
+    {
       "deezerId": 66156312,
       "baslik": "Çakmak Çakmak",
       "sanatci": "Sıbel Can",
@@ -771,6 +867,12 @@
       "yil": 2008
     },
     {
+      "deezerId": 2665818,
+      "baslik": "Kalbe Ben",
+      "sanatci": "Ayşe Hatun Onal",
+      "yil": 2008
+    },
+    {
       "deezerId": 3241147531,
       "baslik": "Hazırmısın",
       "sanatci": "Berdan Mardini",
@@ -792,6 +894,18 @@
       "deezerId": 13256535,
       "baslik": "Beni Bırakma",
       "sanatci": "Feridun Düzağaç",
+      "yil": 2008
+    },
+    {
+      "deezerId": 854450622,
+      "baslik": "Yanımda Sen Olmayınca",
+      "sanatci": "Kıvırcık Ali",
+      "yil": 2008
+    },
+    {
+      "deezerId": 854450642,
+      "baslik": "Bir Selam Sal",
+      "sanatci": "Kıvırcık Ali",
       "yil": 2008
     },
     {
@@ -867,6 +981,12 @@
       "yil": 2009
     },
     {
+      "deezerId": 68055255,
+      "baslik": "Bahar",
+      "sanatci": "Candan Erçetin",
+      "yil": 2009
+    },
+    {
       "deezerId": 3248179321,
       "baslik": "Böyle Kahpedir Dünya",
       "sanatci": "Gripin",
@@ -915,6 +1035,12 @@
       "yil": 2009
     },
     {
+      "deezerId": 3259859551,
+      "baslik": "Bile Bile",
+      "sanatci": "Reyhan Karaca",
+      "yil": 2009
+    },
+    {
       "deezerId": 526600582,
       "baslik": "Pazarlık Olur mu",
       "sanatci": "Sabahat Akkiraz",
@@ -936,6 +1062,12 @@
       "deezerId": 66133616,
       "baslik": "Kıskıvrak",
       "sanatci": "Sıbel Can",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66195044,
+      "baslik": "Biliyormusun",
+      "sanatci": "Tan Taşçı",
       "yil": 2009
     },
     {

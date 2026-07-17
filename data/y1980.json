@@ -9,6 +9,12 @@
       "yil": 1980
     },
     {
+      "deezerId": 69016726,
+      "baslik": "Büklüm Büklüm",
+      "sanatci": "Ferdi Özbeğen",
+      "yil": 1980
+    },
+    {
       "deezerId": 64957808,
       "baslik": "Vazgeç Gönül",
       "sanatci": "Orhan Gencebay",
@@ -117,6 +123,18 @@
       "yil": 1983
     },
     {
+      "deezerId": 106800176,
+      "baslik": "Bir Gülü Sevdim",
+      "sanatci": "Ferdi Özbeğen",
+      "yil": 1986
+    },
+    {
+      "deezerId": 106057326,
+      "baslik": "Gündüzüm Seninle",
+      "sanatci": "Ferdi Özbeğen",
+      "yil": 1986
+    },
+    {
       "deezerId": 6141531,
       "baslik": "Ben de Özledim",
       "sanatci": "Ferdi Tayfur",
@@ -201,6 +219,18 @@
       "yil": 1986
     },
     {
+      "deezerId": 91533208,
+      "baslik": "Güldür Yüzümü",
+      "sanatci": "Tüdanya",
+      "yil": 1986
+    },
+    {
+      "deezerId": 803508332,
+      "baslik": "Seni Sevmeyen Ölsün",
+      "sanatci": "Tüdanya",
+      "yil": 1986
+    },
+    {
       "deezerId": 2401502095,
       "baslik": "Ağlamazsam Uyuyamam",
       "sanatci": "Ferdi Tayfur",
@@ -246,6 +276,18 @@
       "deezerId": 472795732,
       "baslik": "Kader Kurbanıyım",
       "sanatci": "Kibariye",
+      "yil": 1987
+    },
+    {
+      "deezerId": 76250786,
+      "baslik": "Canımdan Can İste",
+      "sanatci": "Tüdanya",
+      "yil": 1987
+    },
+    {
+      "deezerId": 76250781,
+      "baslik": "Anamda Sen Babamda Sen",
+      "sanatci": "Tüdanya",
       "yil": 1987
     },
     {
