@@ -4,3 +4,11 @@ Ekran görüntüsü*.png
 
 # Veri kürasyonundan kalan taslak dosyalar — oyun bunları hiç okumuyor (bkz. categories.json)
 data/*.draft.json
+
+# Yerel API anahtarlari - asla repoya ekleme
+GEMINI_API_KEY.md
+.env
+.env.local
+
+# wrangler CLI yerel önbellek/durum (Miniflare KV emülasyonu, hesap önbelleği)
+.wrangler/

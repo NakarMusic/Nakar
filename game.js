@@ -606,10 +606,14 @@
       .catch(function (err) { console.warn('Nakar: çözüm sayacı gönderilemedi — ' + err.message); });
   }
 
+  function haveSolveCount(catId) {
+    return !!(solveCountCache && solveCountCache.catId === catId);
+  }
+
   function renderSolveCounter() {
     var box = $('solve-counter');
     if (!box) return;
-    var visible = state.roundType === 'daily' && solveCountCache && solveCountCache.catId === state.catId;
+    var visible = state.roundType === 'daily' && haveSolveCount(state.catId);
     if (visible) $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi';
     show(box, !!visible);
   }
@@ -1449,7 +1453,8 @@
     if (state.roundType === 'rush' && !state.done && state.rushEnd > 0 && Date.now() >= state.rushEnd) {
       finishRush();
     }
-    if (state.roundType === 'daily' && !state.done && Date.now() - lastSolveCountFetch >= SOLVE_COUNT_POLL_MS) {
+    if (state.roundType === 'daily' && Date.now() - lastSolveCountFetch >= SOLVE_COUNT_POLL_MS &&
+      (!state.done || !haveSolveCount(state.catId))) {
       fetchSolveCount(state.catId);
     }
     var p = curPeriod();
