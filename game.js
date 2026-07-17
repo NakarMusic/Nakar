@@ -427,8 +427,7 @@
       var dot = $('seg-dot-' + i);
       if (dot) dot.classList.toggle('unlocked', cap >= sec);
     });
-    var maxSec = UNLOCKS[UNLOCKS.length - 1];
-    $('play-marker').style.left = Math.min(100, Math.min(t, cap) / maxSec * 100) + '%';
+    $('play-marker').style.left = Math.min(100, Math.min(t, cap) / total * 100) + '%';
   }
 
   function renderPlayButton() {
@@ -858,63 +857,6 @@
     try {
       navigator.clipboard.writeText(txt).then(done, done);
     } catch (e) { done(); }
-  }
-
-  function scoreImage() {
-    // Canvas metni, DOM'un aksine document.fonts'a yüklenmiş fontları kullanır —
-    // hazır değilse tarayıcı varsayılan sans-serif'e düşer. Çizimden önce garanti et.
-    var ready = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
-    ready.then(drawScoreImage);
-  }
-
-  function drawScoreImage() {
-    var cat = state.cats.find(function (c) { return c.id === state.catId; });
-    var c = document.createElement('canvas');
-    c.width = 800; c.height = 420;
-    var x = c.getContext('2d');
-    x.fillStyle = '#161826'; x.fillRect(0, 0, 800, 420);
-    x.fillStyle = '#9184d9'; x.font = '600 46px "Space Grotesk", sans-serif';
-    x.fillText('Nakar', 60, 96);
-    var modeLabel = state.roundType === 'daily' ? 'Günlük' : state.roundType === 'rush' ? 'Süre Yarışı' :
-      state.roundType === 'archive' ? 'Arşiv' : state.roundType === 'meydan' ? 'Meydan' : 'Sınırsız';
-    x.fillStyle = '#e9e9ed'; x.font = '500 25px Manrope, sans-serif';
-    x.fillText((cat ? cat.ad : '') + ' · ' + modeLabel, 60, 146);
-    function sq(px, py) { x.beginPath(); x.roundRect(px, py, 40, 40, 8); x.fill(); }
-    if (state.done === 'rush') {
-      x.fillStyle = '#9184d9'; x.font = '600 72px "Space Grotesk", sans-serif';
-      x.fillText(state.rushScore + ' şarkı', 60, 250);
-      x.fillStyle = '#9ba0b5'; x.font = '400 24px Manrope, sans-serif';
-      x.fillText('60 saniyede', 60, 292);
-    } else {
-      var cols = { skip: '#3a3f55', wrong: '#c4544a', close: '#c9a34a' };
-      var px = 60;
-      state.guesses.forEach(function (g) { x.fillStyle = cols[g.s] || '#3a3f55'; sq(px, 200); px += 52; });
-      if (state.done === 'win') { x.fillStyle = '#4aa46f'; sq(px, 200); }
-      x.fillStyle = '#e9e9ed'; x.font = '500 26px Manrope, sans-serif';
-      x.fillText(state.done === 'win' ? (state.guesses.length + 1) + '. denemede bildim!' : 'Bu sefer olmadı…', 60, 310);
-    }
-    x.fillStyle = '#9ba0b5'; x.font = '400 20px Manrope, sans-serif';
-    x.fillText(DOMAIN, 60, 380);
-    c.toBlob(function (blob) {
-      if (!blob) return;
-      var file;
-      try { file = new File([blob], 'nakar-skor.png', { type: 'image/png' }); } catch (e) { }
-      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
-        navigator.share({ files: [file] }).catch(function () { downloadBlob(blob); });
-      } else {
-        downloadBlob(blob);
-      }
-    }, 'image/png');
-  }
-
-  function downloadBlob(blob) {
-    var a = document.createElement('a');
-    var url = URL.createObjectURL(blob);
-    a.download = 'nakar-skor.png';
-    a.href = url;
-    a.click();
-    setTimeout(function () { URL.revokeObjectURL(url); }, 5000);
-    flashToast('Skor görseli indirildi');
   }
 
   function challengeLink() {
@@ -1428,7 +1370,6 @@
     $('btn-next').addEventListener('click', function () {
       startRound(state.catId, state.roundType === 'rush' ? 'rush' : 'unlimited');
     });
-    $('btn-score-image').addEventListener('click', scoreImage);
     $('btn-challenge').addEventListener('click', challengeLink);
 
     // üst bar

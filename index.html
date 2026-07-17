@@ -305,14 +305,17 @@
           </div>
         </div>
         <div id="result-detail"></div>
-        <div class="result-actions">
-          <button type="button" id="btn-share" class="btn btn-primary"><svg class="ic ic-sm"><use href="#i-share-network"/></svg> Sonucu Paylaş</button>
-          <button type="button" id="btn-listen-full" class="btn btn-secondary"><svg class="ic ic-sm"><use href="#i-play"/></svg> Tamamını dinle (30 sn)</button>
-          <button type="button" id="btn-stats2" class="btn btn-ghost"><svg class="ic ic-sm"><use href="#i-chart-bar"/></svg> İstatistikler</button>
+        <div class="result-footer">
+          <div class="result-actions result-actions--primary">
+            <button type="button" id="btn-share" class="btn btn-primary"><svg class="ic ic-sm"><use href="#i-share-network"/></svg> Sonucu Paylaş</button>
+            <button type="button" id="btn-next" class="btn btn-secondary hidden"><svg class="ic ic-sm"><use href="#i-arrow-clockwise"/></svg> <span id="next-label">Sonraki Şarkı</span></button>
+          </div>
+          <div class="result-actions result-actions--secondary">
+            <button type="button" id="btn-challenge" class="btn btn-ghost btn-sm"><svg class="ic ic-sm"><use href="#i-sword"/></svg> Meydan Oku</button>
+            <button type="button" id="btn-listen-full" class="btn btn-ghost btn-sm"><svg class="ic ic-sm"><use href="#i-play"/></svg> Tamamını dinle (30 sn)</button>
+            <button type="button" id="btn-stats2" class="btn btn-ghost btn-sm"><svg class="ic ic-sm"><use href="#i-chart-bar"/></svg> İstatistikler</button>
+          </div>
           <div id="result-countdown-box"><svg class="ic ic-sm"><use href="#i-clock"/></svg> Yeni şarkı:&nbsp;<span id="countdown2" class="tnum"></span></div>
-          <button type="button" id="btn-next" class="btn btn-secondary hidden"><svg class="ic ic-sm"><use href="#i-arrow-clockwise"/></svg> <span id="next-label">Sonraki Şarkı</span></button>
-          <button type="button" id="btn-score-image" class="btn btn-ghost"><svg class="ic ic-sm"><use href="#i-download-simple"/></svg> Görseli İndir</button>
-          <button type="button" id="btn-challenge" class="btn btn-ghost"><svg class="ic ic-sm"><use href="#i-sword"/></svg> Meydan Oku</button>
         </div>
       </div>
     </section>
@@ -480,17 +483,17 @@
       <button type="button" class="icon-btn modal-close" title="Kapat"><svg class="ic"><use href="#i-x"/></svg></button>
     </div>
     <div id="stats-subtitle" class="dialog-sub"></div>
-    <div class="stats-grid">
+    <div class="stats-grid stagger-list">
       <div class="stat-box"><div id="st-played" class="stat-num">0</div><div class="stat-label">Oynanan</div></div>
       <div class="stat-box"><div id="st-winpct" class="stat-num">%0</div><div class="stat-label">Kazanma</div></div>
       <div class="stat-box"><div id="st-streak" class="stat-num stat-num--accent">0</div><div class="stat-label">Seri</div></div>
       <div class="stat-box"><div id="st-maxstreak" class="stat-num">0</div><div class="stat-label">En iyi seri</div></div>
     </div>
     <div class="stats-caption">Tahmin dağılımı</div>
-    <div id="dist-bars"></div>
+    <div id="dist-bars" class="stagger-list"></div>
     <div id="rush-best-row" class="hidden"><svg class="ic ic-sm ic-accent"><use href="#i-timer-f"/></svg> <span id="rush-best-text"></span></div>
     <div class="stats-caption stats-caption--gap">Başarımlar</div>
-    <div id="ach-grid"></div>
+    <div id="ach-grid" class="stagger-list"></div>
     <div class="dialog-note">Seri yalnızca günlük modda işler. İstatistikler bu cihazda saklanır.</div>
   </div>
 </div>
@@ -501,7 +504,7 @@
       <div class="dialog-title" id="help-title">Nasıl oynanır?</div>
       <button type="button" class="icon-btn modal-close" title="Kapat"><svg class="ic"><use href="#i-x"/></svg></button>
     </div>
-    <div class="help-rows">
+    <div class="help-rows stagger-list">
       <div class="help-row"><svg class="ic ic-help"><use href="#i-play-circle"/></svg><span><strong>Dinle.</strong> Şarkının ilk 1 saniyesi açık. Oynat'a bas ve dinle.</span></div>
       <div class="help-row"><svg class="ic ic-help"><use href="#i-skip-forward-circle"/></svg><span><strong>Aç.</strong> Atladıkça veya yanlış tahmin ettikçe süre uzar: 1 → 2 → 4 → 7 → 11 → 16 sn.</span></div>
       <div class="help-row"><svg class="ic ic-help"><use href="#i-list-magnifying-glass"/></svg><span><strong>Tahmin et.</strong> Yazmaya başla, listeden şarkıyı seç. Toplam 6 hakkın var.</span></div>
@@ -517,7 +520,7 @@
       <div class="dialog-title" id="settings-title">Ayarlar</div>
       <button type="button" class="icon-btn modal-close" title="Kapat"><svg class="ic"><use href="#i-x"/></svg></button>
     </div>
-    <div class="settings-rows">
+    <div class="settings-rows stagger-list">
       <div class="settings-row">
         <div class="settings-meta">
           <div class="settings-label">Otomatik oynat</div>
@@ -551,7 +554,7 @@
       <button type="button" class="icon-btn modal-close" title="Kapat"><svg class="ic"><use href="#i-x"/></svg></button>
     </div>
     <div class="dialog-sub">Kaçırdığın günlük şarkıları oyna — sonuç serini etkilemez.</div>
-    <div id="archive-list"></div>
+    <div id="archive-list" class="stagger-list"></div>
   </div>
 </div>
 
