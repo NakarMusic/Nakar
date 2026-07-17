@@ -22,7 +22,7 @@
     {
       "deezerId": 1518147212,
       "baslik": "Eyvanına Vardı",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
@@ -68,7 +68,7 @@
     {
       "deezerId": 1518147242,
       "baslik": "Oy Emine",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
@@ -114,7 +114,7 @@
     {
       "deezerId": 1518147222,
       "baslik": "Söylerem Ozan Kimin",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
@@ -161,7 +161,7 @@
     {
       "deezerId": 1909815447,
       "baslik": "Yeşil Yeşil",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1988
     },
     {
@@ -207,7 +207,7 @@
     {
       "deezerId": 1909815437,
       "baslik": "Fosforlu Cevriyem",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1988
     },
     {
@@ -656,6 +656,222 @@
       "baslik": "Sarışınım",
       "sanatci": "İbrahim Tatlıses",
       "yil": 1989
+    },
+    {
+      "deezerId": 3102363631,
+      "baslik": "Dinle",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 78492793,
+      "baslik": "Nemrudun Kızı",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 3102363661,
+      "baslik": "Gül Senin Tenin",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 78682307,
+      "baslik": "Sarı Gelin",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 78492778,
+      "baslik": "Sarı Sarı",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 78492779,
+      "baslik": "Ay Aman",
+      "sanatci": "Mahsun Kırmızıgül",
+      "yil": 2014
+    },
+    {
+      "deezerId": 4122155411,
+      "baslik": "KIYAMAM",
+      "sanatci": "Sıbel Can",
+      "yil": 2026
+    },
+    {
+      "deezerId": 1037901702,
+      "baslik": "Bil Diye Söylüyorum",
+      "sanatci": "Sıbel Can",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3141145691,
+      "baslik": "Diken Mi Gül Mü?",
+      "sanatci": "Sıbel Can",
+      "yil": 2024
+    },
+    {
+      "deezerId": 66156312,
+      "baslik": "Çakmak Çakmak",
+      "sanatci": "Sıbel Can",
+      "yil": 2007
+    },
+    {
+      "deezerId": 66133616,
+      "baslik": "Kıskıvrak",
+      "sanatci": "Sıbel Can",
+      "yil": 2009
+    },
+    {
+      "deezerId": 3173302121,
+      "baslik": "Bize Has",
+      "sanatci": "Sıbel Can",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3355756651,
+      "baslik": "Affet",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2025
+    },
+    {
+      "deezerId": 361391481,
+      "baslik": "Ben Ne Yangınlar Gördüm",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2017
+    },
+    {
+      "deezerId": 3397592081,
+      "baslik": "Sanmadan Git",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2025
+    },
+    {
+      "deezerId": 2794411142,
+      "baslik": "Kafamın İçi",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2024
+    },
+    {
+      "deezerId": 66884594,
+      "baslik": "Seviyorum Seni",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2008
+    },
+    {
+      "deezerId": 361391491,
+      "baslik": "Havadan Sudan",
+      "sanatci": "Ebru Yaşar",
+      "yil": 2017
+    },
+    {
+      "deezerId": 667106252,
+      "baslik": "Evlerinin Önü Yonca",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2019
+    },
+    {
+      "deezerId": 667106352,
+      "baslik": "Canın Olayım",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2019
+    },
+    {
+      "deezerId": 3282417411,
+      "baslik": "Gurbeti Benmi Yarattım",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2011
+    },
+    {
+      "deezerId": 1641784912,
+      "baslik": "Gitti Canım Cananı",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1674317867,
+      "baslik": "Öldüm Ağlasam Ne Olur",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1594485271,
+      "baslik": "Yar Demedin",
+      "sanatci": "Sevcan Orhan",
+      "yil": 2021
+    },
+    {
+      "deezerId": 3247946831,
+      "baslik": "Senden Çocuğum Olsun",
+      "sanatci": "Berdan Mardini",
+      "yil": 2016
+    },
+    {
+      "deezerId": 3241147531,
+      "baslik": "Hazırmısın",
+      "sanatci": "Berdan Mardini",
+      "yil": 2008
+    },
+    {
+      "deezerId": 128750147,
+      "baslik": "Aman Aman",
+      "sanatci": "Berdan Mardini",
+      "yil": 2002
+    },
+    {
+      "deezerId": 3289969341,
+      "baslik": "Sorarım Sorarım",
+      "sanatci": "Berdan Mardini",
+      "yil": 2016
+    },
+    {
+      "deezerId": 3247946851,
+      "baslik": "Aşığım Aşık",
+      "sanatci": "Berdan Mardini",
+      "yil": 2016
+    },
+    {
+      "deezerId": 128796747,
+      "baslik": "Sen Var Ya Sen",
+      "sanatci": "Berdan Mardini",
+      "yil": 2004
+    },
+    {
+      "deezerId": 2600637472,
+      "baslik": "Camdan Cama",
+      "sanatci": "Sinan Özen",
+      "yil": 1990
+    },
+    {
+      "deezerId": 103299926,
+      "baslik": "Canım Yandı",
+      "sanatci": "Sinan Özen",
+      "yil": 2015
+    },
+    {
+      "deezerId": 2584996332,
+      "baslik": "Sigaramın Dumanı Sen",
+      "sanatci": "Sinan Özen",
+      "yil": 1996
+    },
+    {
+      "deezerId": 109127028,
+      "baslik": "Çok Ama Çok",
+      "sanatci": "Sinan Özen",
+      "yil": 2015
+    },
+    {
+      "deezerId": 2605567012,
+      "baslik": "Merhaba",
+      "sanatci": "Sinan Özen",
+      "yil": 2006
+    },
+    {
+      "deezerId": 2605566912,
+      "baslik": "Son Mektup",
+      "sanatci": "Sinan Özen",
+      "yil": 2006
     }
   ]
 }

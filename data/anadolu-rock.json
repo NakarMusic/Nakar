@@ -519,7 +519,7 @@
     {
       "deezerId": 6141625,
       "baslik": "Sarhoş",
-      "sanatci": "Selda Bagcan",
+      "sanatci": "Selda Bağcan",
       "yil": 1986
     },
     {
@@ -549,19 +549,19 @@
     {
       "deezerId": 6141629,
       "baslik": "Kara Yazı",
-      "sanatci": "Selda Bagcan",
+      "sanatci": "Selda Bağcan",
       "yil": 1986
     },
     {
       "deezerId": 6141619,
       "baslik": "Dost Merhaba",
-      "sanatci": "Selda Bagcan",
+      "sanatci": "Selda Bağcan",
       "yil": 1986
     },
     {
       "deezerId": 6141627,
       "baslik": "Karanlıkta",
-      "sanatci": "Selda Bagcan",
+      "sanatci": "Selda Bağcan",
       "yil": 1986
     },
     {
@@ -579,8 +579,224 @@
     {
       "deezerId": 6141624,
       "baslik": "Haydar Haydar",
-      "sanatci": "Selda Bagcan",
+      "sanatci": "Selda Bağcan",
       "yil": 1986
+    },
+    {
+      "deezerId": 3356777291,
+      "baslik": "PARANOYA",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3482505,
+      "baslik": "Ölüyorum",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 3482499,
+      "baslik": "Bertaraf Et",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 5420395,
+      "baslik": "Yol Gözümü Dağlıyor",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2010
+    },
+    {
+      "deezerId": 3482344,
+      "baslik": "Fırtınam",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2006
+    },
+    {
+      "deezerId": 3482496,
+      "baslik": "Yalnız Kalsın",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 575881162,
+      "baslik": "Sürsün Bahar",
+      "sanatci": "Can Kazaz",
+      "yil": 2018
+    },
+    {
+      "deezerId": 1723238527,
+      "baslik": "Bunca Yıl",
+      "sanatci": "Can Kazaz",
+      "yil": 2017
+    },
+    {
+      "deezerId": 1156985952,
+      "baslik": "Bağrı Yanık Dostlara",
+      "sanatci": "Can Kazaz",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3359082391,
+      "baslik": "Teselli Pınarım",
+      "sanatci": "Can Kazaz",
+      "yil": 2025
+    },
+    {
+      "deezerId": 925128352,
+      "baslik": "Gemi",
+      "sanatci": "Can Kazaz",
+      "yil": 2020
+    },
+    {
+      "deezerId": 2034859617,
+      "baslik": "Zifir Sessizlikte Bulursun",
+      "sanatci": "Can Kazaz",
+      "yil": 2022
+    },
+    {
+      "deezerId": 411391652,
+      "baslik": "GÜNEŞ YERİNDE",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2017
+    },
+    {
+      "deezerId": 411391692,
+      "baslik": "HOŞÇAKAL KADAR",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2017
+    },
+    {
+      "deezerId": 64283531,
+      "baslik": "En Güzel Yerinde Evin",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2012
+    },
+    {
+      "deezerId": 64283526,
+      "baslik": "Çıldırmicam",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2012
+    },
+    {
+      "deezerId": 411391682,
+      "baslik": "ARAYAN BULUR",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2017
+    },
+    {
+      "deezerId": 64283527,
+      "baslik": "Olanla Olunmaz",
+      "sanatci": "Büyük Ev Ablukada",
+      "yil": 2012
+    },
+    {
+      "deezerId": 1641852622,
+      "baslik": "Bikinisinde Astronomi",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2014
+    },
+    {
+      "deezerId": 405507012,
+      "baslik": "Galiba Sevmiyorlar",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2017
+    },
+    {
+      "deezerId": 97066522,
+      "baslik": "Beni Rahatta Dinleyin",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2015
+    },
+    {
+      "deezerId": 409986682,
+      "baslik": "Teslim Tesellüm",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2017
+    },
+    {
+      "deezerId": 1641852562,
+      "baslik": "Uzaydan Geldiğine Göre Yorgun Olmalısın",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2014
+    },
+    {
+      "deezerId": 1641852592,
+      "baslik": "Gaffola",
+      "sanatci": "Son Feci Bisiklet",
+      "yil": 2014
+    },
+    {
+      "deezerId": 654468842,
+      "baslik": "Sarılırım Birine",
+      "sanatci": "Adamlar",
+      "yil": 2019
+    },
+    {
+      "deezerId": 654468762,
+      "baslik": "Zombi",
+      "sanatci": "Adamlar",
+      "yil": 2019
+    },
+    {
+      "deezerId": 135192870,
+      "baslik": "Acının İlacı",
+      "sanatci": "Adamlar",
+      "yil": 2016
+    },
+    {
+      "deezerId": 85983049,
+      "baslik": "Koca Yaşlı Şişko Dünya",
+      "sanatci": "Adamlar",
+      "yil": 2014
+    },
+    {
+      "deezerId": 135192866,
+      "baslik": "Rüyalarda Buruşmuşum",
+      "sanatci": "Adamlar",
+      "yil": 2016
+    },
+    {
+      "deezerId": 654468812,
+      "baslik": "Adını Başkasının Koyduğu Çocuklar",
+      "sanatci": "Adamlar",
+      "yil": 2019
+    },
+    {
+      "deezerId": 419181012,
+      "baslik": "Yara",
+      "sanatci": "Kalben",
+      "yil": 2017
+    },
+    {
+      "deezerId": 1611334862,
+      "baslik": "Düşünürüm",
+      "sanatci": "Kalben",
+      "yil": 2022
+    },
+    {
+      "deezerId": 419181052,
+      "baslik": "Sakin Ol Evladım",
+      "sanatci": "Kalben",
+      "yil": 2017
+    },
+    {
+      "deezerId": 117992136,
+      "baslik": "Haydi Söyle",
+      "sanatci": "Kalben",
+      "yil": 2016
+    },
+    {
+      "deezerId": 117992120,
+      "baslik": "Sadece",
+      "sanatci": "Kalben",
+      "yil": 2016
+    },
+    {
+      "deezerId": 419181082,
+      "baslik": "Rüzgar",
+      "sanatci": "Kalben",
+      "yil": 2017
     }
   ]
 }

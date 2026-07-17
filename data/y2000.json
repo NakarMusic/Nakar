@@ -51,6 +51,18 @@
       "yil": 2000
     },
     {
+      "deezerId": 361363301,
+      "baslik": "Ey Hayat",
+      "sanatci": "Onur Akın",
+      "yil": 2000
+    },
+    {
+      "deezerId": 3244511501,
+      "baslik": "Tanrıdan Diledim",
+      "sanatci": "Yavuz Bingöl",
+      "yil": 2000
+    },
+    {
       "deezerId": 78834706,
       "baslik": "Hasretinden Yandı Gönlüm",
       "sanatci": "Zara",
@@ -99,6 +111,18 @@
       "yil": 2001
     },
     {
+      "deezerId": 495693902,
+      "baslik": "Gönül Sayfam",
+      "sanatci": "Kayahan",
+      "yil": 2001
+    },
+    {
+      "deezerId": 495693942,
+      "baslik": "Ninni",
+      "sanatci": "Kayahan",
+      "yil": 2001
+    },
+    {
       "deezerId": 68054843,
       "baslik": "Sigara",
       "sanatci": "Şebnem Ferah",
@@ -141,6 +165,12 @@
       "yil": 2002
     },
     {
+      "deezerId": 128750147,
+      "baslik": "Aman Aman",
+      "sanatci": "Berdan Mardini",
+      "yil": 2002
+    },
+    {
       "deezerId": 1914175957,
       "baslik": "Med Cezir",
       "sanatci": "Ceza",
@@ -150,6 +180,12 @@
       "deezerId": 2338744405,
       "baslik": "Huzurum Kalmadı",
       "sanatci": "Ferdi Tayfur",
+      "yil": 2002
+    },
+    {
+      "deezerId": 495993502,
+      "baslik": "Bir Aşk Hikayesi",
+      "sanatci": "Kayahan",
       "yil": 2002
     },
     {
@@ -249,6 +285,12 @@
       "yil": 2003
     },
     {
+      "deezerId": 66156825,
+      "baslik": "Herkesin Bir Derdi Var (Cerrahpaşa)",
+      "sanatci": "Volkan Konak",
+      "yil": 2003
+    },
+    {
       "deezerId": 66157231,
       "baslik": "Emi",
       "sanatci": "Yıldız Tilbe",
@@ -259,6 +301,12 @@
       "baslik": "Çat Kapı",
       "sanatci": "Yıldız Tilbe",
       "yil": 2003
+    },
+    {
+      "deezerId": 128796747,
+      "baslik": "Sen Var Ya Sen",
+      "sanatci": "Berdan Mardini",
+      "yil": 2004
     },
     {
       "deezerId": 98910200,
@@ -282,6 +330,18 @@
       "deezerId": 66191865,
       "baslik": "Seninle Çok İşim Var",
       "sanatci": "Ebru Gündeş",
+      "yil": 2004
+    },
+    {
+      "deezerId": 121386570,
+      "baslik": "Of Of",
+      "sanatci": "Gülşen",
+      "yil": 2004
+    },
+    {
+      "deezerId": 121386576,
+      "baslik": "Sarışınım",
+      "sanatci": "Gülşen",
       "yil": 2004
     },
     {
@@ -393,6 +453,12 @@
       "yil": 2005
     },
     {
+      "deezerId": 66135881,
+      "baslik": "Tiridine Bandım",
+      "sanatci": "Kubat",
+      "yil": 2005
+    },
+    {
       "deezerId": 66156286,
       "baslik": "Bana Sen Lazımsın",
       "sanatci": "Rafet El Roman",
@@ -408,6 +474,12 @@
       "deezerId": 68053886,
       "baslik": "Can Kırıkları",
       "sanatci": "Şebnem Ferah",
+      "yil": 2005
+    },
+    {
+      "deezerId": 67045524,
+      "baslik": "Keşke",
+      "sanatci": "Yalın",
       "yil": 2005
     },
     {
@@ -468,6 +540,12 @@
       "deezerId": 79244961,
       "baslik": "Aşkın Ateşi",
       "sanatci": "Hande Yener",
+      "yil": 2006
+    },
+    {
+      "deezerId": 3482344,
+      "baslik": "Fırtınam",
+      "sanatci": "Hayko Cepkin",
       "yil": 2006
     },
     {
@@ -537,6 +615,18 @@
       "yil": 2006
     },
     {
+      "deezerId": 2605567012,
+      "baslik": "Merhaba",
+      "sanatci": "Sinan Özen",
+      "yil": 2006
+    },
+    {
+      "deezerId": 2605566912,
+      "baslik": "Son Mektup",
+      "sanatci": "Sinan Özen",
+      "yil": 2006
+    },
+    {
       "deezerId": 16412332,
       "baslik": "Ölürüm Sana",
       "sanatci": "Tarkan",
@@ -558,6 +648,12 @@
       "deezerId": 3250550961,
       "baslik": "Sevda Sinemalarda",
       "sanatci": "Yaşar",
+      "yil": 2006
+    },
+    {
+      "deezerId": 3278832611,
+      "baslik": "Turnalara Tutun Da Gel",
+      "sanatci": "Yavuz Bingöl",
       "yil": 2006
     },
     {
@@ -585,6 +681,30 @@
       "yil": 2007
     },
     {
+      "deezerId": 3482505,
+      "baslik": "Ölüyorum",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 3482499,
+      "baslik": "Bertaraf Et",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 3482496,
+      "baslik": "Yalnız Kalsın",
+      "sanatci": "Hayko Cepkin",
+      "yil": 2007
+    },
+    {
+      "deezerId": 4850429,
+      "baslik": "Dermanımsın",
+      "sanatci": "Kubat",
+      "yil": 2007
+    },
+    {
       "deezerId": 3292974371,
       "baslik": "Üzüleceksin",
       "sanatci": "Murat Boz",
@@ -594,6 +714,24 @@
       "deezerId": 3453579551,
       "baslik": "Yare Söyleme",
       "sanatci": "Musa Eroğlu",
+      "yil": 2007
+    },
+    {
+      "deezerId": 3271294841,
+      "baslik": "Hala Koynumda Resmin",
+      "sanatci": "Onur Akın",
+      "yil": 2007
+    },
+    {
+      "deezerId": 3271294731,
+      "baslik": "Gaybana Geceler",
+      "sanatci": "Onur Akın",
+      "yil": 2007
+    },
+    {
+      "deezerId": 66156312,
+      "baslik": "Çakmak Çakmak",
+      "sanatci": "Sıbel Can",
       "yil": 2007
     },
     {
@@ -615,6 +753,12 @@
       "yil": 2007
     },
     {
+      "deezerId": 3244342701,
+      "baslik": "Sensiz Yapamam",
+      "sanatci": "Yavuz Bingöl",
+      "yil": 2007
+    },
+    {
       "deezerId": 463091592,
       "baslik": "Kirpiğine Kaşına",
       "sanatci": "Arif Sağ",
@@ -627,9 +771,21 @@
       "yil": 2008
     },
     {
+      "deezerId": 3241147531,
+      "baslik": "Hazırmısın",
+      "sanatci": "Berdan Mardini",
+      "yil": 2008
+    },
+    {
       "deezerId": 66133603,
       "baslik": "Ölümsüz Aşklar",
       "sanatci": "Ebru Gündeş",
+      "yil": 2008
+    },
+    {
+      "deezerId": 66884594,
+      "baslik": "Seviyorum Seni",
+      "sanatci": "Ebru Yaşar",
       "yil": 2008
     },
     {
@@ -654,6 +810,24 @@
       "deezerId": 122795068,
       "baslik": "Ağır Roman",
       "sanatci": "Sansar Salvo",
+      "yil": 2008
+    },
+    {
+      "deezerId": 63977878,
+      "baslik": "Çay Elinden Öteye",
+      "sanatci": "Şevval Sam",
+      "yil": 2008
+    },
+    {
+      "deezerId": 63977874,
+      "baslik": "Ander Sevdaluk",
+      "sanatci": "Şevval Sam",
+      "yil": 2008
+    },
+    {
+      "deezerId": 63977886,
+      "baslik": "Ben Seni Sevduğumi",
+      "sanatci": "Şevval Sam",
       "yil": 2008
     },
     {
@@ -711,6 +885,12 @@
       "yil": 2009
     },
     {
+      "deezerId": 68055313,
+      "baslik": "Evlenmeliyiz",
+      "sanatci": "Hadise",
+      "yil": 2009
+    },
+    {
       "deezerId": 4765137,
       "baslik": "Cevapsız Sorular",
       "sanatci": "maNga",
@@ -750,6 +930,30 @@
       "deezerId": 3728059982,
       "baslik": "Bombalar Hedef Bulur",
       "sanatci": "Sansar Salvo",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66133616,
+      "baslik": "Kıskıvrak",
+      "sanatci": "Sıbel Can",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66156934,
+      "baslik": "Yarim Yarim",
+      "sanatci": "Volkan Konak",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66156938,
+      "baslik": "Mimoza Çiçeğim",
+      "sanatci": "Volkan Konak",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66156932,
+      "baslik": "Göklerde Kartal Gibiydim",
+      "sanatci": "Volkan Konak",
       "yil": 2009
     },
     {

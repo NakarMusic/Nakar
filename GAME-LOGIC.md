@@ -29,7 +29,7 @@ rebuilt from scratch.
   this budget.
 - Data lives in `data/*.json`, one file per category, plus
   `data/categories.json` as the index. This data is already complete
-  (925 songs across 16 category files) and must not be regenerated or
+  (2118 songs across 16 category files) and must not be regenerated or
   re-curated — only consumed.
 - `tools/` contains Node build/validation scripts (`validate.js`,
   `build-playlist.js`, `build-decades.js`) — not deployed to the site,

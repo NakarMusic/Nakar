@@ -843,12 +843,6 @@
       "sanatci": "Madrigal"
     },
     {
-      "deezerId": 4043404921,
-      "baslik": "Başa Bela",
-      "sanatci": "Ezhel",
-      "yil": 2026
-    },
-    {
       "deezerId": 1665420882,
       "baslik": "Bi' Tek Ben Anlarım",
       "sanatci": "KÖFN",
@@ -926,12 +920,6 @@
       "yil": 2021
     },
     {
-      "deezerId": 1815218487,
-      "baslik": "Nerdesin",
-      "sanatci": "Ezhel",
-      "yil": 2022
-    },
-    {
       "deezerId": 1044088132,
       "baslik": "ZAR ZOR",
       "sanatci": "KÖFN"
@@ -1004,12 +992,6 @@
       "deezerId": 1300207152,
       "baslik": "Ne Zamandır Sendeyim",
       "sanatci": "Madrigal",
-      "yil": 2021
-    },
-    {
-      "deezerId": 1409596662,
-      "baslik": "Bul Beni",
-      "sanatci": "Ezhel",
       "yil": 2021
     },
     {
@@ -1086,11 +1068,6 @@
       "baslik": "Bu Kalp Sana Ait",
       "sanatci": "Madrigal",
       "yil": 2026
-    },
-    {
-      "deezerId": 620712492,
-      "baslik": "Felaket",
-      "sanatci": "Ezhel"
     },
     {
       "deezerId": 2218047137,
@@ -1391,6 +1368,276 @@
       "baslik": "Loving on Petrol",
       "sanatci": "Ajda Pekkan",
       "yil": 1980
+    },
+    {
+      "deezerId": 99111914,
+      "baslik": "Bangır Bangır",
+      "sanatci": "Gülşen",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1614365332,
+      "baslik": "Salıncak",
+      "sanatci": "Mustafa Ceceli",
+      "yil": 2022
+    },
+    {
+      "deezerId": 91849712,
+      "baslik": "İlle De Aşk",
+      "sanatci": "Mustafa Ceceli",
+      "yil": 2014
+    },
+    {
+      "deezerId": 99111920,
+      "baslik": "Dan Dan",
+      "sanatci": "Gülşen",
+      "yil": 2015
+    },
+    {
+      "deezerId": 4045014431,
+      "baslik": "Yara Tuz",
+      "sanatci": "Murat Boz",
+      "yil": 2026
+    },
+    {
+      "deezerId": 121789400,
+      "baslik": "Adını Bilen Yazsın",
+      "sanatci": "Murat Boz",
+      "yil": 2016
+    },
+    {
+      "deezerId": 1905743677,
+      "baslik": "Ben Bir Hayaletim Artık",
+      "sanatci": "Murat Boz",
+      "yil": 2022
+    },
+    {
+      "deezerId": 13531324,
+      "baslik": "Geri Dönüş Olsa",
+      "sanatci": "Murat Boz",
+      "yil": 2011
+    },
+    {
+      "deezerId": 1905743667,
+      "baslik": "Uçurtma",
+      "sanatci": "Murat Boz",
+      "yil": 2022
+    },
+    {
+      "deezerId": 121789392,
+      "baslik": "Gün Ağardı",
+      "sanatci": "Murat Boz",
+      "yil": 2016
+    },
+    {
+      "deezerId": 97313210,
+      "baslik": "Bir Taraf Seç",
+      "sanatci": "Gülşen",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66127910,
+      "baslik": "Yatcaz Kalkcaz Ordayım",
+      "sanatci": "Gülşen",
+      "yil": 2013
+    },
+    {
+      "deezerId": 121386570,
+      "baslik": "Of Of",
+      "sanatci": "Gülşen",
+      "yil": 2004
+    },
+    {
+      "deezerId": 2238710747,
+      "baslik": "Bir İhtimal Biliyorum",
+      "sanatci": "Gülşen",
+      "yil": 2018
+    },
+    {
+      "deezerId": 121386576,
+      "baslik": "Sarışınım",
+      "sanatci": "Gülşen",
+      "yil": 2004
+    },
+    {
+      "deezerId": 66127915,
+      "baslik": "Irgalamaz Beni",
+      "sanatci": "Gülşen",
+      "yil": 2013
+    },
+    {
+      "deezerId": 1056341732,
+      "baslik": "Küçük Bir Yol",
+      "sanatci": "Hadise",
+      "yil": 2020
+    },
+    {
+      "deezerId": 82089912,
+      "baslik": "Prenses",
+      "sanatci": "Hadise",
+      "yil": 2014
+    },
+    {
+      "deezerId": 375998061,
+      "baslik": "Farkımız Var",
+      "sanatci": "Hadise",
+      "yil": 2017
+    },
+    {
+      "deezerId": 68055313,
+      "baslik": "Evlenmeliyiz",
+      "sanatci": "Hadise",
+      "yil": 2009
+    },
+    {
+      "deezerId": 3590360401,
+      "baslik": "Derdim",
+      "sanatci": "Hadise",
+      "yil": 2025
+    },
+    {
+      "deezerId": 2217621647,
+      "baslik": "Feryat",
+      "sanatci": "Hadise",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2747707341,
+      "baslik": "Renklensin",
+      "sanatci": "Reynmen",
+      "yil": 2024
+    },
+    {
+      "deezerId": 709423212,
+      "baslik": "Ela",
+      "sanatci": "Reynmen",
+      "yil": 2019
+    },
+    {
+      "deezerId": 863544662,
+      "baslik": "Leila",
+      "sanatci": "Reynmen",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3215334361,
+      "baslik": "Çatma Yarim",
+      "sanatci": "Reynmen",
+      "yil": 2025
+    },
+    {
+      "deezerId": 1163910172,
+      "baslik": "Melek",
+      "sanatci": "Reynmen",
+      "yil": 2020
+    },
+    {
+      "deezerId": 621949682,
+      "baslik": "Derdim Olsun",
+      "sanatci": "Reynmen",
+      "yil": 2019
+    },
+    {
+      "deezerId": 4114583441,
+      "baslik": "Gidenlerden",
+      "sanatci": "Melek Mosso",
+      "yil": 2026
+    },
+    {
+      "deezerId": 620813702,
+      "baslik": "Keklik Gibi",
+      "sanatci": "Melek Mosso",
+      "yil": 2019
+    },
+    {
+      "deezerId": 1913911867,
+      "baslik": "Hayatım Kaymış",
+      "sanatci": "Melek Mosso",
+      "yil": 2021
+    },
+    {
+      "deezerId": 2221731077,
+      "baslik": "İlletim",
+      "sanatci": "Melek Mosso",
+      "yil": 2023
+    },
+    {
+      "deezerId": 1913908607,
+      "baslik": "Sabahçı Kahvesi",
+      "sanatci": "Melek Mosso",
+      "yil": 2022
+    },
+    {
+      "deezerId": 4006954071,
+      "baslik": "Yaşamak Dedikleri",
+      "sanatci": "Melek Mosso",
+      "yil": 2026
+    },
+    {
+      "deezerId": 104060910,
+      "baslik": "İstersen",
+      "sanatci": "Buray",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1157426492,
+      "baslik": "Senin Yüzünden",
+      "sanatci": "Buray",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1238625812,
+      "baslik": "Alaz Alaz",
+      "sanatci": "Buray",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1010270222,
+      "baslik": "Deli Kız",
+      "sanatci": "Buray",
+      "yil": 2020
+    },
+    {
+      "deezerId": 104060922,
+      "baslik": "Sen Sevda Mısın",
+      "sanatci": "Buray",
+      "yil": 2015
+    },
+    {
+      "deezerId": 2385982875,
+      "baslik": "Olmuşum Leyla",
+      "sanatci": "Buray",
+      "yil": 2023
+    },
+    {
+      "deezerId": 66134272,
+      "baslik": "Değmesin Ellerimiz",
+      "sanatci": "Model",
+      "yil": 2011
+    },
+    {
+      "deezerId": 66134274,
+      "baslik": "Pembe Mezarlık",
+      "sanatci": "Model",
+      "yil": 2011
+    },
+    {
+      "deezerId": 120835386,
+      "baslik": "Mey",
+      "sanatci": "Model",
+      "yil": 2016
+    },
+    {
+      "deezerId": 73753179,
+      "baslik": "Sen Ona Aşıksın",
+      "sanatci": "Model",
+      "yil": 2020
+    },
+    {
+      "deezerId": 13359184,
+      "baslik": "Bak Bir Varmış Bir Yokmuş",
+      "sanatci": "Model",
+      "yil": 2024
     }
   ]
 }

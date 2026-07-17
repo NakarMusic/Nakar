@@ -147,12 +147,6 @@
       "yil": 2011
     },
     {
-      "deezerId": 99111914,
-      "baslik": "Bangır Bangır",
-      "sanatci": "Gülşen",
-      "yil": 2015
-    },
-    {
       "deezerId": 375998081,
       "baslik": "Sıfır Tolerans",
       "sanatci": "Hadise",
@@ -285,12 +279,6 @@
       "yil": 2014
     },
     {
-      "deezerId": 1614365332,
-      "baslik": "Salıncak",
-      "sanatci": "Mustafa Ceceli",
-      "yil": 2022
-    },
-    {
       "deezerId": 80739286,
       "baslik": "Gitme Kal Bu Şehirde",
       "sanatci": "Nazan Öncel",
@@ -393,12 +381,6 @@
       "yil": 2006
     },
     {
-      "deezerId": 91849712,
-      "baslik": "İlle De Aşk",
-      "sanatci": "Mustafa Ceceli",
-      "yil": 2014
-    },
-    {
       "deezerId": 77601128,
       "baslik": "Geceler Kara Tren",
       "sanatci": "Nazan Öncel",
@@ -471,16 +453,118 @@
       "yil": 2010
     },
     {
-      "deezerId": 99111920,
-      "baslik": "Dan Dan",
-      "sanatci": "Gülşen",
-      "yil": 2015
-    },
-    {
       "deezerId": 3250355761,
       "baslik": "Aşk Kaç Beden Giyer",
       "sanatci": "Hadise",
       "yil": 2011
+    },
+    {
+      "deezerId": 130864858,
+      "baslik": "Odalarda Işıksızım",
+      "sanatci": "Kayahan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 495993502,
+      "baslik": "Bir Aşk Hikayesi",
+      "sanatci": "Kayahan",
+      "yil": 2002
+    },
+    {
+      "deezerId": 495693902,
+      "baslik": "Gönül Sayfam",
+      "sanatci": "Kayahan",
+      "yil": 2001
+    },
+    {
+      "deezerId": 496016382,
+      "baslik": "Şikayetim Var",
+      "sanatci": "Kayahan",
+      "yil": 1996
+    },
+    {
+      "deezerId": 130864904,
+      "baslik": "Gözlerinin Hapsindeyim",
+      "sanatci": "Kayahan",
+      "yil": 1991
+    },
+    {
+      "deezerId": 495693942,
+      "baslik": "Ninni",
+      "sanatci": "Kayahan",
+      "yil": 2001
+    },
+    {
+      "deezerId": 701844302,
+      "baslik": "Hayat Şaşırtır!",
+      "sanatci": "Aydilge",
+      "yil": 2019
+    },
+    {
+      "deezerId": 110873054,
+      "baslik": "Kiralık Aşk (Sen misin İlacım?)",
+      "sanatci": "Aydilge",
+      "yil": 2015
+    },
+    {
+      "deezerId": 65363354,
+      "baslik": "Aşk Paylaşılmaz",
+      "sanatci": "Aydilge",
+      "yil": 2013
+    },
+    {
+      "deezerId": 81809988,
+      "baslik": "Aşka Gel",
+      "sanatci": "Aydilge",
+      "yil": 2014
+    },
+    {
+      "deezerId": 100241286,
+      "baslik": "Yangın Var",
+      "sanatci": "Aydilge",
+      "yil": 2015
+    },
+    {
+      "deezerId": 4039294251,
+      "baslik": "IDI DIDI",
+      "sanatci": "Aydilge",
+      "yil": 2026
+    },
+    {
+      "deezerId": 74684372,
+      "baslik": "Vaziyetler",
+      "sanatci": "Sıla",
+      "yil": 2014
+    },
+    {
+      "deezerId": 125972229,
+      "baslik": "Afitap",
+      "sanatci": "Sıla",
+      "yil": 2016
+    },
+    {
+      "deezerId": 13377604,
+      "baslik": "Vur Kadehi Ustam",
+      "sanatci": "Sıla",
+      "yil": 2010
+    },
+    {
+      "deezerId": 67045524,
+      "baslik": "Keşke",
+      "sanatci": "Yalın",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66134771,
+      "baslik": "Ki Sen",
+      "sanatci": "Yalın",
+      "yil": 2009
+    },
+    {
+      "deezerId": 3346430681,
+      "baslik": "Son Aşkım",
+      "sanatci": "Yalın",
+      "yil": 2019
     }
   ]
 }

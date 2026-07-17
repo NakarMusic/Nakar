@@ -29,19 +29,19 @@
     {
       "deezerId": 1518147212,
       "baslik": "Eyvanına Vardı",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
       "deezerId": 1518147242,
       "baslik": "Oy Emine",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
       "deezerId": 1518147222,
       "baslik": "Söylerem Ozan Kimin",
-      "sanatci": "İbrahim Tatlıses",
+      "sanatci": "İbrahim Tatlıses",
       "yil": 1990
     },
     {
@@ -75,6 +75,12 @@
       "yil": 1990
     },
     {
+      "deezerId": 2600637472,
+      "baslik": "Camdan Cama",
+      "sanatci": "Sinan Özen",
+      "yil": 1990
+    },
+    {
       "deezerId": 1678364467,
       "baslik": "Vira Vira",
       "sanatci": "Yeni Türkü",
@@ -90,6 +96,12 @@
       "deezerId": 3432545541,
       "baslik": "Bana Da Söyle",
       "sanatci": "Ferdi Tayfur",
+      "yil": 1991
+    },
+    {
+      "deezerId": 130864904,
+      "baslik": "Gözlerinin Hapsindeyim",
+      "sanatci": "Kayahan",
       "yil": 1991
     },
     {
@@ -120,6 +132,12 @@
       "deezerId": 66134860,
       "baslik": "Raptiye Rap Rap",
       "sanatci": "Cem Karaca",
+      "yil": 1992
+    },
+    {
+      "deezerId": 130864858,
+      "baslik": "Odalarda Işıksızım",
+      "sanatci": "Kayahan",
       "yil": 1992
     },
     {
@@ -163,6 +181,12 @@
       "baslik": "Yedikule",
       "sanatci": "Yeni Türkü",
       "yil": 1992
+    },
+    {
+      "deezerId": 7613209,
+      "baslik": "Kara Yazı",
+      "sanatci": "Ahmet Kaya",
+      "yil": 1993
     },
     {
       "deezerId": 66135148,
@@ -573,6 +597,12 @@
       "yil": 1996
     },
     {
+      "deezerId": 496016382,
+      "baslik": "Şikayetim Var",
+      "sanatci": "Kayahan",
+      "yil": 1996
+    },
+    {
       "deezerId": 1545171672,
       "baslik": "Kandırdım",
       "sanatci": "Kenan Doğulu",
@@ -600,6 +630,12 @@
       "deezerId": 77573305,
       "baslik": "Gidenlerden",
       "sanatci": "Mustafa Sandal",
+      "yil": 1996
+    },
+    {
+      "deezerId": 2584996332,
+      "baslik": "Sigaramın Dumanı Sen",
+      "sanatci": "Sinan Özen",
       "yil": 1996
     },
     {
@@ -685,6 +721,18 @@
       "baslik": "Şımarık",
       "sanatci": "Tarkan",
       "yil": 1997
+    },
+    {
+      "deezerId": 7613236,
+      "baslik": "Nereden Bileceksiniz",
+      "sanatci": "Ahmet Kaya",
+      "yil": 1998
+    },
+    {
+      "deezerId": 7613242,
+      "baslik": "Söyle",
+      "sanatci": "Ahmet Kaya",
+      "yil": 1998
     },
     {
       "deezerId": 2282321557,
@@ -885,6 +933,24 @@
       "yil": 1999
     },
     {
+      "deezerId": 361363041,
+      "baslik": "Geceyi Sana Yazdım",
+      "sanatci": "Onur Akın",
+      "yil": 1999
+    },
+    {
+      "deezerId": 361362981,
+      "baslik": "Yağmur Yüreklim",
+      "sanatci": "Onur Akın",
+      "yil": 1999
+    },
+    {
+      "deezerId": 361362991,
+      "baslik": "Asi Ve Mavi",
+      "sanatci": "Onur Akın",
+      "yil": 1999
+    },
+    {
       "deezerId": 66135844,
       "baslik": "Kerbela",
       "sanatci": "Sabahat Akkiraz",
@@ -918,6 +984,12 @@
       "deezerId": 66411329,
       "baslik": "Ayrılık",
       "sanatci": "Soner Arıca",
+      "yil": 1999
+    },
+    {
+      "deezerId": 3282022401,
+      "baslik": "Kara Tren",
+      "sanatci": "Yavuz Bingöl",
       "yil": 1999
     }
   ]
