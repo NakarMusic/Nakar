@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nakar">
-  <rect width="64" height="64" rx="14" fill="#161826"/>
-  <g fill="#9184D9">
-    <rect x="30.5" y="15" width="4" height="27" rx="2"/>
-    <path d="M32.5 15 48 19v7.5l-15.5-4Z"/>
-    <ellipse cx="25.2" cy="42" rx="8" ry="5.4" transform="rotate(-13 25.2 42)"/>
-  </g>
-</svg>
