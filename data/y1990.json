@@ -57,6 +57,12 @@
       "yil": 1990
     },
     {
+      "deezerId": 66546218,
+      "baslik": "Böyle Ayrılık Olmaz",
+      "sanatci": "Mine Koşan",
+      "yil": 1990
+    },
+    {
       "deezerId": 112836444,
       "baslik": "İnkar Etme",
       "sanatci": "Nilüfer",
@@ -90,6 +96,12 @@
       "deezerId": 3432545541,
       "baslik": "Bana Da Söyle",
       "sanatci": "Ferdi Tayfur",
+      "yil": 1991
+    },
+    {
+      "deezerId": 130864904,
+      "baslik": "Gözlerinin Hapsindeyim",
+      "sanatci": "Kayahan",
       "yil": 1991
     },
     {
@@ -156,6 +168,12 @@
       "deezerId": 1369393252,
       "baslik": "Yürüyorum Dikenlerin Üstünde",
       "sanatci": "Selda Bağcan",
+      "yil": 1992
+    },
+    {
+      "deezerId": 2366873075,
+      "baslik": "Şok",
+      "sanatci": "Yonca Evcimik",
       "yil": 1992
     },
     {
@@ -243,6 +261,12 @@
       "yil": 1993
     },
     {
+      "deezerId": 66134970,
+      "baslik": "Beni Bırakın",
+      "sanatci": "Levent Yüksel",
+      "yil": 1993
+    },
+    {
       "deezerId": 26135751,
       "baslik": "Günler",
       "sanatci": "Mavi Sakal",
@@ -273,6 +297,12 @@
       "yil": 1994
     },
     {
+      "deezerId": 68934170,
+      "baslik": "Heyecanlıyım",
+      "sanatci": "Burak Kut",
+      "yil": 1994
+    },
+    {
       "deezerId": 66156215,
       "baslik": "Ceviz Ağacı",
       "sanatci": "Cem Karaca",
@@ -297,6 +327,12 @@
       "yil": 1994
     },
     {
+      "deezerId": 2665574962,
+      "baslik": "Sahte Sevgililer",
+      "sanatci": "Devran Çağlar",
+      "yil": 1994
+    },
+    {
       "deezerId": 77573803,
       "baslik": "Sabah Olmadan",
       "sanatci": "Güllü",
@@ -306,6 +342,30 @@
       "deezerId": 77573799,
       "baslik": "Kopamam Senden",
       "sanatci": "Güllü",
+      "yil": 1994
+    },
+    {
+      "deezerId": 77573807,
+      "baslik": "Ödüm Kopuyor",
+      "sanatci": "Güllü",
+      "yil": 1994
+    },
+    {
+      "deezerId": 77573805,
+      "baslik": "Oyuncak Gibi",
+      "sanatci": "Güllü",
+      "yil": 1994
+    },
+    {
+      "deezerId": 77573801,
+      "baslik": "Gülüm Var",
+      "sanatci": "Güllü",
+      "yil": 1994
+    },
+    {
+      "deezerId": 89487475,
+      "baslik": "Beni Ağlatma",
+      "sanatci": "Mustafa Sandal",
       "yil": 1994
     },
     {
@@ -324,6 +384,12 @@
       "deezerId": 81855572,
       "baslik": "Seherde Bir Bağa Girdim",
       "sanatci": "Ruhi Su",
+      "yil": 1994
+    },
+    {
+      "deezerId": 66134978,
+      "baslik": "Mecbursun",
+      "sanatci": "Sertab Erener",
       "yil": 1994
     },
     {
@@ -390,6 +456,12 @@
       "deezerId": 3606035252,
       "baslik": "Aşk Her Şeyi Affeder Mi",
       "sanatci": "Özlem Tekin",
+      "yil": 1995
+    },
+    {
+      "deezerId": 64007271,
+      "baslik": "Ben Sevdalı Sen Belalı",
+      "sanatci": "Selami Şahin",
       "yil": 1995
     },
     {
@@ -489,6 +561,12 @@
       "yil": 1996
     },
     {
+      "deezerId": 82401552,
+      "baslik": "Çöl Çiçeğim",
+      "sanatci": "Gökhan Tepe",
+      "yil": 1996
+    },
+    {
       "deezerId": 17999286,
       "baslik": "Sıyrılıp Gelen",
       "sanatci": "Grup Yorum",
@@ -498,6 +576,24 @@
       "deezerId": 17999284,
       "baslik": "Hüz'nün Hicran Olur",
       "sanatci": "Grup Yorum",
+      "yil": 1996
+    },
+    {
+      "deezerId": 3370434091,
+      "baslik": "Ağlama Dayanamam",
+      "sanatci": "Hakan Taşıyan",
+      "yil": 1996
+    },
+    {
+      "deezerId": 78834629,
+      "baslik": "Canısı",
+      "sanatci": "İbrahim Erkal",
+      "yil": 1996
+    },
+    {
+      "deezerId": 496016382,
+      "baslik": "Şikayetim Var",
+      "sanatci": "Kayahan",
       "yil": 1996
     },
     {
@@ -543,6 +639,12 @@
       "yil": 1996
     },
     {
+      "deezerId": 66157528,
+      "baslik": "Aşk Yok Olmaktır",
+      "sanatci": "Yıldız Tilbe",
+      "yil": 1996
+    },
+    {
       "deezerId": 3432926491,
       "baslik": "Of Dağlar",
       "sanatci": "Ferdi Tayfur",
@@ -551,6 +653,18 @@
     {
       "deezerId": 3370434051,
       "baslik": "Doktor",
+      "sanatci": "Hakan Taşıyan",
+      "yil": 1997
+    },
+    {
+      "deezerId": 3370433981,
+      "baslik": "Sensiz İki Gün",
+      "sanatci": "Hakan Taşıyan",
+      "yil": 1997
+    },
+    {
+      "deezerId": 3370434031,
+      "baslik": "Hazin Geliyor",
       "sanatci": "Hakan Taşıyan",
       "yil": 1997
     },
@@ -567,15 +681,33 @@
       "yil": 1997
     },
     {
+      "deezerId": 66195930,
+      "baslik": "Sitem",
+      "sanatci": "Metin Şentürk",
+      "yil": 1997
+    },
+    {
       "deezerId": 3453318531,
       "baslik": "Erenler Şahtan Gelirler",
       "sanatci": "Sabahat Akkiraz",
       "yil": 1997
     },
     {
+      "deezerId": 63973730,
+      "baslik": "Alışmak Sevmekten Zor",
+      "sanatci": "Selami Şahin",
+      "yil": 1997
+    },
+    {
       "deezerId": 16412330,
       "baslik": "Şımarık",
       "sanatci": "Tarkan",
+      "yil": 1997
+    },
+    {
+      "deezerId": 66207958,
+      "baslik": "Unutmaya Ömrüm Yeter Mi",
+      "sanatci": "Ümit Besen",
       "yil": 1997
     },
     {
@@ -623,6 +755,12 @@
     {
       "deezerId": 3275221311,
       "baslik": "Dura Dura",
+      "sanatci": "Emrah",
+      "yil": 1998
+    },
+    {
+      "deezerId": 3275221351,
+      "baslik": "Ağla Gözbebeğim",
       "sanatci": "Emrah",
       "yil": 1998
     },
@@ -713,6 +851,12 @@
     {
       "deezerId": 66156237,
       "baslik": "Nikah Masası",
+      "sanatci": "Ümit Besen",
+      "yil": 1998
+    },
+    {
+      "deezerId": 66156240,
+      "baslik": "Alışmak Sevmekten Daha Zor",
       "sanatci": "Ümit Besen",
       "yil": 1998
     },

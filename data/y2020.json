@@ -3,8 +3,20 @@
   "ad": "2020'ler",
   "sarkilar": [
     {
+      "deezerId": 1859654437,
+      "baslik": "Musibet",
+      "sanatci": "Allame",
+      "yil": 2020
+    },
+    {
       "deezerId": 3011823841,
       "baslik": "Yağmurlar",
+      "sanatci": "Anıl Piyancı",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1046360772,
+      "baslik": "Döndüm Durdum",
       "sanatci": "Anıl Piyancı",
       "yil": 2020
     },
@@ -15,9 +27,33 @@
       "yil": 2020
     },
     {
+      "deezerId": 93223132,
+      "baslik": "Pardon",
+      "sanatci": "Arif Susam",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3290008981,
+      "baslik": "Sabaha Kadar",
+      "sanatci": "Arif Susam",
+      "yil": 2020
+    },
+    {
+      "deezerId": 3248159671,
+      "baslik": "Yağdır",
+      "sanatci": "Aynur Aydın",
+      "yil": 2020
+    },
+    {
       "deezerId": 821759372,
       "baslik": "Eksik",
       "sanatci": "Batu Akdeniz",
+      "yil": 2020
+    },
+    {
+      "deezerId": 912973872,
+      "baslik": "Sonu Gelmez",
+      "sanatci": "Bilal Sonses",
       "yil": 2020
     },
     {
@@ -51,6 +87,12 @@
       "yil": 2020
     },
     {
+      "deezerId": 820587432,
+      "baslik": "Alamanya",
+      "sanatci": "Defkhan",
+      "yil": 2020
+    },
+    {
       "deezerId": 3809163942,
       "baslik": "Neyin Nesi",
       "sanatci": "Dolu Kadehi Ters Tut",
@@ -75,6 +117,12 @@
       "yil": 2020
     },
     {
+      "deezerId": 952265182,
+      "baslik": "Günaydin",
+      "sanatci": "Eko Fresh",
+      "yil": 2020
+    },
+    {
       "deezerId": 811153862,
       "baslik": "Fesuphanallah",
       "sanatci": "Erkin Koray",
@@ -96,6 +144,12 @@
       "deezerId": 858696742,
       "baslik": "Ömre Bedelsin",
       "sanatci": "Flört",
+      "yil": 2020
+    },
+    {
+      "deezerId": 91348454,
+      "baslik": "Yediverenim",
+      "sanatci": "Funda Arar",
       "yil": 2020
     },
     {
@@ -147,6 +201,30 @@
       "yil": 2020
     },
     {
+      "deezerId": 104776670,
+      "baslik": "Zorun Ne Sevgilim",
+      "sanatci": "İrem Derici",
+      "yil": 2020
+    },
+    {
+      "deezerId": 77934243,
+      "baslik": "Kalbimin Tek Sahibine",
+      "sanatci": "İrem Derici",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1047408792,
+      "baslik": "Başarcam Ulan",
+      "sanatci": "Joker",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1187953472,
+      "baslik": "Problem",
+      "sanatci": "Joker",
+      "yil": 2020
+    },
+    {
       "deezerId": 1182881452,
       "baslik": "Barbar",
       "sanatci": "Kaan Boşnak",
@@ -179,6 +257,12 @@
     {
       "deezerId": 992515982,
       "baslik": "Ne Fark Eder?",
+      "sanatci": "Killa Hakan",
+      "yil": 2020
+    },
+    {
+      "deezerId": 4128650551,
+      "baslik": "Her Şey Yolundadır",
       "sanatci": "Killa Hakan",
       "yil": 2020
     },
@@ -237,6 +321,18 @@
       "yil": 2020
     },
     {
+      "deezerId": 979829112,
+      "baslik": "Gün Ağarmadan",
+      "sanatci": "Mustafa Ceceli",
+      "yil": 2020
+    },
+    {
+      "deezerId": 1168541262,
+      "baslik": "Öptüm Nefesinden",
+      "sanatci": "Mustafa Ceceli",
+      "yil": 2020
+    },
+    {
       "deezerId": 2542271591,
       "baslik": "Bakma Bana Öyle",
       "sanatci": "Nova Norda",
@@ -257,6 +353,12 @@
     {
       "deezerId": 985680502,
       "baslik": "Siyah",
+      "sanatci": "Patron",
+      "yil": 2020
+    },
+    {
+      "deezerId": 871543152,
+      "baslik": "Nefret",
       "sanatci": "Patron",
       "yil": 2020
     },
@@ -309,6 +411,12 @@
       "yil": 2020
     },
     {
+      "deezerId": 874164272,
+      "baslik": "Çok Sevmek Yasaklanmalı",
+      "sanatci": "Sinan Akçıl",
+      "yil": 2020
+    },
+    {
       "deezerId": 1137581452,
       "baslik": "Hiç Kimsenin Günahı Yok",
       "sanatci": "Sufle",
@@ -348,6 +456,12 @@
       "deezerId": 836338422,
       "baslik": "Kazılı Kuyum",
       "sanatci": "Yüzyüzeyken Konuşuruz",
+      "yil": 2020
+    },
+    {
+      "deezerId": 920764232,
+      "baslik": "Yara",
+      "sanatci": "Ziynet Sali",
       "yil": 2020
     },
     {
@@ -441,6 +555,18 @@
       "yil": 2021
     },
     {
+      "deezerId": 1264224742,
+      "baslik": "Güya",
+      "sanatci": "Irmak Arıcı",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1524453242,
+      "baslik": "Asık Suratım",
+      "sanatci": "Irmak Arıcı",
+      "yil": 2021
+    },
+    {
       "deezerId": 1346479612,
       "baslik": "Amarnos Ahora",
       "sanatci": "Islandman",
@@ -501,6 +627,18 @@
       "yil": 2021
     },
     {
+      "deezerId": 1515960352,
+      "baslik": "Kendine Dünya",
+      "sanatci": "Merve Özbey",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1260598662,
+      "baslik": "Zor Dostum",
+      "sanatci": "Mine Koşan",
+      "yil": 2021
+    },
+    {
       "deezerId": 1425672272,
       "baslik": "LE CANE",
       "sanatci": "Muti",
@@ -519,9 +657,21 @@
       "yil": 2021
     },
     {
+      "deezerId": 1428865232,
+      "baslik": "Yarım Kalan Sigara",
+      "sanatci": "No.1",
+      "yil": 2021
+    },
+    {
       "deezerId": 1268552642,
       "baslik": "Kara Tren",
       "sanatci": "Orhan Hakalmaz",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1449573442,
+      "baslik": "Yandırdın Beni",
+      "sanatci": "Patron",
       "yil": 2021
     },
     {
@@ -561,6 +711,18 @@
       "yil": 2021
     },
     {
+      "deezerId": 1199752012,
+      "baslik": "Kurşun Gibi",
+      "sanatci": "Tepki",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1199751952,
+      "baslik": "Menekşe",
+      "sanatci": "Tepki",
+      "yil": 2021
+    },
+    {
       "deezerId": 1427882782,
       "baslik": "How Many Times",
       "sanatci": "The Away Days",
@@ -570,6 +732,18 @@
       "deezerId": 1278439702,
       "baslik": "Benim O",
       "sanatci": "Tuğba Yurt",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1571189882,
+      "baslik": "Açmayalım",
+      "sanatci": "Tuğba Yurt",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1245992832,
+      "baslik": "Coeur abîmé",
+      "sanatci": "Uzi",
       "yil": 2021
     },
     {
@@ -589,6 +763,18 @@
       "baslik": "Efkarım Var",
       "sanatci": "Ziynet Sali",
       "yil": 2021
+    },
+    {
+      "deezerId": 1278475672,
+      "baslik": "Deli Divanenim",
+      "sanatci": "Ziynet Sali",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1779115917,
+      "baslik": "Dön Hadi",
+      "sanatci": "Alişan",
+      "yil": 2022
     },
     {
       "deezerId": 1643643112,
@@ -621,8 +807,26 @@
       "yil": 2022
     },
     {
+      "deezerId": 1927980017,
+      "baslik": "Yolunda",
+      "sanatci": "Canbay",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1839792737,
+      "baslik": "Geliyor havalı geliyor",
+      "sanatci": "Cansever",
+      "yil": 2022
+    },
+    {
       "deezerId": 2015905037,
       "baslik": "Diyardan Diyara",
+      "sanatci": "Çakal",
+      "yil": 2022
+    },
+    {
+      "deezerId": 2006765817,
+      "baslik": "Kalbe Zarar",
       "sanatci": "Çakal",
       "yil": 2022
     },
@@ -642,6 +846,12 @@
       "deezerId": 1993933637,
       "baslik": "Onlarla konusuyorum",
       "sanatci": "Defkhan",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1716795647,
+      "baslik": "Bensiz Olsun",
+      "sanatci": "Demet Akalın",
       "yil": 2022
     },
     {
@@ -713,6 +923,12 @@
     {
       "deezerId": 1929845857,
       "baslik": "Birader",
+      "sanatci": "Heijan",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1929845907,
+      "baslik": "Değilim Bi Aşık",
       "sanatci": "Heijan",
       "yil": 2022
     },
@@ -825,6 +1041,12 @@
       "yil": 2022
     },
     {
+      "deezerId": 1994617367,
+      "baslik": "Bu Düş Çok Güzel",
+      "sanatci": "Norm Ender",
+      "yil": 2022
+    },
+    {
       "deezerId": 2024579247,
       "baslik": "Karbeyaz",
       "sanatci": "Palmiyeler",
@@ -873,6 +1095,24 @@
       "yil": 2022
     },
     {
+      "deezerId": 1595087521,
+      "baslik": "Fış Fış Kayıkçı",
+      "sanatci": "Sertab Erener",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1603612932,
+      "baslik": "Durum Çok Acil",
+      "sanatci": "Sinan Akçıl",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1855029737,
+      "baslik": "Huysuz",
+      "sanatci": "Sokrat ST",
+      "yil": 2022
+    },
+    {
       "deezerId": 3746856732,
       "baslik": "Seninle Sonbahar",
       "sanatci": "The Away Days",
@@ -882,6 +1122,18 @@
       "deezerId": 1755039297,
       "baslik": "Alacağım Var",
       "sanatci": "Tüdanya",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1748438347,
+      "baslik": "Aşk Sadece Anlayana",
+      "sanatci": "Velet",
+      "yil": 2022
+    },
+    {
+      "deezerId": 1792444937,
+      "baslik": "Sazımı Duvara Astım",
+      "sanatci": "Velet",
       "yil": 2022
     },
     {
@@ -918,6 +1170,12 @@
       "deezerId": 2298203045,
       "baslik": "Dam Üstüne Çul Serer",
       "sanatci": "Athena",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2306186915,
+      "baslik": "Öldürdüm Bizi",
+      "sanatci": "Aynur Aydın",
       "yil": 2023
     },
     {
@@ -981,6 +1239,12 @@
       "yil": 2023
     },
     {
+      "deezerId": 2477536941,
+      "baslik": "Mahşer",
+      "sanatci": "Ebru Gündeş",
+      "yil": 2023
+    },
+    {
       "deezerId": 2334909185,
       "baslik": "Kim Bilir",
       "sanatci": "Eda Baba",
@@ -1007,6 +1271,12 @@
     {
       "deezerId": 2237054367,
       "baslik": "Aynen",
+      "sanatci": "Heijan",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2237054507,
+      "baslik": "Love, Gun",
       "sanatci": "Heijan",
       "yil": 2023
     },
@@ -1125,6 +1395,24 @@
       "yil": 2023
     },
     {
+      "deezerId": 2125305227,
+      "baslik": "O Yeterdi Aslında",
+      "sanatci": "Reckol",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2344855345,
+      "baslik": "BAKSANA BİLADER",
+      "sanatci": "Reckol",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2551970232,
+      "baslik": "Güzeller Güzel Kokarlar",
+      "sanatci": "Reckol",
+      "yil": 2023
+    },
+    {
       "deezerId": 2267222937,
       "baslik": "Bergüzar",
       "sanatci": "Sabahat Akkiraz",
@@ -1137,9 +1425,27 @@
       "yil": 2023
     },
     {
+      "deezerId": 2345839705,
+      "baslik": "Küskün",
+      "sanatci": "Sayedar",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2334651035,
+      "baslik": "Girdap",
+      "sanatci": "Sayedar",
+      "yil": 2023
+    },
+    {
       "deezerId": 2122317557,
       "baslik": "Harcandıkça",
       "sanatci": "Simge",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2279087197,
+      "baslik": "Gönül Teknem",
+      "sanatci": "Sinan Zorbey",
       "yil": 2023
     },
     {
@@ -1158,6 +1464,24 @@
       "deezerId": 2287229167,
       "baslik": "Sarhoş",
       "sanatci": "Ufuk Beydemir",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2497268461,
+      "baslik": "AKRAPO 7",
+      "sanatci": "Uzi",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2356177205,
+      "baslik": "Öyle Kal",
+      "sanatci": "Yener Çevik",
+      "yil": 2023
+    },
+    {
+      "deezerId": 2465155725,
+      "baslik": "Dizine Dursun",
+      "sanatci": "Yıldız Tilbe",
       "yil": 2023
     },
     {
@@ -1203,6 +1527,12 @@
       "yil": 2024
     },
     {
+      "deezerId": 62351190,
+      "baslik": "Kal (feat. Teoman)",
+      "sanatci": "Atiye",
+      "yil": 2024
+    },
+    {
       "deezerId": 61572343,
       "baslik": "Aşk Geri Gelir",
       "sanatci": "Aylin Aslım",
@@ -1233,6 +1563,12 @@
       "yil": 2024
     },
     {
+      "deezerId": 2625368082,
+      "baslik": "Acı İkimize",
+      "sanatci": "Berkay",
+      "yil": 2024
+    },
+    {
       "deezerId": 3055530921,
       "baslik": "Ne Olur",
       "sanatci": "Bilal Sonses",
@@ -1242,6 +1578,18 @@
       "deezerId": 3011927551,
       "baslik": "Acıtır gibi severek",
       "sanatci": "Canozan",
+      "yil": 2024
+    },
+    {
+      "deezerId": 3281931241,
+      "baslik": "Damlarsın",
+      "sanatci": "Çakal",
+      "yil": 2024
+    },
+    {
+      "deezerId": 3281931221,
+      "baslik": "Bitmez Ümitlerim",
+      "sanatci": "Çakal",
       "yil": 2024
     },
     {
@@ -1293,6 +1641,12 @@
       "yil": 2024
     },
     {
+      "deezerId": 2774434491,
+      "baslik": "Süzülerek",
+      "sanatci": "Gazapizm",
+      "yil": 2024
+    },
+    {
       "deezerId": 3122401571,
       "baslik": "Bir Ateşe Attın Beni",
       "sanatci": "Kamuran Akkor",
@@ -1308,6 +1662,12 @@
       "deezerId": 2792377312,
       "baslik": "Düşer O",
       "sanatci": "Kendimden Hallice",
+      "yil": 2024
+    },
+    {
+      "deezerId": 2652484792,
+      "baslik": "Al Gece Yarılarımı Benden",
+      "sanatci": "Linet",
       "yil": 2024
     },
     {
@@ -1374,6 +1734,12 @@
       "deezerId": 2812820312,
       "baslik": "Ölüyorum Anla",
       "sanatci": "Mert Demir",
+      "yil": 2024
+    },
+    {
+      "deezerId": 3292967641,
+      "baslik": "Bırakma Beni",
+      "sanatci": "Metin Şentürk",
       "yil": 2024
     },
     {
@@ -1455,6 +1821,12 @@
       "yil": 2024
     },
     {
+      "deezerId": 3055527951,
+      "baslik": "Mevzu Derin",
+      "sanatci": "Soner Sarıkabadayı",
+      "yil": 2024
+    },
+    {
       "deezerId": 3179656911,
       "baslik": "Pus*y Magnet",
       "sanatci": "Stabil",
@@ -1467,9 +1839,33 @@
       "yil": 2024
     },
     {
+      "deezerId": 3179653331,
+      "baslik": "Ne Serseriyim Ne Gangster",
+      "sanatci": "Stabil",
+      "yil": 2024
+    },
+    {
       "deezerId": 2624097132,
       "baslik": "Lakin",
       "sanatci": "Sufle",
+      "yil": 2024
+    },
+    {
+      "deezerId": 3017689991,
+      "baslik": "MURAKAMI",
+      "sanatci": "Summer Cem",
+      "yil": 2024
+    },
+    {
+      "deezerId": 2550212072,
+      "baslik": "KOCAMAN",
+      "sanatci": "Tepki",
+      "yil": 2024
+    },
+    {
+      "deezerId": 2820607722,
+      "baslik": "50G",
+      "sanatci": "Uzi",
       "yil": 2024
     },
     {
@@ -1515,6 +1911,12 @@
       "yil": 2025
     },
     {
+      "deezerId": 3232664921,
+      "baslik": "Yas Tutarak",
+      "sanatci": "Berkay",
+      "yil": 2025
+    },
+    {
       "deezerId": 3359082391,
       "baslik": "Teselli Pınarım",
       "sanatci": "Can Kazaz",
@@ -1545,9 +1947,21 @@
       "yil": 2025
     },
     {
+      "deezerId": 3398013361,
+      "baslik": "Derbeder",
+      "sanatci": "Emrah",
+      "yil": 2025
+    },
+    {
       "deezerId": 3241564491,
       "baslik": "Düş",
       "sanatci": "Gevende",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3386436021,
+      "baslik": "Derde Aşık Olmuşuz",
+      "sanatci": "Gökhan Tepe",
       "yil": 2025
     },
     {
@@ -1611,6 +2025,24 @@
       "yil": 2025
     },
     {
+      "deezerId": 3360228791,
+      "baslik": "Snap",
+      "sanatci": "Manifest",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3360199181,
+      "baslik": "Yaşanacaksa",
+      "sanatci": "Manifest",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3173001491,
+      "baslik": "Metalik",
+      "sanatci": "Massaka",
+      "yil": 2025
+    },
+    {
       "deezerId": 3346411961,
       "baslik": "Gönül",
       "sanatci": "Melike Şahin",
@@ -1620,6 +2052,18 @@
       "deezerId": 3487759731,
       "baslik": "Kaç",
       "sanatci": "Melis Güven",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3682009612,
+      "baslik": "Duramıyorum",
+      "sanatci": "Merve Özbey",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3417087811,
+      "baslik": "Sus",
+      "sanatci": "Mine Koşan",
       "yil": 2025
     },
     {
@@ -1653,6 +2097,12 @@
       "yil": 2025
     },
     {
+      "deezerId": 3204848041,
+      "baslik": "Ölmedim Ben",
+      "sanatci": "Organize",
+      "yil": 2025
+    },
+    {
       "deezerId": 3965024011,
       "baslik": "Tekrardan",
       "sanatci": "Sedef Sebüktekin",
@@ -1661,6 +2111,12 @@
     {
       "deezerId": 3428563011,
       "baslik": "Yerinde Dur",
+      "sanatci": "Sefo",
+      "yil": 2025
+    },
+    {
+      "deezerId": 2773064381,
+      "baslik": "Bilmem Mi?",
       "sanatci": "Sefo",
       "yil": 2025
     },
@@ -1683,6 +2139,30 @@
       "yil": 2025
     },
     {
+      "deezerId": 3360079031,
+      "baslik": "Felaket",
+      "sanatci": "Sinan Akçıl",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3445239121,
+      "baslik": "Eyvallah",
+      "sanatci": "Sinan Zorbey",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3216707291,
+      "baslik": "12'lik Verse",
+      "sanatci": "Sokrat ST",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3216707271,
+      "baslik": "Bazen Olmaz",
+      "sanatci": "Sokrat ST",
+      "yil": 2025
+    },
+    {
       "deezerId": 3529784391,
       "baslik": "Her İki Durumda",
       "sanatci": "Soner Sarıkabadayı",
@@ -1695,9 +2175,21 @@
       "yil": 2025
     },
     {
+      "deezerId": 3167833411,
+      "baslik": "Beni Yalnızlığa Verme",
+      "sanatci": "Şanışer",
+      "yil": 2025
+    },
+    {
       "deezerId": 3135887061,
       "baslik": "Yok Başka Hayalim",
       "sanatci": "Tan Taşçı",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3367061681,
+      "baslik": "Dönmüyor Giden",
+      "sanatci": "Tarkan",
       "yil": 2025
     },
     {
@@ -1709,6 +2201,12 @@
     {
       "deezerId": 3321309341,
       "baslik": "Roman Olur Yazsam Seni",
+      "sanatci": "Velet",
+      "yil": 2025
+    },
+    {
+      "deezerId": 3612053802,
+      "baslik": "Gönlün Arkada Kaldı",
       "sanatci": "Velet",
       "yil": 2025
     },
@@ -1779,6 +2277,18 @@
       "yil": 2026
     },
     {
+      "deezerId": 3835786211,
+      "baslik": "Mapushane Çilesi (Anaya Mektup)",
+      "sanatci": "Canbay",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3835786141,
+      "baslik": "Malatyalım",
+      "sanatci": "Canbay",
+      "yil": 2026
+    },
+    {
       "deezerId": 4135144431,
       "baslik": "SEZAR",
       "sanatci": "Contra",
@@ -1793,6 +2303,12 @@
     {
       "deezerId": 4135144441,
       "baslik": "ESKİ EV",
+      "sanatci": "Contra",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4135144461,
+      "baslik": "VALLA İFTİRA",
       "sanatci": "Contra",
       "yil": 2026
     },
@@ -1839,15 +2355,51 @@
       "yil": 2026
     },
     {
+      "deezerId": 3817803541,
+      "baslik": "Serseri",
+      "sanatci": "Emre Altuğ",
+      "yil": 2026
+    },
+    {
       "deezerId": 4043404921,
       "baslik": "Başa Bela",
       "sanatci": "Ezhel",
       "yil": 2026
     },
     {
+      "deezerId": 4057443811,
+      "baslik": "Tutkunum Sana",
+      "sanatci": "Ferhat Göçer",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4038270441,
+      "baslik": "Kalbimin Orta Yeri",
+      "sanatci": "Ferhat Göçer",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4094329681,
+      "baslik": "Dava",
+      "sanatci": "Funda Arar",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4090754001,
+      "baslik": "Tatlım",
+      "sanatci": "Gökhan Tepe",
+      "yil": 2026
+    },
+    {
       "deezerId": 4091086841,
       "baslik": "Yengeç Kızlar",
       "sanatci": "Gözyaşı Çetesi",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3807016622,
+      "baslik": "Bu Gece Karakolluk Olabilirim",
+      "sanatci": "Heijan",
       "yil": 2026
     },
     {
@@ -1923,9 +2475,27 @@
       "yil": 2026
     },
     {
+      "deezerId": 3930542761,
+      "baslik": "Daha İyi",
+      "sanatci": "Manifest",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3946310811,
+      "baslik": "Kan",
+      "sanatci": "Massaka",
+      "yil": 2026
+    },
+    {
       "deezerId": 3931053831,
       "baslik": "Gidemem",
       "sanatci": "Metin Şentürk",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3871323581,
+      "baslik": "Dur Kalk",
+      "sanatci": "Mode XL",
       "yil": 2026
     },
     {
@@ -1983,6 +2553,18 @@
       "yil": 2026
     },
     {
+      "deezerId": 4080636251,
+      "baslik": "Yağmur Ağlıyor",
+      "sanatci": "Neşe Karaböcek",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4143864692,
+      "baslik": "Yağmur Olsam Şıpır Şıpır",
+      "sanatci": "Neşe Karaböcek",
+      "yil": 2026
+    },
+    {
       "deezerId": 4035945171,
       "baslik": "Çıldırmamalıyım",
       "sanatci": "No.1",
@@ -1992,6 +2574,18 @@
       "deezerId": 4039257241,
       "baslik": "Traphouse",
       "sanatci": "No.1",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3876235011,
+      "baslik": "RaP bUDuR bEyLeR",
+      "sanatci": "Organize",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4058879141,
+      "baslik": "hondacıLaR",
+      "sanatci": "Organize",
       "yil": 2026
     },
     {
@@ -2007,6 +2601,18 @@
       "yil": 2026
     },
     {
+      "deezerId": 4105027531,
+      "baslik": "SIPANBABUR",
+      "sanatci": "Sefo",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3960070701,
+      "baslik": "Yine Seni Severdim",
+      "sanatci": "Sefo",
+      "yil": 2026
+    },
+    {
       "deezerId": 4122155411,
       "baslik": "KIYAMAM",
       "sanatci": "Sibel Can",
@@ -2016,6 +2622,12 @@
       "deezerId": 4113002661,
       "baslik": "1 Dk Daha Dur",
       "sanatci": "Sinan Akçıl",
+      "yil": 2026
+    },
+    {
+      "deezerId": 4072563571,
+      "baslik": "Mucize",
+      "sanatci": "Sinan Zorbey",
       "yil": 2026
     },
     {
@@ -2043,6 +2655,12 @@
       "yil": 2026
     },
     {
+      "deezerId": 3959767401,
+      "baslik": "DRINNE",
+      "sanatci": "Summer Cem",
+      "yil": 2026
+    },
+    {
       "deezerId": 4093970001,
       "baslik": "çivi",
       "sanatci": "Şehinşah",
@@ -2057,6 +2675,12 @@
     {
       "deezerId": 4093969981,
       "baslik": "entropi",
+      "sanatci": "Şehinşah",
+      "yil": 2026
+    },
+    {
+      "deezerId": 3784600442,
+      "baslik": "NASINASI?",
       "sanatci": "Şehinşah",
       "yil": 2026
     },
