@@ -710,9 +710,13 @@
   function renderSolveCounter() {
     var box = $('solve-counter');
     if (!box) return;
-    var visible = state.roundType === 'daily' && haveSolveCount(state.catId);
-    if (visible) $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi';
-    show(box, !!visible);
+    var inDaily = state.roundType === 'daily';
+    // mod düzeyi: günlük dışında kutuyu tamamen kaldır (sekme değişimiyle zaten senkron bir düzen değişimi)
+    show(box, inDaily);
+    // veri düzeyi: sayı henüz gelmedi/başarısız oldu — kutu yerini korur, sadece görünmez olur (CLS yok)
+    var ready = inDaily && haveSolveCount(state.catId);
+    if (ready) $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi';
+    box.classList.toggle('solve-counter--pending', inDaily && !ready);
   }
 
   function fetchSolveCount(catId) {

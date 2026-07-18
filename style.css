@@ -303,6 +303,12 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 #countdown .tick-digit { display: inline-block; animation: nakarTick 0.3s ease; }
 #rush-chips { margin-top: 7px; display: flex; gap: 8px; justify-content: center; }
 #solve-counter { margin-top: 7px; }
+/* sayaç verisi henüz gelmedi/başarısız oldu — kutu görünmez ama yer kaplamaya devam eder (CLS önleme) */
+#solve-counter.solve-counter--pending { visibility: hidden; }
+/* metin boşken de satır yüksekliğini dolu haliyle aynı tutar — yoksa ikon
+   tek başına daha kısa kalır ve sayı gelince kutu (dolayısıyla altındaki
+   her şey) birkaç piksel büyür (bkz. #solve-counter.solve-counter--pending) */
+#solve-counter-text { min-height: 1.55em; }
 .rush-chip {
   display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px;
   border: 1px solid var(--color-neutral-700); border-radius: 999px;
