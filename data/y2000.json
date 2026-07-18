@@ -3,6 +3,12 @@
   "ad": "2000'ler",
   "sarkilar": [
     {
+      "deezerId": 612655,
+      "baslik": "Ölüm Kapimi Çalmasa Da",
+      "sanatci": "Aslı Gökyokuş",
+      "yil": 2000
+    },
+    {
       "deezerId": 66370334,
       "baslik": "Tahtalara Vur",
       "sanatci": "Burak Kut",
@@ -21,6 +27,12 @@
       "yil": 2000
     },
     {
+      "deezerId": 76027157,
+      "baslik": "Göçmen",
+      "sanatci": "Demir Demirkan",
+      "yil": 2000
+    },
+    {
       "deezerId": 1950005,
       "baslik": "Karşıda Görünen Ne Güzel Yayla",
       "sanatci": "Erkan Oğur",
@@ -36,6 +48,12 @@
       "deezerId": 3366575961,
       "baslik": "Güz Gülleri",
       "sanatci": "Hakan Taşıyan",
+      "yil": 2000
+    },
+    {
+      "deezerId": 66135501,
+      "baslik": "Ayrılık Şarkısı",
+      "sanatci": "Kargo",
       "yil": 2000
     },
     {
@@ -75,9 +93,33 @@
       "yil": 2001
     },
     {
+      "deezerId": 66134945,
+      "baslik": "Dipteyim Sondayım Depresyondayım",
+      "sanatci": "Feridun Düzağaç",
+      "yil": 2001
+    },
+    {
       "deezerId": 67938672,
       "baslik": "Sevmez Olaydım",
       "sanatci": "Gülden Karaböcek",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1313545,
+      "baslik": "Kan ve Gül",
+      "sanatci": "Kıraç",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1313541,
+      "baslik": "Endamın Yeter",
+      "sanatci": "Kıraç",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1313555,
+      "baslik": "Çayır Çimen Geze Geze",
+      "sanatci": "Kıraç",
       "yil": 2001
     },
     {
@@ -102,6 +144,18 @@
       "deezerId": 496938432,
       "baslik": "Topal",
       "sanatci": "Oğuz Yılmaz",
+      "yil": 2001
+    },
+    {
+      "deezerId": 68054843,
+      "baslik": "Sigara",
+      "sanatci": "Şebnem Ferah",
+      "yil": 2001
+    },
+    {
+      "deezerId": 68054845,
+      "baslik": "Sil Baştan",
+      "sanatci": "Şebnem Ferah",
       "yil": 2001
     },
     {
@@ -183,6 +237,12 @@
       "yil": 2002
     },
     {
+      "deezerId": 5546266,
+      "baslik": "Dağları Deldim",
+      "sanatci": "Özlem Tekin",
+      "yil": 2002
+    },
+    {
       "deezerId": 1369387422,
       "baslik": "Sivas'ın Yolları",
       "sanatci": "Selda Bağcan",
@@ -197,6 +257,12 @@
     {
       "deezerId": 2566555252,
       "baslik": "Manolya",
+      "sanatci": "Flört",
+      "yil": 2003
+    },
+    {
+      "deezerId": 2566555272,
+      "baslik": "Modern Ortam Romantikleri",
       "sanatci": "Flört",
       "yil": 2003
     },
@@ -279,6 +345,12 @@
       "yil": 2004
     },
     {
+      "deezerId": 619495,
+      "baslik": "Su Gibi",
+      "sanatci": "Aslı Gökyokuş",
+      "yil": 2004
+    },
+    {
       "deezerId": 128796747,
       "baslik": "Sen Var Ya Sen",
       "sanatci": "Berdan Mardini",
@@ -333,6 +405,12 @@
       "yil": 2004
     },
     {
+      "deezerId": 66413245,
+      "baslik": "Lambaya Püf De",
+      "sanatci": "Kurban",
+      "yil": 2004
+    },
+    {
       "deezerId": 74585229,
       "baslik": "Dursun Zaman (feat. Göksel)",
       "sanatci": "Manga",
@@ -341,6 +419,12 @@
     {
       "deezerId": 74585223,
       "baslik": "Bir Kadın Çizeceksin",
+      "sanatci": "Manga",
+      "yil": 2004
+    },
+    {
+      "deezerId": 74585222,
+      "baslik": "Bitti Rüya",
       "sanatci": "Manga",
       "yil": 2004
     },
@@ -359,6 +443,12 @@
     {
       "deezerId": 77595996,
       "baslik": "Bir Derdim Var",
+      "sanatci": "Mor ve Ötesi",
+      "yil": 2004
+    },
+    {
+      "deezerId": 77595998,
+      "baslik": "Sevda Çiçeği",
       "sanatci": "Mor ve Ötesi",
       "yil": 2004
     },
@@ -417,6 +507,24 @@
       "yil": 2005
     },
     {
+      "deezerId": 66296766,
+      "baslik": "Yetmiyor",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66296764,
+      "baslik": "Gözaltı",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66296768,
+      "baslik": "Sorma",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
       "deezerId": 80739544,
       "baslik": "Saklımdasın",
       "sanatci": "Erdal Güney",
@@ -471,9 +579,21 @@
       "yil": 2005
     },
     {
+      "deezerId": 66134731,
+      "baslik": "Sen Ağlama",
+      "sanatci": "Kargo",
+      "yil": 2005
+    },
+    {
       "deezerId": 66135881,
       "baslik": "Tiridine Bandım",
       "sanatci": "Kubat",
+      "yil": 2005
+    },
+    {
+      "deezerId": 68055490,
+      "baslik": "Yine",
+      "sanatci": "Kurban",
       "yil": 2005
     },
     {
@@ -485,6 +605,12 @@
     {
       "deezerId": 66156867,
       "baslik": "Belki Üstümüzden Bir Kuş Geçer",
+      "sanatci": "Yüksek Sadakat",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66156864,
+      "baslik": "Kafile",
       "sanatci": "Yüksek Sadakat",
       "yil": 2005
     },
@@ -510,6 +636,18 @@
       "deezerId": 3432545061,
       "baslik": "Emmioğlu",
       "sanatci": "Ferdi Tayfur",
+      "yil": 2006
+    },
+    {
+      "deezerId": 43542141,
+      "baslik": "Çelik Çomak",
+      "sanatci": "Gevende",
+      "yil": 2006
+    },
+    {
+      "deezerId": 43542221,
+      "baslik": "Şeker",
+      "sanatci": "Gevende",
       "yil": 2006
     },
     {
@@ -579,6 +717,24 @@
       "yil": 2006
     },
     {
+      "deezerId": 1115004532,
+      "baslik": "Foklar",
+      "sanatci": "Nekropsi",
+      "yil": 2006
+    },
+    {
+      "deezerId": 549628,
+      "baslik": "Bilmece",
+      "sanatci": "Ogün Sanlısoy",
+      "yil": 2006
+    },
+    {
+      "deezerId": 549629,
+      "baslik": "Hadi Beni Güldür",
+      "sanatci": "Ogün Sanlısoy",
+      "yil": 2006
+    },
+    {
       "deezerId": 7168128,
       "baslik": "Hele Bi Gel",
       "sanatci": "Pinhani",
@@ -587,6 +743,12 @@
     {
       "deezerId": 68055263,
       "baslik": "Hala Aşk Var mı",
+      "sanatci": "Redd",
+      "yil": 2006
+    },
+    {
+      "deezerId": 68055264,
+      "baslik": "Prensesin Uykusuyum",
       "sanatci": "Redd",
       "yil": 2006
     },
@@ -600,6 +762,12 @@
       "deezerId": 121429860,
       "baslik": "Hele Bi",
       "sanatci": "Alişan",
+      "yil": 2007
+    },
+    {
+      "deezerId": 11519012,
+      "baslik": "Bir Çocuk Sevdim",
+      "sanatci": "Aylin Aslım",
       "yil": 2007
     },
     {
@@ -657,6 +825,18 @@
       "yil": 2007
     },
     {
+      "deezerId": 68079341,
+      "baslik": "Bilir Olsam",
+      "sanatci": "Mavi Sakal",
+      "yil": 2007
+    },
+    {
+      "deezerId": 68079342,
+      "baslik": "Yat Geliyorum",
+      "sanatci": "Mavi Sakal",
+      "yil": 2007
+    },
+    {
       "deezerId": 3453579551,
       "baslik": "Yare Söyleme",
       "sanatci": "Musa Eroğlu",
@@ -683,6 +863,12 @@
     {
       "deezerId": 80734172,
       "baslik": "Olsun",
+      "sanatci": "Pilli Bebek",
+      "yil": 2007
+    },
+    {
+      "deezerId": 80734166,
+      "baslik": "Uzun Geceler",
       "sanatci": "Pilli Bebek",
       "yil": 2007
     },
@@ -741,6 +927,12 @@
       "yil": 2008
     },
     {
+      "deezerId": 138188577,
+      "baslik": "Değer Mi?",
+      "sanatci": "Gece Yolcuları",
+      "yil": 2008
+    },
+    {
       "deezerId": 66173451,
       "baslik": "Gidemem",
       "sanatci": "Kibariye",
@@ -779,6 +971,12 @@
     {
       "deezerId": 78607961,
       "baslik": "Haydi Gel İçelim",
+      "sanatci": "Yüksek Sadakat",
+      "yil": 2008
+    },
+    {
+      "deezerId": 78607958,
+      "baslik": "Aşk Durdukça",
       "sanatci": "Yüksek Sadakat",
       "yil": 2008
     },
@@ -831,6 +1029,12 @@
       "yil": 2009
     },
     {
+      "deezerId": 3248179321,
+      "baslik": "Böyle Kahpedir Dünya",
+      "sanatci": "Gripin",
+      "yil": 2009
+    },
+    {
       "deezerId": 97313210,
       "baslik": "Bir Taraf Seç",
       "sanatci": "Gülşen",
@@ -840,6 +1044,12 @@
       "deezerId": 68055313,
       "baslik": "Evlenmeliyiz",
       "sanatci": "Hadise",
+      "yil": 2009
+    },
+    {
+      "deezerId": 4765136,
+      "baslik": "Dünyanın Sonuna Doğmuşum",
+      "sanatci": "Manga",
       "yil": 2009
     },
     {

@@ -511,6 +511,12 @@
       "yil": 1996
     },
     {
+      "deezerId": 742779042,
+      "baslik": "Yara",
+      "sanatci": "3 Hürel",
+      "yil": 1972
+    },
+    {
       "deezerId": 74802095,
       "baslik": "Neredesin Sen",
       "sanatci": "Kurtalan Ekspres",
@@ -519,6 +525,24 @@
     {
       "deezerId": 74802093,
       "baslik": "İşte Gidiyorum",
+      "sanatci": "Kurtalan Ekspres",
+      "yil": 2014
+    },
+    {
+      "deezerId": 3289955671,
+      "baslik": "Dönence",
+      "sanatci": "Kurtalan Ekspres",
+      "yil": 2011
+    },
+    {
+      "deezerId": 74802094,
+      "baslik": "Islak Islak",
+      "sanatci": "Kurtalan Ekspres",
+      "yil": 2014
+    },
+    {
+      "deezerId": 74802088,
+      "baslik": "Eğri Eğri Doğru Doğru",
       "sanatci": "Kurtalan Ekspres",
       "yil": 2014
     },
@@ -535,6 +559,24 @@
       "yil": 2018
     },
     {
+      "deezerId": 531239241,
+      "baslik": "Haberin Yok Ölüyorum",
+      "sanatci": "Duman",
+      "yil": 2018
+    },
+    {
+      "deezerId": 2859634642,
+      "baslik": "Kufi",
+      "sanatci": "Duman",
+      "yil": 2024
+    },
+    {
+      "deezerId": 531223621,
+      "baslik": "Aman Aman",
+      "sanatci": "Duman",
+      "yil": 2018
+    },
+    {
       "deezerId": 77595995,
       "baslik": "Cambaz",
       "sanatci": "Mor ve Ötesi",
@@ -547,6 +589,24 @@
       "yil": 2004
     },
     {
+      "deezerId": 470512042,
+      "baslik": "Sultan-ı Yegâh",
+      "sanatci": "Mor ve Ötesi",
+      "yil": 2018
+    },
+    {
+      "deezerId": 77595998,
+      "baslik": "Sevda Çiçeği",
+      "sanatci": "Mor ve Ötesi",
+      "yil": 2004
+    },
+    {
+      "deezerId": 138547123,
+      "baslik": "Oyunbozan",
+      "sanatci": "Mor ve Ötesi",
+      "yil": 2016
+    },
+    {
       "deezerId": 74585229,
       "baslik": "Dursun Zaman (feat. Göksel)",
       "sanatci": "Manga",
@@ -555,6 +615,24 @@
     {
       "deezerId": 74585223,
       "baslik": "Bir Kadın Çizeceksin",
+      "sanatci": "Manga",
+      "yil": 2004
+    },
+    {
+      "deezerId": 983435822,
+      "baslik": "We Could Be The Same",
+      "sanatci": "Manga",
+      "yil": 2010
+    },
+    {
+      "deezerId": 4765136,
+      "baslik": "Dünyanın Sonuna Doğmuşum",
+      "sanatci": "Manga",
+      "yil": 2009
+    },
+    {
+      "deezerId": 74585222,
+      "baslik": "Bitti Rüya",
       "sanatci": "Manga",
       "yil": 2004
     },
@@ -571,6 +649,24 @@
       "yil": 2018
     },
     {
+      "deezerId": 89795193,
+      "baslik": "Kafama Göre",
+      "sanatci": "Athena",
+      "yil": 2014
+    },
+    {
+      "deezerId": 531249171,
+      "baslik": "Skalonga",
+      "sanatci": "Athena",
+      "yil": 2018
+    },
+    {
+      "deezerId": 68054833,
+      "baslik": "Arsız Gönül",
+      "sanatci": "Athena",
+      "yil": 2010
+    },
+    {
       "deezerId": 68055306,
       "baslik": "Mayın Tarlası",
       "sanatci": "Şebnem Ferah",
@@ -581,6 +677,24 @@
       "baslik": "Bu Aşk Fazla Sana",
       "sanatci": "Şebnem Ferah",
       "yil": 1996
+    },
+    {
+      "deezerId": 68055353,
+      "baslik": "Yağmurlar",
+      "sanatci": "Şebnem Ferah",
+      "yil": 1996
+    },
+    {
+      "deezerId": 68054843,
+      "baslik": "Sigara",
+      "sanatci": "Şebnem Ferah",
+      "yil": 2001
+    },
+    {
+      "deezerId": 68054845,
+      "baslik": "Sil Baştan",
+      "sanatci": "Şebnem Ferah",
+      "yil": 2001
     },
     {
       "deezerId": 66157222,
@@ -595,6 +709,24 @@
       "yil": 2018
     },
     {
+      "deezerId": 66135014,
+      "baslik": "Bana Öyle Bakma",
+      "sanatci": "Teoman",
+      "yil": 2011
+    },
+    {
+      "deezerId": 531230911,
+      "baslik": "Paramparça",
+      "sanatci": "Teoman",
+      "yil": 2018
+    },
+    {
+      "deezerId": 96128644,
+      "baslik": "N'apim Tabiatım Böyle",
+      "sanatci": "Teoman",
+      "yil": 2015
+    },
+    {
       "deezerId": 124216634,
       "baslik": "Forever My Queen",
       "sanatci": "Pentagram",
@@ -603,6 +735,24 @@
     {
       "deezerId": 1320541,
       "baslik": "The Ghoul",
+      "sanatci": "Pentagram",
+      "yil": 1985
+    },
+    {
+      "deezerId": 1320524,
+      "baslik": "Death Row",
+      "sanatci": "Pentagram",
+      "yil": 1985
+    },
+    {
+      "deezerId": 1320534,
+      "baslik": "Sign Of The Wolf (Pentagram)",
+      "sanatci": "Pentagram",
+      "yil": 1985
+    },
+    {
+      "deezerId": 1320532,
+      "baslik": "All Your Sins",
       "sanatci": "Pentagram",
       "yil": 1985
     },
@@ -619,6 +769,24 @@
       "yil": 2014
     },
     {
+      "deezerId": 74806894,
+      "baslik": "Dağlara Küstüm",
+      "sanatci": "Haluk Levent",
+      "yil": 2014
+    },
+    {
+      "deezerId": 78684028,
+      "baslik": "Sevenler Ağlarmış",
+      "sanatci": "Haluk Levent",
+      "yil": 2014
+    },
+    {
+      "deezerId": 84519501,
+      "baslik": "Ela Gözlüm",
+      "sanatci": "Haluk Levent",
+      "yil": 2010
+    },
+    {
       "deezerId": 1768452,
       "baslik": "Gidiyorum",
       "sanatci": "Kıraç",
@@ -629,6 +797,24 @@
       "baslik": "Taş Duvarlar",
       "sanatci": "Kıraç",
       "yil": 2003
+    },
+    {
+      "deezerId": 1313545,
+      "baslik": "Kan ve Gül",
+      "sanatci": "Kıraç",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1313541,
+      "baslik": "Endamın Yeter",
+      "sanatci": "Kıraç",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1313555,
+      "baslik": "Çayır Çimen Geze Geze",
+      "sanatci": "Kıraç",
+      "yil": 2001
     },
     {
       "deezerId": 607634,
@@ -643,6 +829,24 @@
       "yil": 2004
     },
     {
+      "deezerId": 549628,
+      "baslik": "Bilmece",
+      "sanatci": "Ogün Sanlısoy",
+      "yil": 2006
+    },
+    {
+      "deezerId": 549629,
+      "baslik": "Hadi Beni Güldür",
+      "sanatci": "Ogün Sanlısoy",
+      "yil": 2006
+    },
+    {
+      "deezerId": 3294152461,
+      "baslik": "Korkma 07 (Düet Hayko Cepkin)",
+      "sanatci": "Ogün Sanlısoy",
+      "yil": 2025
+    },
+    {
       "deezerId": 73063400,
       "baslik": "Yaramaz Çocuk",
       "sanatci": "Murat İlkan",
@@ -651,6 +855,24 @@
     {
       "deezerId": 73063402,
       "baslik": "Fanus",
+      "sanatci": "Murat İlkan",
+      "yil": 2013
+    },
+    {
+      "deezerId": 73063404,
+      "baslik": "Yalan",
+      "sanatci": "Murat İlkan",
+      "yil": 2013
+    },
+    {
+      "deezerId": 73063403,
+      "baslik": "Dil",
+      "sanatci": "Murat İlkan",
+      "yil": 2013
+    },
+    {
+      "deezerId": 73063401,
+      "baslik": "Mirror Mirror",
       "sanatci": "Murat İlkan",
       "yil": 2013
     },
@@ -667,6 +889,24 @@
       "yil": 2010
     },
     {
+      "deezerId": 68055490,
+      "baslik": "Yine",
+      "sanatci": "Kurban",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66413245,
+      "baslik": "Lambaya Püf De",
+      "sanatci": "Kurban",
+      "yil": 2004
+    },
+    {
+      "deezerId": 1248462032,
+      "baslik": "Sorma",
+      "sanatci": "Kurban",
+      "yil": 1999
+    },
+    {
       "deezerId": 66135510,
       "baslik": "Yalnızlığın Çaresini Bulmuşlar",
       "sanatci": "Gripin",
@@ -677,6 +917,24 @@
       "baslik": "Aşk Nereden Nereye",
       "sanatci": "Gripin",
       "yil": 2012
+    },
+    {
+      "deezerId": 3248179321,
+      "baslik": "Böyle Kahpedir Dünya",
+      "sanatci": "Gripin",
+      "yil": 2009
+    },
+    {
+      "deezerId": 66135514,
+      "baslik": "Vazgeçtim Ben Bugün",
+      "sanatci": "Gripin",
+      "yil": 2012
+    },
+    {
+      "deezerId": 66134814,
+      "baslik": "Beş",
+      "sanatci": "Gripin",
+      "yil": 2010
     },
     {
       "deezerId": 68054722,
@@ -691,6 +949,24 @@
       "yil": 2016
     },
     {
+      "deezerId": 68054718,
+      "baslik": "Söyle Ruhum",
+      "sanatci": "TNK",
+      "yil": 2010
+    },
+    {
+      "deezerId": 68055039,
+      "baslik": "Hey Pardon",
+      "sanatci": "TNK",
+      "yil": 2013
+    },
+    {
+      "deezerId": 1136311052,
+      "baslik": "Sen De Yan",
+      "sanatci": "TNK",
+      "yil": 2020
+    },
+    {
       "deezerId": 78607961,
       "baslik": "Haydi Gel İçelim",
       "sanatci": "Yüksek Sadakat",
@@ -703,6 +979,24 @@
       "yil": 2005
     },
     {
+      "deezerId": 66156864,
+      "baslik": "Kafile",
+      "sanatci": "Yüksek Sadakat",
+      "yil": 2005
+    },
+    {
+      "deezerId": 78607958,
+      "baslik": "Aşk Durdukça",
+      "sanatci": "Yüksek Sadakat",
+      "yil": 2008
+    },
+    {
+      "deezerId": 66134353,
+      "baslik": "Onlar Bizi Dinlerler",
+      "sanatci": "Yüksek Sadakat",
+      "yil": 2011
+    },
+    {
       "deezerId": 66296762,
       "baslik": "Y.o.k.",
       "sanatci": "Çilekeş",
@@ -711,6 +1005,24 @@
     {
       "deezerId": 66296761,
       "baslik": "Kendimden Geriye",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66296766,
+      "baslik": "Yetmiyor",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66296764,
+      "baslik": "Gözaltı",
+      "sanatci": "Çilekeş",
+      "yil": 2005
+    },
+    {
+      "deezerId": 66296768,
+      "baslik": "Sorma",
       "sanatci": "Çilekeş",
       "yil": 2005
     },
@@ -727,6 +1039,24 @@
       "yil": 2006
     },
     {
+      "deezerId": 119208820,
+      "baslik": "Aşk, Virüs",
+      "sanatci": "Redd",
+      "yil": 2016
+    },
+    {
+      "deezerId": 2782924962,
+      "baslik": "Kozmos",
+      "sanatci": "Redd",
+      "yil": 2024
+    },
+    {
+      "deezerId": 68055264,
+      "baslik": "Prensesin Uykusuyum",
+      "sanatci": "Redd",
+      "yil": 2006
+    },
+    {
       "deezerId": 455411362,
       "baslik": "Dinle Beni Bi'",
       "sanatci": "Yüzyüzeyken Konuşuruz",
@@ -737,6 +1067,24 @@
       "baslik": "Sen Varsın Diye",
       "sanatci": "Yüzyüzeyken Konuşuruz",
       "yil": 2021
+    },
+    {
+      "deezerId": 1906899537,
+      "baslik": "Kaş II",
+      "sanatci": "Yüzyüzeyken Konuşuruz",
+      "yil": 2022
+    },
+    {
+      "deezerId": 2342525065,
+      "baslik": "Tutun Sen Bana",
+      "sanatci": "Yüzyüzeyken Konuşuruz",
+      "yil": 2023
+    },
+    {
+      "deezerId": 541201172,
+      "baslik": "Boş Gemiler",
+      "sanatci": "Yüzyüzeyken Konuşuruz",
+      "yil": 2018
     },
     {
       "deezerId": 2599054462,
@@ -751,6 +1099,24 @@
       "yil": 2019
     },
     {
+      "deezerId": 4096668921,
+      "baslik": "Lafını Balla",
+      "sanatci": "Dolu Kadehi Ters Tut",
+      "yil": 2026
+    },
+    {
+      "deezerId": 2256481267,
+      "baslik": "Yapma N'olursun",
+      "sanatci": "Dolu Kadehi Ters Tut",
+      "yil": 2015
+    },
+    {
+      "deezerId": 1665060082,
+      "baslik": "Hiç İyi Değilim",
+      "sanatci": "Dolu Kadehi Ters Tut",
+      "yil": 2022
+    },
+    {
       "deezerId": 1276020212,
       "baslik": "Uzaklara Savrulalım",
       "sanatci": "Perdenin Ardındakiler",
@@ -761,6 +1127,24 @@
       "baslik": "Beni Kendinden Kurtar",
       "sanatci": "Perdenin Ardındakiler",
       "yil": 2019
+    },
+    {
+      "deezerId": 4029279481,
+      "baslik": "Dünyanın Yalanları",
+      "sanatci": "Perdenin Ardındakiler",
+      "yil": 2026
+    },
+    {
+      "deezerId": 1074195902,
+      "baslik": "Ankara'yla Bozuşuruz",
+      "sanatci": "Perdenin Ardındakiler",
+      "yil": 2019
+    },
+    {
+      "deezerId": 1522105862,
+      "baslik": "Her Gece",
+      "sanatci": "Perdenin Ardındakiler",
+      "yil": 2021
     },
     {
       "deezerId": 3585715191,
@@ -775,6 +1159,24 @@
       "yil": 2020
     },
     {
+      "deezerId": 3585715381,
+      "baslik": "Giderdi Hoşuma",
+      "sanatci": "Yaşlı Amca",
+      "yil": 2017
+    },
+    {
+      "deezerId": 3585715391,
+      "baslik": "Yakamoz Güzeli",
+      "sanatci": "Yaşlı Amca",
+      "yil": 2017
+    },
+    {
+      "deezerId": 3585715411,
+      "baslik": "İstanbul Beyefendisi",
+      "sanatci": "Yaşlı Amca",
+      "yil": 2017
+    },
+    {
       "deezerId": 901088302,
       "baslik": "Seni Dert Etmeler",
       "sanatci": "Madrigal",
@@ -787,6 +1189,24 @@
       "yil": 2021
     },
     {
+      "deezerId": 2637549982,
+      "baslik": "Sen ya da Hiç",
+      "sanatci": "Madrigal",
+      "yil": 2024
+    },
+    {
+      "deezerId": 1300207172,
+      "baslik": "Bambaşka",
+      "sanatci": "Madrigal",
+      "yil": 2021
+    },
+    {
+      "deezerId": 1705964397,
+      "baslik": "Geçme Artık Sokağımdan",
+      "sanatci": "Madrigal",
+      "yil": 2022
+    },
+    {
       "deezerId": 68079344,
       "baslik": "Çektir Git",
       "sanatci": "Mavi Sakal",
@@ -795,6 +1215,24 @@
     {
       "deezerId": 68079347,
       "baslik": "Kördüğüm",
+      "sanatci": "Mavi Sakal",
+      "yil": 2007
+    },
+    {
+      "deezerId": 26135751,
+      "baslik": "Günler",
+      "sanatci": "Mavi Sakal",
+      "yil": 1993
+    },
+    {
+      "deezerId": 68079341,
+      "baslik": "Bilir Olsam",
+      "sanatci": "Mavi Sakal",
+      "yil": 2007
+    },
+    {
+      "deezerId": 68079342,
+      "baslik": "Yat Geliyorum",
       "sanatci": "Mavi Sakal",
       "yil": 2007
     },
@@ -811,6 +1249,24 @@
       "yil": 2005
     },
     {
+      "deezerId": 66135501,
+      "baslik": "Ayrılık Şarkısı",
+      "sanatci": "Kargo",
+      "yil": 2000
+    },
+    {
+      "deezerId": 85051788,
+      "baslik": "Şairin Elinde",
+      "sanatci": "Kargo",
+      "yil": 2013
+    },
+    {
+      "deezerId": 66134731,
+      "baslik": "Sen Ağlama",
+      "sanatci": "Kargo",
+      "yil": 2005
+    },
+    {
       "deezerId": 64388001,
       "baslik": "Meyhaneler Sen...",
       "sanatci": "Gece Yolcuları",
@@ -823,6 +1279,24 @@
       "yil": 2013
     },
     {
+      "deezerId": 66675259,
+      "baslik": "Ölüm de Var",
+      "sanatci": "Gece Yolcuları",
+      "yil": 2013
+    },
+    {
+      "deezerId": 64388000,
+      "baslik": "Neden?",
+      "sanatci": "Gece Yolcuları",
+      "yil": 2013
+    },
+    {
+      "deezerId": 138188577,
+      "baslik": "Değer Mi?",
+      "sanatci": "Gece Yolcuları",
+      "yil": 2008
+    },
+    {
       "deezerId": 619501,
       "baslik": "Tüm Şehir Ağladı",
       "sanatci": "Aslı Gökyokuş",
@@ -831,6 +1305,24 @@
     {
       "deezerId": 1513053322,
       "baslik": "Dans Etmeye İhtiyacım Var",
+      "sanatci": "Aslı Gökyokuş",
+      "yil": 2021
+    },
+    {
+      "deezerId": 619495,
+      "baslik": "Su Gibi",
+      "sanatci": "Aslı Gökyokuş",
+      "yil": 2004
+    },
+    {
+      "deezerId": 612655,
+      "baslik": "Ölüm Kapimi Çalmasa Da",
+      "sanatci": "Aslı Gökyokuş",
+      "yil": 2000
+    },
+    {
+      "deezerId": 1516666612,
+      "baslik": "O Benim Dünyam",
       "sanatci": "Aslı Gökyokuş",
       "yil": 2021
     },
@@ -847,6 +1339,24 @@
       "yil": 2024
     },
     {
+      "deezerId": 61572345,
+      "baslik": "Güzel Günler",
+      "sanatci": "Aylin Aslım",
+      "yil": 2024
+    },
+    {
+      "deezerId": 436365762,
+      "baslik": "Mevlam Gül Diyerek",
+      "sanatci": "Aylin Aslım",
+      "yil": 2017
+    },
+    {
+      "deezerId": 11519012,
+      "baslik": "Bir Çocuk Sevdim",
+      "sanatci": "Aylin Aslım",
+      "yil": 2007
+    },
+    {
       "deezerId": 63482682,
       "baslik": "Zaferlerim",
       "sanatci": "Demir Demirkan",
@@ -857,6 +1367,24 @@
       "baslik": "Aşktan Öte",
       "sanatci": "Demir Demirkan",
       "yil": 2008
+    },
+    {
+      "deezerId": 63482675,
+      "baslik": "Gitti Gider",
+      "sanatci": "Demir Demirkan",
+      "yil": 2014
+    },
+    {
+      "deezerId": 63482673,
+      "baslik": "Kahpe",
+      "sanatci": "Demir Demirkan",
+      "yil": 2014
+    },
+    {
+      "deezerId": 76027157,
+      "baslik": "Göçmen",
+      "sanatci": "Demir Demirkan",
+      "yil": 2000
     },
     {
       "deezerId": 1912894557,
@@ -871,6 +1399,24 @@
       "yil": 2021
     },
     {
+      "deezerId": 135266600,
+      "baslik": "İlkbaharda Kıyamet",
+      "sanatci": "Fatma Turgut",
+      "yil": 2016
+    },
+    {
+      "deezerId": 648024532,
+      "baslik": "Bir Varmış Bir Yokmuş",
+      "sanatci": "Fatma Turgut",
+      "yil": 2019
+    },
+    {
+      "deezerId": 672725132,
+      "baslik": "Sen Diyorum",
+      "sanatci": "Fatma Turgut",
+      "yil": 2019
+    },
+    {
       "deezerId": 66134272,
       "baslik": "Değmesin Ellerimiz",
       "sanatci": "Model",
@@ -881,6 +1427,24 @@
       "baslik": "Pembe Mezarlık",
       "sanatci": "Model",
       "yil": 2011
+    },
+    {
+      "deezerId": 120835386,
+      "baslik": "Mey",
+      "sanatci": "Model",
+      "yil": 2016
+    },
+    {
+      "deezerId": 73753179,
+      "baslik": "Sen Ona Aşıksın",
+      "sanatci": "Model",
+      "yil": 2020
+    },
+    {
+      "deezerId": 13359184,
+      "baslik": "Bak Bir Varmis Bir Yokmus",
+      "sanatci": "Model",
+      "yil": 2024
     },
     {
       "deezerId": 5546267,
@@ -895,6 +1459,24 @@
       "yil": 2024
     },
     {
+      "deezerId": 5546266,
+      "baslik": "Dağları Deldim",
+      "sanatci": "Özlem Tekin",
+      "yil": 2002
+    },
+    {
+      "deezerId": 3606035252,
+      "baslik": "Aşk Her Şeyi Affeder Mi",
+      "sanatci": "Özlem Tekin",
+      "yil": 1995
+    },
+    {
+      "deezerId": 66134551,
+      "baslik": "Kıyamet",
+      "sanatci": "Özlem Tekin",
+      "yil": 2013
+    },
+    {
       "deezerId": 1272385842,
       "baslik": "Düşler Sokağı",
       "sanatci": "Feridun Düzağaç",
@@ -903,6 +1485,24 @@
     {
       "deezerId": 1272385812,
       "baslik": "Alev Alev",
+      "sanatci": "Feridun Düzağaç",
+      "yil": 2013
+    },
+    {
+      "deezerId": 1272385792,
+      "baslik": "F.D.",
+      "sanatci": "Feridun Düzağaç",
+      "yil": 2013
+    },
+    {
+      "deezerId": 66134945,
+      "baslik": "Dipteyim Sondayım Depresyondayım",
+      "sanatci": "Feridun Düzağaç",
+      "yil": 2001
+    },
+    {
+      "deezerId": 1272385822,
+      "baslik": "Boş Ders Şarkısı",
       "sanatci": "Feridun Düzağaç",
       "yil": 2013
     },
@@ -919,6 +1519,24 @@
       "yil": 2007
     },
     {
+      "deezerId": 80734166,
+      "baslik": "Uzun Geceler",
+      "sanatci": "Pilli Bebek",
+      "yil": 2007
+    },
+    {
+      "deezerId": 746307172,
+      "baslik": "Fotograf",
+      "sanatci": "Pilli Bebek",
+      "yil": 2019
+    },
+    {
+      "deezerId": 682549422,
+      "baslik": "Kızım",
+      "sanatci": "Pilli Bebek",
+      "yil": 2019
+    },
+    {
       "deezerId": 530638771,
       "baslik": "Sekizler",
       "sanatci": "Nekropsi",
@@ -929,6 +1547,24 @@
       "baslik": "Fok",
       "sanatci": "Nekropsi",
       "yil": 1996
+    },
+    {
+      "deezerId": 567154392,
+      "baslik": "Ta Ta Du",
+      "sanatci": "Nekropsi",
+      "yil": 2018
+    },
+    {
+      "deezerId": 1115004532,
+      "baslik": "Foklar",
+      "sanatci": "Nekropsi",
+      "yil": 2006
+    },
+    {
+      "deezerId": 16362761,
+      "baslik": "Mecidiyekoy",
+      "sanatci": "Nekropsi",
+      "yil": 2010
     },
     {
       "deezerId": 2566555252,
@@ -943,6 +1579,24 @@
       "yil": 2012
     },
     {
+      "deezerId": 88415621,
+      "baslik": "Rasta Baba",
+      "sanatci": "Flört",
+      "yil": 2014
+    },
+    {
+      "deezerId": 2566555272,
+      "baslik": "Modern Ortam Romantikleri",
+      "sanatci": "Flört",
+      "yil": 2003
+    },
+    {
+      "deezerId": 858696742,
+      "baslik": "Ömre Bedelsin",
+      "sanatci": "Flört",
+      "yil": 2020
+    },
+    {
       "deezerId": 120183048,
       "baslik": "Ver Beni Yalnızlığa",
       "sanatci": "Keti",
@@ -955,6 +1609,24 @@
       "yil": 2016
     },
     {
+      "deezerId": 1171593262,
+      "baslik": "Ömrüm",
+      "sanatci": "Keti",
+      "yil": 2019
+    },
+    {
+      "deezerId": 1171592832,
+      "baslik": "Mor Salıncak",
+      "sanatci": "Keti",
+      "yil": 2019
+    },
+    {
+      "deezerId": 394578852,
+      "baslik": "Hayat Böyle",
+      "sanatci": "Keti",
+      "yil": 2017
+    },
+    {
       "deezerId": 70690223,
       "baslik": "Ben Ne Yangınlar Gordüm",
       "sanatci": "Zakkum",
@@ -965,6 +1637,24 @@
       "baslik": "Anason",
       "sanatci": "Zakkum",
       "yil": 2011
+    },
+    {
+      "deezerId": 456595972,
+      "baslik": "Hatıran Yeter",
+      "sanatci": "Zakkum",
+      "yil": 2018
+    },
+    {
+      "deezerId": 117565846,
+      "baslik": "Al Gece Yarılarımı Benden",
+      "sanatci": "Zakkum",
+      "yil": 2016
+    },
+    {
+      "deezerId": 1780766637,
+      "baslik": "Seni Rastgele Sevmedim",
+      "sanatci": "Zakkum",
+      "yil": 2022
     },
     {
       "deezerId": 64366736,
