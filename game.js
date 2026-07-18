@@ -239,7 +239,7 @@
     rushEnd: 0,
     badge: '',
     roundToken: 0,
-    volume: 70,
+    volume: 50,
     stats: loadLS(LS.stats, validStats, { v: 1, data: {} }),
     dailyState: loadLS(LS.daily, validDaily, { v: 1, data: {} }),
     prefs: loadLS(LS.prefs, validPrefs, { v: 1, autoplay: false, reduceMotion: false, dimmer: false }),
@@ -1566,6 +1566,7 @@
     onResize();
     bindEvents();
     $('vol-range').value = String(state.volume);
+    $('vol-label').textContent = '%' + state.volume;
 
     if (!state.prefs.reduceMotion) {
       show($('intro'), true);
