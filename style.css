@@ -509,37 +509,44 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .cat-section h2 { margin: 6px 0 4px; font-size: 24px; }
 .cat-section h2:first-child { margin-top: 0; }
 .section-desc { margin: 0 0 16px; font-size: 13.5px; color: var(--color-neutral-400); }
-.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
-.cat-grid--wide { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.cat-grid--wide { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+
+/* Yıllara göre oyna: 5 kart 4+1 olarak bölünmesin — geniş ekranda tam 5
+   sütun, dar ekranda (mobil) responsive sarmaya düşer. */
+#grid-yil { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+@media (min-width: 700px) {
+  #grid-yil { grid-template-columns: repeat(5, 1fr); }
+}
 
 .cat-card {
-  display: flex; flex-direction: column; gap: 12px; align-items: flex-start;
-  padding: 20px; border-radius: 14px; cursor: pointer; text-align: left; position: relative;
+  display: flex; flex-direction: column; gap: 8px; align-items: flex-start;
+  padding: 14px; border-radius: 12px; cursor: pointer; text-align: left; position: relative;
   border: 1px solid var(--color-neutral-700); background: var(--color-neutral-900);
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 .cat-card:hover { border-color: var(--color-accent-600); background: var(--color-neutral-800); box-shadow: var(--shadow-md); transform: translateY(-3px); }
 .cat-card--active { border-color: var(--color-accent-600); background: var(--color-neutral-800); }
 .cat-icon {
-  width: 54px; height: 54px; border-radius: 14px; border: 1px solid var(--color-accent-700);
+  width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--color-accent-700);
   display: grid; place-items: center; color: var(--color-accent);
   box-shadow: 0 0 18px color-mix(in oklab, var(--color-accent) 22%, transparent);
 }
-.ic-cat { width: 27px; height: 27px; fill: var(--color-accent); }
-.cat-name-wrap { display: flex; flex-direction: column; gap: 3px; }
+.ic-cat { width: 22px; height: 22px; fill: var(--color-accent); }
+.cat-name-wrap { display: flex; flex-direction: column; gap: 2px; }
 .cat-name { font-family: var(--font-heading); font-size: 19px; font-weight: 500; color: var(--color-neutral-100); }
 .cat-blurb { font-size: 13px; color: var(--color-neutral-400); }
 .cat-meta { font-size: 12.5px; color: var(--color-neutral-400); }
 .cat-streak {
   display: inline-flex; align-items: center; gap: 3px;
-  position: absolute; top: 12px; right: 42px;
+  position: absolute; top: 9px; right: 36px;
   font-size: 11px; color: var(--color-accent-200);
   border: 1px solid var(--color-accent-800); border-radius: 999px; padding: 2px 7px;
   background: var(--color-neutral-900);
 }
 .cat-streak .ic { width: 11px; height: 11px; fill: var(--color-accent); }
 .cat-fav {
-  position: absolute; top: 8px; right: 8px; width: 28px; height: 28px;
+  position: absolute; top: 6px; right: 6px; width: 28px; height: 28px;
   border: none; background: transparent; padding: 0; border-radius: 8px; cursor: pointer;
   display: grid; place-items: center; color: var(--color-neutral-500);
 }
@@ -550,8 +557,8 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .cat-done .ic { width: 13px; height: 13px; fill: var(--ok-check); }
 
 #eurovision-card {
-  display: flex; flex-direction: column; gap: 12px; align-items: flex-start;
-  padding: 20px; border: 1px dashed var(--color-neutral-700); border-radius: 14px; opacity: 0.6;
+  display: flex; flex-direction: column; gap: 8px; align-items: flex-start;
+  padding: 14px; border: 1px dashed var(--color-neutral-700); border-radius: 12px; opacity: 0.6;
 }
 .cat-icon--off { border-color: var(--color-neutral-600); box-shadow: none; }
 .cat-icon--off .ic-cat { fill: var(--color-neutral-400); }
@@ -816,6 +823,10 @@ footer {
 
 /* — mobil — */
 @media (max-width: 480px) {
+  /* 200px taban genişliği dar ekranda "Arşiv" butonunu alt satıra iter —
+     metin kendi sütununda sarabilir, buton aynı satırda kalır. */
+  #summary-strip { gap: 10px; }
+  .summary-mid { min-width: 0; }
   .stats-grid { gap: 6px; }
   #ach-grid { grid-template-columns: 1fr; }
   .faq-grid { flex-direction: column; }
