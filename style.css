@@ -150,6 +150,7 @@ svg.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 @keyframes nakarTitle { from { opacity: 0; transform: translateY(-9px); } to { opacity: 1; transform: none; } }
 @keyframes nakarDrift { 0%, 100% { transform: translateY(0) rotate(-8deg); } 50% { transform: translateY(-34px) rotate(10deg); } }
 @keyframes nakarSplashHide { to { opacity: 0; visibility: hidden; } }
+@keyframes nakarCardIn { from { opacity: 0; translate: 0 10px; scale: 0.96; } to { opacity: 1; translate: none; scale: none; } }
 
 @supports (animation-timeline: view()) {
   .reveal {
@@ -157,6 +158,26 @@ svg.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
     animation-timeline: view();
     animation-range: entry 0% entry 30%;
   }
+  /* Kategori kartları: .stagger-list'teki nakarItemIn görseliyle aynı
+     (10px kayma + hafif scale), ama zamana dayalı gecikme yerine
+     animation-range kaydırmasıyla kademelenir — kartlar renderCats()
+     her tur sonunda yeniden oluşturulduğundan zamana dayalı bir gecikme
+     her seferinde yeniden oynardı; scroll'a bağlı zamanlama bu sorunu
+     doğal olarak önler (element zaten görünümdeyse animasyon anında
+     "bitmiş" durumda çözülür, tekrar oynamaz).
+     translate/scale (transform DEĞİL) kullanılır: hover/focus kaldırma
+     efekti aynı elemanda transform:translateY ile çalışıyor — aynı
+     property'yi paylaşırlarsa animasyon hover transform'unu bastırır. */
+  .cat-grid > *, #dizi-banner {
+    animation: nakarCardIn linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+  .cat-grid > *:nth-child(2) { animation-range: entry 4% entry 39%; }
+  .cat-grid > *:nth-child(3) { animation-range: entry 8% entry 43%; }
+  .cat-grid > *:nth-child(4) { animation-range: entry 12% entry 47%; }
+  .cat-grid > *:nth-child(5) { animation-range: entry 16% entry 51%; }
+  .cat-grid > *:nth-child(6) { animation-range: entry 20% entry 55%; }
 }
 
 /* Animasyonları azalt: sistem tercihi veya ayar.
@@ -167,11 +188,17 @@ svg.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
   html { scroll-behavior: auto; }
   #particles { display: none; }
   .reveal { animation: none !important; opacity: 1 !important; transform: none !important; }
+  .cat-grid > *, #dizi-banner { animation: none !important; opacity: 1 !important; translate: none !important; scale: none !important; }
+  /* hover/focus kaldırma mesafesi de hareket sayılır — sadece statik
+     renk/gölge değişimi kalsın. */
+  .cat-card:hover, .cat-card:focus-visible, #dizi-banner:hover, #dizi-banner:focus-visible { transform: none !important; }
 }
 body.no-motion *, body.no-motion *::before, body.no-motion *::after { animation-duration: 0.001s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; transition-duration: 0.001s !important; }
 body.no-motion #particles { display: none; }
 body.no-motion { scroll-behavior: auto; }
 body.no-motion .reveal { animation: none !important; opacity: 1 !important; transform: none !important; }
+body.no-motion .cat-grid > *, body.no-motion #dizi-banner { animation: none !important; opacity: 1 !important; translate: none !important; scale: none !important; }
+body.no-motion .cat-card:hover, body.no-motion .cat-card:focus-visible, body.no-motion #dizi-banner:hover, body.no-motion #dizi-banner:focus-visible { transform: none !important; }
 
 /* — arkaplan parçacıkları — */
 #particles { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
@@ -518,6 +545,11 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 @media (min-width: 700px) {
   #grid-yil { grid-template-columns: repeat(5, 1fr); }
 }
+/* Türlere göre oyna: 6 kart 4+2 yerine geniş ekranda tam 3 sütun (2 satır),
+   dar ekranda mevcut auto-fit sarmasına (mobilde tek sütun) düşer. */
+@media (min-width: 700px) {
+  #grid-tur { grid-template-columns: repeat(3, 1fr); }
+}
 
 .cat-card {
   display: flex; flex-direction: column; gap: 8px; align-items: flex-start;
@@ -525,7 +557,7 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
   border: 1px solid var(--color-neutral-700); background: var(--color-neutral-900);
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
-.cat-card:hover { border-color: var(--color-accent-600); background: var(--color-neutral-800); box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.cat-card:hover, .cat-card:focus-visible { border-color: var(--color-accent-600); background: var(--color-neutral-800); box-shadow: var(--shadow-md); transform: translateY(-3px); }
 .cat-card--active { border-color: var(--color-accent-600); background: var(--color-neutral-800); }
 .cat-icon {
   width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--color-accent-700);
@@ -573,7 +605,7 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
-#dizi-banner:hover { border-color: var(--color-accent-500); box-shadow: var(--shadow-md); transform: translateY(-3px); }
+#dizi-banner:hover, #dizi-banner:focus-visible { border-color: var(--color-accent-500); box-shadow: var(--shadow-md); transform: translateY(-3px); }
 .dizi-left { display: flex; align-items: center; gap: 16px; }
 .dizi-icon {
   width: 52px; height: 52px; border-radius: 12px; border: 1px solid var(--color-accent);
