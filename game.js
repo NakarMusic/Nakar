@@ -35,8 +35,19 @@
     'gunun': 'sparkle', 'y1980': 'cassette-tape', 'y1990': 'radio', 'y2000': 'disc',
     'y2010': 'headphones', 'y2020': 'waveform', 'turk-pop': 'microphone-stage',
     'anadolu-rock': 'guitar', 'arabesk': 'heart-break', 'turkuler': 'mountains',
-    'turkce-rap': 'vinyl-record', 'slow-damar': 'moon-stars', 'dizi-muzikleri': 'television-simple',
+    'turkce-rap': 'vinyl-record', 'alternatif-indie': 'sunglasses', 'dizi-muzikleri': 'television-simple',
     'turkiye-top-100': 'crown-simple', 'yeni-cikanlar': 'star-four'
+  };
+
+  var CAT_BLURBS = {
+    'turk-pop': "Ajda'dan Mabel Matiz'e",
+    'anadolu-rock': "Barış Manço'dan Pinhani'ye",
+    'arabesk': "Tatlıses'ten Müslüm'e",
+    'turkuler': "Neşet Ertaş'tan Volkan Konak'a",
+    'turkce-rap': "Ceza'dan Ezhel'e",
+    'alternatif-indie': "Emir Can İğrek'ten Kalben'e",
+    'turkiye-top-100': 'Yılın en çok dinlenen 118 sanatçının 286 şarkısı.',
+    'yeni-cikanlar': "Sadece 2026'nın en yeni çıkışları."
   };
 
   var ACHIEVEMENTS = [
@@ -1174,7 +1185,10 @@
     var ib = el('div', 'cat-icon');
     ib.appendChild(icon((CAT_ICONS[c.id] || 'music-note') + '-f', 'ic-cat'));
     btn.appendChild(ib);
-    btn.appendChild(el('div', 'cat-name', c.ad));
+    var nameWrap = el('div', 'cat-name-wrap');
+    nameWrap.appendChild(el('div', 'cat-name', c.ad));
+    if (CAT_BLURBS[c.id]) nameWrap.appendChild(el('div', 'cat-blurb', CAT_BLURBS[c.id]));
+    btn.appendChild(nameWrap);
     var count = state.songs[c.id] ? state.songs[c.id].length + ' şarkı · Günlük + Sınırsız' : 'Günlük + Sınırsız';
     btn.appendChild(el('div', 'cat-meta', count));
 
