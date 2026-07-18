@@ -710,13 +710,17 @@
   function renderSolveCounter() {
     var box = $('solve-counter');
     if (!box) return;
-    var inDaily = state.roundType === 'daily';
-    // mod düzeyi: günlük dışında kutuyu tamamen kaldır (sekme değişimiyle zaten senkron bir düzen değişimi)
-    show(box, inDaily);
+    // sonuç anının bir detayı — sadece günlük modda ve tur bitince (kart zaten görünürken) anlamlı
+    var relevant = state.roundType === 'daily' && !!state.done;
+    // mod/an düzeyi: ilgisizken kutuyu tamamen kaldır (bu, tur başlangıcıyla zaten senkron bir düzen değişimi)
+    show(box, relevant);
     // veri düzeyi: sayı henüz gelmedi/başarısız oldu — kutu yerini korur, sadece görünmez olur (CLS yok)
-    var ready = inDaily && haveSolveCount(state.catId);
-    if (ready) $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi';
-    box.classList.toggle('solve-counter--pending', inDaily && !ready);
+    var ready = relevant && haveSolveCount(state.catId);
+    if (ready) {
+      var suffix = state.done === 'lose' ? ', sen bilemedin' : '';
+      $('solve-counter-text').textContent = solveCountCache.count + ' kişi bugün bildi' + suffix;
+    }
+    box.classList.toggle('solve-counter--pending', relevant && !ready);
   }
 
   function fetchSolveCount(catId) {
@@ -743,6 +747,18 @@
         if (solveCountCache && solveCountCache.catId === catId) solveCountCache = null;
         renderSolveCounter();
       });
+  }
+
+  /* tur bitince sonuç kartını görünüme kaydır — kullanıcı başka yere kaymışsa */
+  function scrollResultIntoView() {
+    var r = $('result');
+    if (!r) return;
+    var topbar = $('topbar');
+    var offset = (topbar ? topbar.getBoundingClientRect().height : 0) + 12;
+    var rect = r.getBoundingClientRect();
+    if (rect.top >= offset && rect.bottom <= window.innerHeight) return; // zaten görünürde, kaydırma
+    var targetY = window.scrollY + rect.top - offset;
+    window.scrollTo({ top: Math.max(0, targetY), behavior: state.prefs.reduceMotion ? 'auto' : 'smooth' });
   }
 
   function finishRound(win) {
@@ -785,6 +801,7 @@
     saveDaily();
     renderAll();
     if (win) launchConfetti();
+    scrollResultIntoView();
 
     if (state.roundType === 'daily') {
       if (win) postSolveCount(state.catId);
@@ -803,6 +820,7 @@
     saveLS(LS.stats, state.stats);
     checkAchievements(false, 0, st);
     renderAll();
+    scrollResultIntoView();
   }
 
   /* ═══════════ başarımlar ═══════════ */
@@ -1047,7 +1065,6 @@
     show($('daily-countdown'), state.roundType === 'daily');
     show($('rush-chips'), state.roundType === 'rush' && !state.done);
     renderCountdown();
-    renderSolveCounter();
   }
 
   function renderCountdown() {
@@ -1115,6 +1132,7 @@
   function renderResult() {
     var done = state.done;
     show($('result'), !!done);
+    renderSolveCounter();
     if (!done) return;
     var r = $('result');
     r.classList.remove('result--win', 'result--lose', 'result--rush');

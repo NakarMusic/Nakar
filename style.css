@@ -302,7 +302,9 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 #countdown { color: var(--color-neutral-200); }
 #countdown .tick-digit { display: inline-block; animation: nakarTick 0.3s ease; }
 #rush-chips { margin-top: 7px; display: flex; gap: 8px; justify-content: center; }
-#solve-counter { margin-top: 7px; }
+/* #solve-counter artık sonuç kartının içinde — konumu #result'ın flex gap'inden (14px) gelir */
+/* #result flex-column'ının varsayılan align-items:stretch'i olmasa kutu tam genişliğe yayılır — küçük çip görünümü için engelle */
+#solve-counter { align-self: flex-start; }
 /* sayaç verisi henüz gelmedi/başarısız oldu — kutu görünmez ama yer kaplamaya devam eder (CLS önleme) */
 #solve-counter.solve-counter--pending { visibility: hidden; }
 /* metin boşken de satır yüksekliğini dolu haliyle aynı tutar — yoksa ikon
