@@ -257,7 +257,7 @@ body.no-motion .reveal { animation: none !important; opacity: 1 !important; tran
 main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 1; }
 
 /* — oyun alanı — */
-#game { max-width: 640px; margin: 0 auto; padding: 34px 0 22px; display: flex; flex-direction: column; gap: 16px; }
+#game { max-width: 640px; margin: 0 auto; padding: 34px 0 22px; display: flex; flex-direction: column; gap: 14px; }
 .game-head { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .seg-switch { display: flex; gap: 2px; padding: 3px; border: 1px solid var(--color-neutral-700); border-radius: 10px; background: var(--color-neutral-900); }
 .seg-btn {
@@ -284,13 +284,13 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .rush-chip--time { border-color: var(--color-accent-700); color: var(--color-accent-100); }
 
 /* — tahmin satırları — */
-#rows { display: flex; flex-direction: column; gap: 7px; }
+#rows { display: flex; flex-direction: column; gap: 4px; }
 .row {
-  display: flex; align-items: center; gap: 9px; height: 40px; padding: 0 13px;
-  border-radius: 9px; border: 1px dashed var(--color-neutral-800);
+  display: flex; align-items: center; gap: 8px; height: 28px; padding: 0 10px;
+  border-radius: 7px; border: 1px dashed var(--color-neutral-800);
 }
-.row .ic { width: 15px; height: 15px; }
-.row-text { font-size: 13.5px; color: var(--color-neutral-500); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row .ic { width: 12px; height: 12px; }
+.row-text { font-size: 13px; color: var(--color-neutral-500); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .row--next { border-color: var(--color-accent-700); }
 .row--filled { border-style: solid; border-color: var(--color-neutral-700); background: var(--color-neutral-900); }
 .row--filled .row-text { color: var(--color-neutral-200); }
@@ -314,7 +314,7 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .elev-lg { box-shadow: var(--shadow-lg); }
 
 /* — çalar — */
-.player { padding: 16px 18px; gap: 14px; }
+.player { padding: 13px 18px; gap: 11px; }
 .progress-wrap { position: relative; display: flex; flex-direction: column; gap: 5px; padding: 2px 0; }
 .seg-labels { position: relative; height: 13px; }
 .seg-label { position: absolute; top: 0; transform: translateX(-50%); font-size: 10px; line-height: 1; color: var(--color-neutral-500); white-space: nowrap; }
@@ -407,9 +407,9 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 }
 .sug-item:hover, .sug-item.sug-item--active { background: var(--color-neutral-800); color: var(--color-accent-100); }
 .sug-item .ic { width: 14px; height: 14px; fill: var(--color-accent-400); }
-#hint-box { display: flex; flex-direction: column; gap: 7px; align-items: flex-start; }
+#hint-box { display: flex; flex-wrap: wrap; gap: 6px; align-items: flex-start; }
 .hint-chip {
-  display: flex; align-items: center; gap: 6px; padding: 7px 13px;
+  display: flex; align-items: center; gap: 6px; padding: 6px 11px;
   border: 1px solid var(--color-accent-700); border-radius: 999px;
   background: var(--color-neutral-900); color: var(--color-accent-100); font-size: 12.5px;
   animation: nakarSlideIn 0.3s ease;
@@ -434,8 +434,8 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .btn-secondary { border-color: var(--color-divider); }
 .btn-secondary:hover:not(:disabled) { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
 .btn-secondary:active:not(:disabled) { background: color-mix(in srgb, var(--color-text) 14%, transparent); }
-.btn-ghost { color: var(--color-accent); }
-.btn-ghost:hover:not(:disabled) { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn-ghost { color: var(--color-accent); border-color: var(--color-neutral-700); background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+.btn-ghost:hover:not(:disabled) { border-color: var(--color-accent-700); background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
 .btn-ghost:active:not(:disabled) { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
 .btn-block { width: 100%; }
 .btn-sm { height: 34px; font-size: 12.5px; flex: none; }
