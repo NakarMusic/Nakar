@@ -946,9 +946,13 @@
     return head + '\n' + body + '\n' + DOMAIN;
   }
 
+  function isTouchMobile() {
+    return window.matchMedia('(pointer: coarse)').matches && window.innerWidth < 640;
+  }
+
   function doShare() {
     var txt = shareText();
-    if (navigator.share) {
+    if (navigator.share && isTouchMobile()) {
       navigator.share({ text: txt }).catch(function () { });
       return;
     }
