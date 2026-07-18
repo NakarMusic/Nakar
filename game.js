@@ -343,19 +343,29 @@
   }
 
   /* ═══════════ sınırsız / yarış — rastgele seçimde yakın tekrar koruması ═══════════ */
-  var recentRandom = {}; // catId → [idx, idx, ...] (en eski → en yeni)
-  function pickRandomAvoidingRecent(catId, n) {
-    var recent = recentRandom[catId] || [];
+  // Anahtar catId+':'+roundType: sınırsız ile yarışın son-görülen pencereleri
+  // birbirine karışmaz, kategori/mod değişince yeni anahtar sıfırdan başlar.
+  var recentRandom = {}; // "catId:roundType" → [idx, idx, ...] (en eski → en yeni)
+  function recentWindowSize(n) {
+    return Math.min(10, Math.floor(n / 2));
+  }
+  function pickRandomAvoidingRecent(key, n) {
+    if (n <= 0) return 0;
+    var recent = recentRandom[key] || [];
     var avoid = {};
     for (var i = 0; i < recent.length; i++) avoid[recent[i]] = true;
-    var idx, guard = 0;
-    do { idx = Math.floor(Math.random() * n); guard++; }
-    while (avoid[idx] && guard < n * 4);
-    return idx;
+    var candidates = [];
+    for (var idx = 0; idx < n; idx++) if (!avoid[idx]) candidates.push(idx);
+    if (candidates.length === 0) {
+      // hariç tutulanlar havuzu tüketti — pencereyi sıfırla, serbestçe seç
+      recentRandom[key] = [];
+      return Math.floor(Math.random() * n);
+    }
+    return candidates[Math.floor(Math.random() * candidates.length)];
   }
-  function rememberRandomIdx(catId, idx, n) {
-    var W = Math.min(20, Math.max(0, n - 1));
-    var arr = recentRandom[catId] || (recentRandom[catId] = []);
+  function rememberRandomIdx(key, idx, n) {
+    var W = recentWindowSize(n);
+    var arr = recentRandom[key] || (recentRandom[key] = []);
     arr.push(idx);
     if (arr.length > W) arr.shift();
   }
@@ -518,8 +528,9 @@
     var n = pool().length;
     if (state.roundType === 'daily') return pickForPeriod(state.catId, curPeriod());
     if (state.roundType === 'archive') return pickForPeriod(state.catId, state.archivePeriod);
-    var idx = pickRandomAvoidingRecent(state.catId, n);
-    rememberRandomIdx(state.catId, idx, n);
+    var key = state.catId + ':' + state.roundType;
+    var idx = pickRandomAvoidingRecent(key, n);
+    rememberRandomIdx(key, idx, n);
     return idx;
   }
 
@@ -539,8 +550,9 @@
         if (state.roundType === 'daily' || state.roundType === 'archive' || state.roundType === 'meydan') {
           state.targetIdx = (state.targetIdx + 1) % pool().length;
         } else {
-          state.targetIdx = pickRandomAvoidingRecent(state.catId, pool().length);
-          rememberRandomIdx(state.catId, state.targetIdx, pool().length);
+          var retryKey = state.catId + ':' + state.roundType;
+          state.targetIdx = pickRandomAvoidingRecent(retryKey, pool().length);
+          rememberRandomIdx(retryKey, state.targetIdx, pool().length);
         }
         loadPreview((attempt || 0) + 1);
         return;
@@ -675,8 +687,9 @@
     state.guesses = [];
     state.selected = null;
     stopPlayback();
-    state.targetIdx = pickRandomAvoidingRecent(state.catId, pool().length);
-    rememberRandomIdx(state.catId, state.targetIdx, pool().length);
+    var rushKey = state.catId + ':' + state.roundType;
+    state.targetIdx = pickRandomAvoidingRecent(rushKey, pool().length);
+    rememberRandomIdx(rushKey, state.targetIdx, pool().length);
     loadPreview(0);
   }
 
