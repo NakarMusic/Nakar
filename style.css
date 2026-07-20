@@ -319,7 +319,12 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .rush-chip--time { border-color: var(--color-accent-700); color: var(--color-accent-100); }
 
 /* — tahmin satırları — */
-#rows { display: flex; flex-direction: column; gap: 4px; }
+/* CLS düzeltmesi — #rows sayfa HTML'inde boş başlar, 6 satır (MAX_GUESSES) ilk
+   round yüklenince JS ile eklenir; min-height olmadan bu, 0'dan 224px'e (6×34px
+   satır + 5×4px gap) tek seferlik büyük bir shift'e yol açıyordu ve altındaki
+   player kartı + #categories'i de aşağı itiyordu (asıl CLS kaynağı buydu,
+   kategori kartlarının kendi içerik değişimi değil). */
+#rows { display: flex; flex-direction: column; gap: 4px; min-height: 224px; }
 .row {
   display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 12px;
   border-radius: 8px; border: 1px dashed var(--color-neutral-800);
@@ -559,6 +564,25 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
   #grid-tur { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* CLS düzeltmesi — kategori grid'leri sayfa HTML'inde boş <div> olarak başlar,
+   kartlar categories.json geldikten sonra JS ile eklenir. min-height olmadan
+   bu grid'ler 0 yükseklikten dolarak büyük bir tek seferlik layout shift'e
+   yol açıyordu (bkz. #solve-counter'daki aynı desen). Değerler her breakpoint'in
+   en dar genişliğinde (grid sütun sayısının en az olduğu, dolayısıyla kartların
+   en çok satıra böldüğü an) ölçülen gerçek yükseklikler — kategori sayısı ciddi
+   şekilde değişirse yeniden ölçülüp güncellenmeli. */
+#grid-yil { min-height: 463px; }
+#grid-tur { min-height: 1056px; }
+#grid-diger { min-height: 508px; }
+@media (min-width: 700px) {
+  #grid-yil { min-height: 148px; }
+  #grid-tur { min-height: 346px; }
+  #grid-diger { min-height: 330px; }
+}
+@media (min-width: 1024px) {
+  #grid-diger { min-height: 168px; }
+}
+
 .cat-card {
   display: flex; flex-direction: column; gap: 8px; align-items: flex-start;
   padding: 14px; border-radius: 12px; cursor: pointer; text-align: left; position: relative;
@@ -576,7 +600,11 @@ main { flex: 1; width: 100%; max-width: 1060px; margin: 0 auto; padding: 0 20px;
 .cat-name-wrap { display: flex; flex-direction: column; gap: 2px; }
 .cat-name { font-family: var(--font-heading); font-size: 19px; font-weight: 500; color: var(--color-neutral-100); }
 .cat-blurb { font-size: 13px; color: var(--color-neutral-400); }
-.cat-meta { font-size: 12.5px; color: var(--color-neutral-400); }
+/* min-height iki satırlık yer ayırır: "N şarkı · Günlük + Sınırsız" metni, kategori
+   şarkı sayısı async loadSongs() ile gelene kadar kısa placeholder'dan uzun hale geçerken
+   (özellikle dar "yıl" kartlarında tek satırdan iki satıra sarar) kart boyu değişip CLS
+   yaratmasın diye — bkz. #solve-counter'daki aynı desen. */
+.cat-meta { font-size: 12.5px; line-height: 1.3; min-height: 2.6em; color: var(--color-neutral-400); }
 .cat-streak {
   display: inline-flex; align-items: center; gap: 3px;
   position: absolute; top: 9px; right: 36px;

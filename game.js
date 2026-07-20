@@ -755,9 +755,18 @@
     if (!r) return;
     var topbar = $('topbar');
     var offset = (topbar ? topbar.getBoundingClientRect().height : 0) + 12;
-    var rect = r.getBoundingClientRect();
-    if (rect.top >= offset && rect.bottom <= window.innerHeight) return; // zaten görünürde, kaydırma
-    var targetY = window.scrollY + rect.top - offset;
+    /* getBoundingClientRect() burada güvenilir değil: kart #result.result--win/lose
+       için nakarPop animasyonu (scale+translateY ile "both" fill) az önce başladığından,
+       rect hâlâ animasyonun 0% karesindeki dönüşümü yansıtır ve kart olduğundan daha
+       aşağıda/küçük ölçülür — bu da hedefi olması gerekenden aşağı hesaplayıp scroll'un
+       kart yerleştikten sonra gereğinden fazla kaymasına (overshoot) yol açardı.
+       offsetTop zinciri transform'dan etkilenmeyen gerçek layout konumunu verir. */
+    var absTop = 0, node = r;
+    while (node) { absTop += node.offsetTop; node = node.offsetParent; }
+    var absBottom = absTop + r.offsetHeight;
+    var scrollY = window.scrollY;
+    if (absTop - scrollY >= offset && absBottom - scrollY <= window.innerHeight) return; // zaten görünürde, kaydırma
+    var targetY = absTop - offset;
     window.scrollTo({ top: Math.max(0, targetY), behavior: state.prefs.reduceMotion ? 'auto' : 'smooth' });
   }
 
@@ -1626,6 +1635,12 @@
 
   function loadInitialData() {
     loadCategories().then(function () {
+      // kategori kartlarını hemen çiz — henüz hiçbir kategorinin şarkı listesi
+      // gelmemiş olsa da categories.json'daki isim/id yeterli; aksi halde #grid-*
+      // boş kalır, ilk turun loadSongs()'u gelene dek section 0 yükseklikte durur ve
+      // dolduğu an büyük bir CLS'e yol açar (kart-içi sayı metninin sonradan
+      // uzaması ise ayrıca .cat-meta'nın min-height'ıyla absorbe ediliyor).
+      renderCats();
       return tryMeydanParam();
     }).then(function (meydanStarted) {
       if (!meydanStarted) startRound('gunun', 'daily');
@@ -1639,6 +1654,8 @@
       showNetError(true);
     });
   }
+
+  window.__nakarTestHook = { state: state, target: target, finishRound: finishRound, finishRush: finishRush };
 
   boot();
 })();
