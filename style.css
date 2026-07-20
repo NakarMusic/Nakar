@@ -244,7 +244,18 @@ body.no-motion .cat-card:hover, body.no-motion .cat-card:focus-visible, body.no-
 .brand { font-family: var(--font-heading); font-size: 21px; font-weight: 600; letter-spacing: 0.04em; color: var(--color-accent-100); flex: none; }
 .tagline { font-size: 12px; color: var(--color-neutral-400); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .topbar-actions { display: flex; align-items: center; gap: 3px; flex: none; }
+/* CLS düzeltmesi — ikon/hamburger geçişi önceden onResize()'da JS ile (boot()
+   sırasında) yapılıyordu: game.js yavaş ağda geç çalışırsa tarayıcı önce geniş
+   (6 ikon) hâliyle boyar, JS gelince hamburger'a küçülüp topbar-actions'ı
+   sıçratıyordu. Artık aynı 640px kırılımı CSS media query'siyle ilk boyamada
+   uygulanıyor — JS'deki onResize() gerçek pencere yeniden boyutlandırmaları için
+   halen çalışıyor ama artık ilk yükte yarışa girmiyor. */
 #topbar-icons { display: flex; align-items: center; gap: 3px; }
+#hamburger-wrap { display: none; }
+@media (max-width: 639px) {
+  #topbar-icons { display: none; }
+  #hamburger-wrap { display: flex; }
+}
 #streak-chip {
   display: flex; align-items: center; gap: 4px; padding: 5px 9px;
   border: 1px solid var(--color-neutral-700); border-radius: 999px;
